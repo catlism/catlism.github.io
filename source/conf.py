@@ -67,7 +67,7 @@ html_static_path = ["_static"]
 
 # Set theme options
 html_theme_options = {
-    "repository_url": "https://github.com/mdic/testph/",
+    "repository_url": "https://catlism.github.io/",
     "use_sidenotes": True,
     "show_toc_level": 2,
     "show_nav_level": 1,
