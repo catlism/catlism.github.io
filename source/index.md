@@ -5,7 +5,7 @@
 :alt: Cover for the book Corpus Approaches to Language in Social Media
 :align: right
 ```
-This website serves as online compendium to the upcoming (**7th August 2023**) book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (CATLISM), written by Matteo Di Cristofaro and published by Routledge for the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593).  
+This website serves serves as an online compendium for the forthcoming (**Summer 2023**) book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (CATLISM), written by Matteo Di Cristofaro and published by Routledge for the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593).  
 
 From the book blurb:
 > "This book showcases the unique possibilities of **corpus linguistic methodologies** in engaging with and analysing language **data from social media**, surveying current approaches and offering **guidelines and best practices** for doing language analysis.  
