@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "testph"
+project = "catlism_oc"
 copyright = "2023, Matteo Di Cristofaro"
 author = "Matteo Di Cristofaro"
 
