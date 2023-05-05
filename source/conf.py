@@ -74,4 +74,4 @@ html_theme_options = {
 
 }
 
-html_title = "CATLISM | Online Companion"
+html_title = "CATLISM | Online Compendium"
