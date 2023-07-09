@@ -5,8 +5,8 @@
 :alt: Cover for the book Corpus Approaches to Language in Social Media
 :align: right
 ```
-This website serves as online compendium for the forthcoming (**Summer 2023**) book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (CATLISM), written by Matteo Di Cristofaro and published by Routledge for the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593).  
-
+This website serves as online compendium for the forthcoming (**18th August 2023**) book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (CATLISM), written by Matteo Di Cristofaro and published by Routledge for the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593). A **preview of the book** (Chapter 1) can be [found on taylorfrancis.com](https://www.taylorfrancis.com/books/mono/10.4324/9781003225218/corpus-approaches-language-social-media-matteo-di-cristofaro).  
+  
 From the book blurb:
 > "This book showcases the unique possibilities of **corpus linguistic methodologies** in engaging with and analysing language **data from social media**, surveying current approaches and offering **guidelines and best practices** for doing language analysis.  
 The volume provides an overview of how language in social media has been approached by both linguists and non-linguists, before digging deeper into the identification of **datasets needs to fill linguistic investigations of social media** and the technical aspects of particular platforms which may influence analysis, such as emoticons, retweets, and metadata. Sample **Python code**, along with general guidelines for using it, are provided to empower researchers to **apply these techniques** in their own work, supported by **actual examples from three real-life case studies**." 
