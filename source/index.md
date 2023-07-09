@@ -19,7 +19,7 @@ The online compendium will contain:
 - updates to scripts and commands in case – due to technical changes - they become ineffective/outdated 
 - links to preservation copies of all the web pages cited in the volume as archived through The Wayback Machine
 
-Where possible, all the materials will be published under the open source [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) license.
+Where possible, all the materials are published under the open source [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) license.
 
 
 ## On scripts and tools
