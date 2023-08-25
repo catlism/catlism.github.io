@@ -20,6 +20,7 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 livehtml:
+	rm -R "$(BUILDDIR)"
 	mkdir -p "$(BUILDDIR)"
 	touch "$(BUILDDIR)/.nojekyll"
 	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
