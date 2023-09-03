@@ -10,7 +10,6 @@
 **Version 1.0.0** of the online compendium will be published in early September
 ```
 
-
 This website serves as online compendium for the book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (CATLISM), written by Matteo Di Cristofaro and published by Routledge for the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593). A **preview of the book** (Chapter 1) can be [found on taylorfrancis.com](https://www.taylorfrancis.com/books/mono/10.4324/9781003225218/corpus-approaches-language-social-media-matteo-di-cristofaro).  
   
 From the book blurb:
