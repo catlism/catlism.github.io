@@ -106,7 +106,7 @@ You are currently reading release |version| |release|.
 
 
 
-```{button-link} https://github.com/catlism/catlism.github.io/archive/refs/tags/v0.0.0.zip
+```{button-link} https://github.com/catlism/catlism.github.io/archive/refs/tags/v1.0.0.zip
 :color: info
 :expand:
 {octicon}`download;1.5em` Download the latest release of the compendium

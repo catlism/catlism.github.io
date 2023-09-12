@@ -9,7 +9,6 @@
 ```{eval-rst}
 .. note:: 
     | You are browsing version  |version| |release|
-    | Current and older versions can be downloaded from the `Github releases page <https://github.com/catlism/catlism.github.io/releases>`_
 ```
 
 This website serves as online compendium for the book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (`CATLISM`; Di Cristofaro 2023) published in the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593)[^sn4].  
