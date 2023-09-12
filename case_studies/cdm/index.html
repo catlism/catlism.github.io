@@ -1,0 +1,811 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="dark">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <link href="../../_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="../../_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="../../_static/logo.svg" rel="icon" type="image/svg+xml">
+    <title>Analysing crypto-drug market fora &#8212; CATLISM | Online Compendium</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/asciinema-player_2.6.1.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="../../_static/main.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'case_studies/cdm/index';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Analysing the language of far-right groups on Twitter and Facebook" href="../frg/index.html" />
+    <link rel="prev" title="Case-studies: CATLISM practical applications" href="../index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">CATLISM | Online Compendium</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../eval_metadata/index.html">Metadata evaluation</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/twitter/index.html">Twitter metadata</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/twitter/tw_snscrape-metadata.html">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/youtube/index.html">Youtube metadata</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_collection/index.html">Data collection</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/social_media_platforms/index.html">Social Media Platforms</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/twitter/snscrape.html">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">Case-studies: CATLISM practical applications</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/case_studies/cdm/index.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Analysing crypto-drug market fora</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-structure-of-a-post-in-silk-road-1">Overall structure of a post in Silk Road 1</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extracting-the-data-from-html-pages-to-xml-format">Extracting the data from HTML pages to XML format</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-representation-of-contents-extracted-in-xml-format-through-s6-01-silk-road-corpus">Meta-representation of contents extracted in XML format through <code class="docutils literal notranslate"><span class="pre">[s6.01]</span></code> (Silk Road corpus)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-representation-of-the-xml-structure-of-the-reference-corpus-dpm-corpus">Meta-representation of the XML structure of the reference corpus (DPM corpus)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-page-from-silk-road-1-forum">Example of page from Silk Road 1 forum</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="analysing-crypto-drug-market-fora">
+<h1>Analysing crypto-drug market fora<a class="headerlink" href="#analysing-crypto-drug-market-fora" title="Permalink to this heading">#</a></h1>
+<span class="sidenote"><sup>1</sup>www.swansea.ac.uk/gdpo/</span><span class="sidenote"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">314</span></code></span><blockquote>
+<div><p>The case study [utilised] in this section is based on the research conducted at Swansea University Department of Applied Linguistics under the supervision of Prof. Nuria Lorenzo-Dus and in collaboration with the Global Drug Policy Observer<label for='sidenote-role-1' class='margin-toggle'><span id="id1">
+<sup>1</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote d-n"><sup>1</sup>www.swansea.ac.uk/gdpo/</span> (GDPO) as part of the project ‘Trust in Crypto-Drug Markets’ funded by EPSRC–CHERISH-DE (Principal Investigator: Prof. Nuria Lorenzo-Dus). Outputs from the research are published in <span id="id2">[<a class="reference internal" href="../../references.html#id2" title="Martin Horton-Eddison and Matteo Di Cristofaro. Hard Interventions and Innovation in Crypto-Drug Markets: The Escrow Example. Policy Brief 11, Swansea University, 2017. URL: https://www.swansea.ac.uk/media/Hard-Interventions-and-Innovation-in-CryptoDrug-Markets-The-escrow-example.pdf.">Horton-Eddison and Di Cristofaro, 2017</a>]</span>, <span id="id3">[<a class="reference internal" href="../../references.html#id3" title="Matteo Di Cristofaro and Martin Horton-Eddison. Corpus Linguistics on the Silk Road(s): The Escrow Example. Technical Report, Swansea University, 2017. URL: https://www.swansea.ac.uk/media/Corpus-Linguistics-Methodology-on-the-Silk-Road-The-Escrow-Example.pdf.">Di Cristofaro and Horton-Eddison, 2017</a>]</span>, and <span id="id4">[<a class="reference internal" href="../../references.html#id7" title="Nuria Lorenzo-Dus and Matteo Di Cristofaro. ‘I know this whole market is based on the trust you put in me and I don’t take that lightly’: Trust, community and discourse in crypto-drug markets. Discourse &amp; Communication, 12(6):608–626, December 2018. URL: http://journals.sagepub.com/doi/10.1177/1750481318771429 (visited on 2019-10-02), doi:10.1177/1750481318771429.">Lorenzo-Dus and Di Cristofaro, 2018</a>]</span>, which served as basis for the [contents described].<label for='sidenote-role-2' class='margin-toggle'><span id="id5">
+<sup>2</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-2' name='sidenote-role-2' class='margin-toggle'><span class="sidenote d-n"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">314</span></code></span></p>
+</div></blockquote>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<span class="sidenote"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">317</span></code></span>Sample selection of HTML files from Silk Road 1 and 2<label for='sidenote-role-3' class='margin-toggle'><span id="id7">
+<sup>3</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-3' name='sidenote-role-3' class='margin-toggle'><span class="sidenote d-n"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">317</span></code></span> </div>
+<p class="sd-card-text">A sample selection of HTML files from Silk Road 1 and 2, sourced from <a class="reference external" href="https://gwern.net/dnm-archive">the Darknet Market Archives</a> <span id="id6">[<a class="reference internal" href="../../references.html#id376" title="Gwern Branwen, Nicolas Christin, David Décary-Hétu, Rasmus Munksgaard Andersen, StExo, El Presidente, Anonymous, Daryl Lau, Delyan Kratunov Sohhlz, Vince Cakic, Van Buskirk, Whom, Michael McKenna, and Sigi Goode. Dark Net Market archives, 2011-2015. July 2015. URL: https://www.gwern.net/DNM-archives.">Branwen <em>et al.</em>, 2015</a>]</span>, may be downloaded by clicking the button below. The file shown in the book is named <code class="docutils literal notranslate"><span class="pre">index.php?topic=101030.0</span></code>.</p>
+<p class="sd-card-text"><span class="sd-d-grid"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info reference external" href="sr1_2_sample-files.zip"><span><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-download" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.97 11.03a.75.75 0 111.06-1.06L11 14.94V2.75a.75.75 0 011.5 0v12.19l4.97-4.97a.75.75 0 111.06 1.06l-6.25 6.25a.75.75 0 01-1.06 0l-6.25-6.25zm-.22 9.47a.75.75 0 000 1.5h14.5a.75.75 0 000-1.5H4.75z"></path></svg> Download sample of Silk Road 1 and 2 HTML files</span></a></span></p>
+</div>
+</div>
+<section id="overall-structure-of-a-post-in-silk-road-1">
+<span class="sidenote"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">320-321</span></code></span><h2>Overall structure of a post in Silk Road 1<label for='sidenote-role-4' class='margin-toggle'><span id="id8">
+<sup>4</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-4' name='sidenote-role-4' class='margin-toggle'><span class="sidenote d-n"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">320-321</span></code></span><a class="headerlink" href="#overall-structure-of-a-post-in-silk-road-1" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="e6-01">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.01]</span></code></span><a class="headerlink" href="#e6-01" title="Permalink to this code">#</a></div>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;forumposts&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 2</span>  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;windowbg&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 3</span>    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;topslice&quot;</span><span class="p">&gt;&lt;</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="linenos"> 4</span>    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;post_wrapper&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 5</span>      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;poster&quot;</span><span class="p">&gt;</span>
+<span class="linenos"> 6</span>        <span class="p">&lt;</span><span class="nt">h4</span><span class="p">&gt;</span>
+<span class="linenos"> 7</span>          <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;[link to the user&#39;s profile]&quot;</span> <span class="na">title</span><span class="o">=</span><span class="s">&quot;View the profile of [USERNAME]&quot;</span><span class="p">&gt;</span>[USERNAME]<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="linenos"> 8</span>        <span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;</span>
+<span class="linenos"> 9</span>        <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;reset smalltext&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;msg_[post ID]_extra_info&quot;</span><span class="p">&gt;</span>
+<span class="linenos">10</span>          <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;postgroup&quot;</span><span class="p">&gt;</span>[group to which the user belongs to]<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">11</span>          <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;stars&quot;</span><span class="p">&gt;</span>
+<span class="linenos">12</span>            [this section includes links to the icons used to visualise the user&#39;s achievements]
+<span class="linenos">13</span>          <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">14</span>          <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;postcount&quot;</span><span class="p">&gt;</span>Posts: [number of posts written by the user]<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">15</span>          <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;karma&quot;</span><span class="p">&gt;</span>Karma: +[number]/-[number]<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">16</span>          <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;profile&quot;</span><span class="p">&gt;</span>
+<span class="linenos">17</span>            <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+<span class="linenos">18</span>              <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">19</span>                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;[link to the user&#39;s profile]&quot;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;[link to the user&#39;s profile image]&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;View Profile&quot;</span>
+<span class="linenos">20</span>                    <span class="na">title</span><span class="o">=</span><span class="s">&quot;View Profile&quot;</span> <span class="p">/&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="linenos">21</span>              <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">22</span>            <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+<span class="linenos">23</span>          <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="linenos">24</span>        <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+<span class="linenos">25</span>      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">26</span>      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;postarea&quot;</span><span class="p">&gt;</span>
+<span class="linenos">27</span>        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;flow_hidden&quot;</span><span class="p">&gt;</span>
+<span class="linenos">28</span>          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;keyinfo&quot;</span><span class="p">&gt;</span>
+<span class="linenos">29</span>            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;messageicon&quot;</span><span class="p">&gt;</span>
+<span class="linenos">30</span>              <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;[link to the icon used for the message]&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;&quot;</span> <span class="p">/&gt;</span>
+<span class="linenos">31</span>            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">32</span>            <span class="p">&lt;</span><span class="nt">h5</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;subject_[post ID]&quot;</span><span class="p">&gt;</span>
+<span class="linenos">33</span>              <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;[link to the post]&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;nofollow&quot;</span><span class="p">&gt;</span>[title of the post]<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="linenos">34</span>            <span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
+<span class="linenos">35</span>            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;smalltext&quot;</span><span class="p">&gt;</span>
+<span class="linenos">36</span>              <span class="ni">&amp;#171;</span> <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span> on:<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> [date on which the message was posted, in the format January 06, 2013, 03:29
+<span class="linenos">37</span>              am <span class="ni">&amp;#187];</span>
+<span class="linenos">38</span>            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">39</span>            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;msg_[post ID]_quick_mod&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">40</span>          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">41</span>        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">42</span>        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;post&quot;</span><span class="p">&gt;</span>
+<span class="linenos">43</span>          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;inner&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;msg_[post ID]&quot;</span><span class="p">&gt;</span>
+<span class="linenos">44</span>            [text of the post]
+<span class="linenos">45</span>          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">46</span>        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">47</span>      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">48</span>      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;moderatorbar&quot;</span><span class="p">&gt;</span>
+<span class="linenos">49</span>        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;smalltext modified&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;modified_[post ID]&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">50</span>        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;smalltext reportlinks&quot;</span><span class="p">&gt;</span>
+<span class="linenos">51</span>          <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://dkn255hz262ypmii.onion/Themes/default/images/ip.gif&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;&quot;</span> <span class="p">/&gt;</span>
+<span class="linenos">52</span>          Logged
+<span class="linenos">53</span>        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">54</span>      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">55</span>    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">56</span>    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;botslice&quot;</span><span class="p">&gt;&lt;</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="linenos">57</span>  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="linenos">58</span><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div>
+<section id="extracting-the-data-from-html-pages-to-xml-format">
+<span class="sidenote"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">323-328</span></code></span><h3>Extracting the data from HTML pages to XML format<label for='sidenote-role-5' class='margin-toggle'><span id="id9">
+<sup>5</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-5' name='sidenote-role-5' class='margin-toggle'><span class="sidenote d-n"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">323-328</span></code></span><a class="headerlink" href="#extracting-the-data-from-html-pages-to-xml-format" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="s6-01">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s6.01]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s6.01_extract_XML_from_SR1-SR2.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s6-01" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="c1"># Import modules for:  loading files using regular expression; regular expressions; generating random numbers;</span>
+<span class="linenos">  2</span><span class="c1"># using BeautifulSoup; reading timestamps as date objects; working with XML files</span>
+<span class="linenos">  3</span><span class="kn">import</span> <span class="nn">glob</span>
+<span class="linenos">  4</span><span class="kn">import</span> <span class="nn">re</span>
+<span class="linenos">  5</span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+<span class="linenos">  6</span><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="linenos">  7</span><span class="kn">from</span> <span class="nn">dateutil</span> <span class="kn">import</span> <span class="n">parser</span>
+<span class="linenos">  8</span><span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+<span class="linenos">  9</span>
+<span class="linenos"> 10</span><span class="c1"># Create a dictionary with the replacement labels for the subfora names</span>
+<span class="linenos"> 11</span><span class="n">replacements</span> <span class="o">=</span> <span class="p">{</span>
+<span class="linenos"> 12</span>    <span class="s2">&quot;bounties&quot;</span><span class="p">:</span> <span class="s2">&quot;B01&quot;</span><span class="p">,</span>
+<span class="linenos"> 13</span>    <span class="s2">&quot;bug reports&quot;</span><span class="p">:</span> <span class="s2">&quot;B02&quot;</span><span class="p">,</span>
+<span class="linenos"> 14</span>    <span class="s2">&quot;cryptocurrency&quot;</span><span class="p">:</span> <span class="s2">&quot;B03&quot;</span><span class="p">,</span>
+<span class="linenos"> 15</span>    <span class="s2">&quot;customer support&quot;</span><span class="p">:</span> <span class="s2">&quot;B04&quot;</span><span class="p">,</span>
+<span class="linenos"> 16</span>    <span class="s2">&quot;drug safety&quot;</span><span class="p">:</span> <span class="s2">&quot;B05&quot;</span><span class="p">,</span>
+<span class="linenos"> 17</span>    <span class="s2">&quot;feature requests&quot;</span><span class="p">:</span> <span class="s2">&quot;B06&quot;</span><span class="p">,</span>
+<span class="linenos"> 18</span>    <span class="s2">&quot;legal&quot;</span><span class="p">:</span> <span class="s2">&quot;B07&quot;</span><span class="p">,</span>
+<span class="linenos"> 19</span>    <span class="s2">&quot;newbie discussion&quot;</span><span class="p">:</span> <span class="s2">&quot;B08&quot;</span><span class="p">,</span>
+<span class="linenos"> 20</span>    <span class="s2">&quot;off topic&quot;</span><span class="p">:</span> <span class="s2">&quot;B09&quot;</span><span class="p">,</span>
+<span class="linenos"> 21</span>    <span class="s2">&quot;philosophy, economics and justice&quot;</span><span class="p">:</span> <span class="s2">&quot;B10&quot;</span><span class="p">,</span>
+<span class="linenos"> 22</span>    <span class="s2">&quot;press corner&quot;</span><span class="p">:</span> <span class="s2">&quot;B11&quot;</span><span class="p">,</span>
+<span class="linenos"> 23</span>    <span class="s2">&quot;product offers&quot;</span><span class="p">:</span> <span class="s2">&quot;B12&quot;</span><span class="p">,</span>
+<span class="linenos"> 24</span>    <span class="s2">&quot;product requests&quot;</span><span class="p">:</span> <span class="s2">&quot;B13&quot;</span><span class="p">,</span>
+<span class="linenos"> 25</span>    <span class="s2">&quot;rumor mill&quot;</span><span class="p">:</span> <span class="s2">&quot;B14&quot;</span><span class="p">,</span>
+<span class="linenos"> 26</span>    <span class="s2">&quot;security&quot;</span><span class="p">:</span> <span class="s2">&quot;B15&quot;</span><span class="p">,</span>
+<span class="linenos"> 27</span>    <span class="s2">&quot;shipping&quot;</span><span class="p">:</span> <span class="s2">&quot;B16&quot;</span><span class="p">,</span>
+<span class="linenos"> 28</span>    <span class="s2">&quot;silk road discussion&quot;</span><span class="p">:</span> <span class="s2">&quot;B17&quot;</span><span class="p">,</span>
+<span class="linenos"> 29</span>    <span class="s2">&quot;the ross ulbricht case  &amp;amp;  theories&quot;</span><span class="p">:</span> <span class="s2">&quot;B18&quot;</span><span class="p">,</span>
+<span class="linenos"> 30</span><span class="p">}</span>
+<span class="linenos"> 31</span>
+<span class="linenos"> 32</span><span class="c1"># Create the function to convert the subforum names into their equivalent (arbitrarily chosen) labels</span>
+<span class="linenos"> 33</span><span class="k">def</span> <span class="nf">assign_subforum_label</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+<span class="linenos"> 34</span>    <span class="c1"># Remove any leading or trailing whitespace from the subforum name, and convert all letters to lower case</span>
+<span class="linenos"> 35</span>    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="linenos"> 36</span>    <span class="c1"># Transform the name into its equivalent label, storing it into the variable &#39;label&#39;</span>
+<span class="linenos"> 37</span>    <span class="n">label</span> <span class="o">=</span> <span class="n">replacements</span><span class="p">[</span><span class="n">text</span><span class="p">]</span>
+<span class="linenos"> 38</span>    <span class="c1"># Return the variable &#39;label&#39; as output</span>
+<span class="linenos"> 39</span>    <span class="k">return</span> <span class="n">label</span>
+<span class="linenos"> 40</span>
+<span class="linenos"> 41</span>
+<span class="linenos"> 42</span><span class="c1"># Find all the files in the indicated subfolder, sorting them alphabetically</span>
+<span class="linenos"> 43</span><span class="n">files</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;./SR2_files/*.*&quot;</span><span class="p">))</span>
+<span class="linenos"> 44</span>
+<span class="linenos"> 45</span><span class="c1"># For each file in the list of files, do:</span>
+<span class="linenos"> 46</span><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+<span class="linenos"> 47</span>    <span class="c1"># Create the main &#39;doc&#39; element tag, which serves in the XML output as root element; here one separate &#39;doc&#39; is created for</span>
+<span class="linenos"> 48</span>    <span class="c1"># each original input file</span>
+<span class="linenos"> 49</span>    <span class="n">doc</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s2">&quot;doc&quot;</span><span class="p">)</span>
+<span class="linenos"> 50</span>    <span class="c1"># Extract the name of the file excluding the leading &quot;index.php?=&quot; string, and store it inside the variable &#39;filename&#39;</span>
+<span class="linenos"> 51</span>    <span class="n">filename</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;index.*\=(.*)&quot;</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="linenos"> 52</span>    <span class="c1"># Assign it as value of the &lt;doc&gt; attribute &#39;filename&#39;</span>
+<span class="linenos"> 53</span>    <span class="n">doc</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;filename&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">filename</span>
+<span class="linenos"> 54</span>    <span class="c1"># Extract the numerical sequence appearing in the filename, to be later used as part of the XML &#39;id&#39; attribute</span>
+<span class="linenos"> 55</span>    <span class="n">filename_number</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;index.*\=([0-9]{1,10})&quot;</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="linenos"> 56</span>    <span class="c1"># Append a random number to the extracted &#39;filename_number&#39; to generate a pseudo-random value for the &lt;doc&gt; element</span>
+<span class="linenos"> 57</span>    <span class="c1"># tag &#39;id&#39; attribute</span>
+<span class="linenos"> 58</span>    <span class="n">random_id</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">filename_number</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100000</span><span class="p">))</span>
+<span class="linenos"> 59</span>    <span class="c1"># Assign the generated &#39;random_id&#39; as value of the attribute &#39;id&#39;</span>
+<span class="linenos"> 60</span>    <span class="n">doc</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">random_id</span>
+<span class="linenos"> 61</span>    <span class="c1"># Open the input file</span>
+<span class="linenos"> 62</span>    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+<span class="linenos"> 63</span>    <span class="c1"># Read the file with BeautifulSoup</span>
+<span class="linenos"> 64</span>    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="s2">&quot;lxml&quot;</span><span class="p">)</span>
+<span class="linenos"> 65</span>
+<span class="linenos"> 66</span>    <span class="c1"># Extract the title of the thread</span>
+<span class="linenos"> 67</span>    <span class="n">thread_title</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="linenos"> 68</span>    <span class="c1"># Get the &lt;div&gt; element containing the forum breadcrumns, i.e. the hierarchical menu showing the path of the forum</span>
+<span class="linenos"> 69</span>    <span class="c1"># thread being extracted, in bullet point format</span>
+<span class="linenos"> 70</span>    <span class="n">navigate_section</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;navigate_section&quot;</span><span class="p">})</span>
+<span class="linenos"> 71</span>    <span class="c1"># Write to &#39;subforum_name&#39; the next-to-last element from the bullet point list, which indicates the forum section containing</span>
+<span class="linenos"> 72</span>    <span class="c1"># the thread being extracted; and replace the right double angle quotes (ASCII code character &#39;187&#39;) from the name of the</span>
+<span class="linenos"> 73</span>    <span class="c1"># subforum with nothing</span>
+<span class="linenos"> 74</span>    <span class="n">subforum_name</span> <span class="o">=</span> <span class="p">(</span>
+<span class="linenos"> 75</span>        <span class="n">navigate_section</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;li&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="mi">187</span><span class="p">),</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="linenos"> 76</span>    <span class="p">)</span>
+<span class="linenos"> 77</span>    <span class="c1"># Assign to &#39;subforum_label&#39; the custom label for the forum section, derived from &#39;subforum_name&#39; using the</span>
+<span class="linenos"> 78</span>    <span class="c1"># &#39;assign_subforum_label&#39; function</span>
+<span class="linenos"> 79</span>    <span class="n">subforum_label</span> <span class="o">=</span> <span class="n">assign_subforum_label</span><span class="p">(</span><span class="n">subforum_name</span><span class="p">)</span>
+<span class="linenos"> 80</span>
+<span class="linenos"> 81</span>    <span class="c1"># Get the &lt;div&gt; element containing all the posts</span>
+<span class="linenos"> 82</span>    <span class="n">posts_section</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;forumposts&quot;</span><span class="p">})</span>
+<span class="linenos"> 83</span>    <span class="c1"># For each single post do:</span>
+<span class="linenos"> 84</span>    <span class="k">for</span> <span class="n">single_post</span> <span class="ow">in</span> <span class="n">posts_section</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;post_wrapper&quot;</span><span class="p">}):</span>
+<span class="linenos"> 85</span>        <span class="c1"># Create a &lt;text&gt; element tag to enclose the post</span>
+<span class="linenos"> 86</span>        <span class="n">text_tag</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="p">)</span>
+<span class="linenos"> 87</span>        <span class="c1"># Assign the title of thread to the &lt;text&gt; attribute &#39;title&#39;</span>
+<span class="linenos"> 88</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">thread_title</span>
+<span class="linenos"> 89</span>        <span class="c1"># Assign the name of the subforum to the &lt;text&gt; attribute &#39;subforum&#39;</span>
+<span class="linenos"> 90</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;subforum&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">subforum_name</span>
+<span class="linenos"> 91</span>        <span class="c1"># Assign the subforum label to the &lt;text&gt; attribute &#39;subforum_label&#39;</span>
+<span class="linenos"> 92</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;subforum_label&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">subforum_label</span>
+<span class="linenos"> 93</span>        <span class="c1"># Extract the username of the author of the post</span>
+<span class="linenos"> 94</span>        <span class="n">username</span> <span class="o">=</span> <span class="n">single_post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;poster&quot;</span><span class="p">})</span><span class="o">.</span><span class="n">h4</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="linenos"> 95</span>        <span class="c1"># Assign it as value of the attribute &#39;author&#39; in the text metadata fields</span>
+<span class="linenos"> 96</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;author&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">username</span>
+<span class="linenos"> 97</span>
+<span class="linenos"> 98</span>        <span class="c1"># Get the &lt;div&gt; element containing the details of the post</span>
+<span class="linenos"> 99</span>        <span class="n">post_details</span> <span class="o">=</span> <span class="n">single_post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;keyinfo&quot;</span><span class="p">})</span>
+<span class="linenos">100</span>        <span class="c1"># Extract the progressive number of the post, where number 1 is the first reply to the post, etc...</span>
+<span class="linenos">101</span>        <span class="n">get_post_number</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
+<span class="linenos">102</span>            <span class="s2">&quot;.*#([0-9]{1,5}).*&quot;</span><span class="p">,</span>
+<span class="linenos">103</span>            <span class="n">post_details</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;smalltext&quot;</span><span class="p">})</span><span class="o">.</span><span class="n">get_text</span><span class="p">(),</span>
+<span class="linenos">104</span>        <span class="p">)</span>
+<span class="linenos">105</span>        <span class="c1"># Assign the number of the post from &#39;get_post_number&#39; to the variable &#39;post_number&#39;, or set it to 0 if the post</span>
+<span class="linenos">106</span>        <span class="c1"># is the first of the thread - since no number is included in the details of the first post</span>
+<span class="linenos">107</span>        <span class="n">post_number</span> <span class="o">=</span> <span class="n">get_post_number</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="k">if</span> <span class="n">get_post_number</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+<span class="linenos">108</span>        <span class="c1"># Assign it as value of the attribute &#39;post_number&#39; in the &lt;text&gt; metadata fields</span>
+<span class="linenos">109</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;post_number&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">post_number</span><span class="p">)</span>
+<span class="linenos">110</span>
+<span class="linenos">111</span>        <span class="c1"># Get the string of text containing the date on which the message was posted</span>
+<span class="linenos">112</span>        <span class="n">get_post_date</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
+<span class="linenos">113</span>            <span class="s2">&quot;.*on:(.*)&quot;</span><span class="p">,</span> <span class="n">post_details</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;smalltext&quot;</span><span class="p">})</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="linenos">114</span>        <span class="p">)</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="linenos">115</span>        <span class="c1"># Convert the string date into a datetime object, after removing the right double angle quotes</span>
+<span class="linenos">116</span>        <span class="n">post_date</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">get_post_date</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="mi">187</span><span class="p">),</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
+<span class="linenos">117</span>        <span class="c1"># Extract the time of posting (hours and minutes) using the custom format HHMM - built through the &#39;strftime&#39; method - and</span>
+<span class="linenos">118</span>        <span class="c1"># save it to the variable &#39;post_date_time&#39;</span>
+<span class="linenos">119</span>        <span class="n">post_date_time</span> <span class="o">=</span> <span class="n">post_date</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%H%M&quot;</span><span class="p">)</span>
+<span class="linenos">120</span>        <span class="c1"># Extract the day, month, year from the datetime object (using the standard notation &#39;.day&#39;, &#39;.month&#39;, &#39;.year&#39; to</span>
+<span class="linenos">121</span>        <span class="c1"># obtain 2 and 4-digit formats) and save each one to a different variable, then assign all the date elements to</span>
+<span class="linenos">122</span>        <span class="c1"># different metadata attributes</span>
+<span class="linenos">123</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_d&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">post_date</span><span class="o">.</span><span class="n">day</span><span class="p">)</span>
+<span class="linenos">124</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_m&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">post_date</span><span class="o">.</span><span class="n">month</span><span class="p">)</span>
+<span class="linenos">125</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_y&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">post_date</span><span class="o">.</span><span class="n">year</span><span class="p">)</span>
+<span class="linenos">126</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">post_date_time</span><span class="p">)</span>
+<span class="linenos">127</span>
+<span class="linenos">128</span>        <span class="c1"># Get the &lt;div&gt; containing the content of the post, i.e. the message</span>
+<span class="linenos">129</span>        <span class="n">post_section</span> <span class="o">=</span> <span class="n">single_post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;post&quot;</span><span class="p">})</span>
+<span class="linenos">130</span>        <span class="c1"># Check if the message contains &quot;a quote&quot;, i.e. if the message the current one replies to is included inside the post; if</span>
+<span class="linenos">131</span>        <span class="c1"># so, exclude it from the extraction, extract the message and assign it to the variable &#39;post_content&#39;</span>
+<span class="linenos">132</span>        <span class="k">try</span><span class="p">:</span>
+<span class="linenos">133</span>            <span class="n">post_section</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;quoteheader&quot;</span><span class="p">})</span><span class="o">.</span><span class="n">extract</span><span class="p">()</span>
+<span class="linenos">134</span>            <span class="n">post_section</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;blockquote&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">extract</span><span class="p">()</span>
+<span class="linenos">135</span>            <span class="n">post_content</span> <span class="o">=</span> <span class="n">post_section</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="linenos">136</span>        <span class="c1"># If no quotation is present, extract the message and store it inside the variable &#39;post_content&#39;</span>
+<span class="linenos">137</span>        <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+<span class="linenos">138</span>            <span class="n">post_content</span> <span class="o">=</span> <span class="n">post_section</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="linenos">139</span>        <span class="c1"># Write the extracted message as text of the &#39;text&#39; element tag</span>
+<span class="linenos">140</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">post_content</span>
+<span class="linenos">141</span>
+<span class="linenos">142</span>    <span class="c1"># Build the XML structure with all the elements collected so far</span>
+<span class="linenos">143</span>    <span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">doc</span><span class="p">)</span>
+<span class="linenos">144</span>    <span class="c1"># Write the resulting XML structure to a file named after the input filename, using utf-8 encoding, adding the XML declaration</span>
+<span class="linenos">145</span>    <span class="c1"># at the start of the file and graphically formatting the layout (&#39;pretty_print&#39;)</span>
+<span class="linenos">146</span>    <span class="n">tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span>
+<span class="linenos">147</span>        <span class="n">filename</span> <span class="o">+</span> <span class="s2">&quot;.xml&quot;</span><span class="p">,</span> <span class="n">pretty_print</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span>
+<span class="linenos">148</span>    <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+<section id="meta-representation-of-contents-extracted-in-xml-format-through-s6-01-silk-road-corpus">
+<h2>Meta-representation of contents extracted in XML format through <code class="docutils literal notranslate"><span class="pre">[s6.01]</span></code> (Silk Road corpus)<a class="headerlink" href="#meta-representation-of-contents-extracted-in-xml-format-through-s6-01-silk-road-corpus" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="e6-02">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.02]</span></code></span><a class="headerlink" href="#e6-02" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;doc</span><span class="w"> </span><span class="na">filename=</span><span class="s">&quot;FILENAME&quot;</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;UNIQUE_ID_FROM_FILENAME&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">3</span><span class="w">    </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">title=</span><span class="s">&quot;TITLE&quot;</span><span class="w"> </span><span class="na">subforum_label=</span><span class="s">&quot;[SUBFORUM_LABEL]&quot;</span><span class="w"> </span><span class="na">subforum=</span><span class="s">&quot;FULL_NAME_OF_THE_SUBFORUM_SECTION&quot;</span><span class="w"> </span><span class="na">author=</span><span class="s">&quot;[USERNAME]&quot;</span><span class="w"> </span><span class="na">post_number=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_d=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_m=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_y=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_time=</span><span class="s">&quot;NUMBER&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">4</span><span class="w">        </span>MESSAGE,<span class="w"> </span>INCLUDING<span class="w"> </span>A
+<span class="linenos">5</span><span class="w">        </span><span class="nt">&lt;url</span><span class="w"> </span><span class="na">orig=</span><span class="s">&quot;ORIGINAL_HYPERLINK&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">6</span><span class="w">            </span>URL
+<span class="linenos">7</span><span class="w">        </span><span class="nt">&lt;/url&gt;</span>
+<span class="linenos">8</span><span class="w">        </span>IN<span class="w"> </span>ITS<span class="w"> </span>CONTENTS
+<span class="linenos">9</span><span class="w">    </span><span class="nt">&lt;/text&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="meta-representation-of-the-xml-structure-of-the-reference-corpus-dpm-corpus">
+<span class="sidenote"><sup>6</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">328</span></code></span><h2>Meta-representation of the XML structure of the reference corpus (DPM corpus)<label for='sidenote-role-6' class='margin-toggle'><span id="id10">
+<sup>6</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-6' name='sidenote-role-6' class='margin-toggle'><span class="sidenote d-n"><sup>6</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">328</span></code></span><a class="headerlink" href="#meta-representation-of-the-xml-structure-of-the-reference-corpus-dpm-corpus" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="e6-03">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.03]</span></code></span><a class="headerlink" href="#e6-03" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;[UNIQUE_NUMERICAL_ID]&quot;</span><span class="w"> </span><span class="na">cqpyear=</span><span class="s">&quot;YYYY&quot;</span><span class="w"> </span><span class="na">cqpdescription=</span><span class="s">&quot;TITLE_OF_THE_REPORT&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">3</span><span class="w">    </span>TEXTUAL<span class="w"> </span>CONTENT<span class="w"> </span>OF<span class="w"> </span>THE<span class="w"> </span>DOCUMENT
+<span class="linenos">4</span><span class="nt">&lt;/text&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-of-page-from-silk-road-1-forum">
+<h2>Example of page from Silk Road 1 forum<a class="headerlink" href="#example-of-page-from-silk-road-1-forum" title="Permalink to this heading">#</a></h2>
+<figure class="figure align-default" id="fig6-1">
+<a class="bg-primary mb-1 reference internal image-reference" href="../../_images/Figure6.1.jpg"><img alt="Figure 6.1 Example of a page collected from the Silk Road 1 forum" class="bg-primary mb-1" src="../../_images/Figure6.1.jpg" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-text"><em>Figure 6.1</em> Example of a page collected from the Silk Road 1 forum</span><a class="headerlink" href="#fig6-1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<hr class="footnotes docutils" />
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Case-studies: CATLISM practical applications</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../frg/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Analysing the language of far-right groups on Twitter and Facebook</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overall-structure-of-a-post-in-silk-road-1">Overall structure of a post in Silk Road 1</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extracting-the-data-from-html-pages-to-xml-format">Extracting the data from HTML pages to XML format</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-representation-of-contents-extracted-in-xml-format-through-s6-01-silk-road-corpus">Meta-representation of contents extracted in XML format through <code class="docutils literal notranslate"><span class="pre">[s6.01]</span></code> (Silk Road corpus)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-representation-of-the-xml-structure-of-the-reference-corpus-dpm-corpus">Meta-representation of the XML structure of the reference corpus (DPM corpus)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-page-from-silk-road-1-forum">Example of page from Silk Road 1 forum</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Matteo Di Cristofaro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Matteo Di Cristofaro.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+
+  <footer class="bd-footer">
+  </footer>
+<script async src="https://analytics.umami.is/script.js" data-website-id="c69c4e7a-b900-47c2-bab5-a154909a8bc5"></script>
+
+  </body>
+</html>

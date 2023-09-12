@@ -1,0 +1,837 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="dark">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <link href="../../_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="../../_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="../../_static/logo.svg" rel="icon" type="image/svg+xml">
+    <title>Analysing the language of far-right groups on Twitter and Facebook &#8212; CATLISM | Online Compendium</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/asciinema-player_2.6.1.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="../../_static/main.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'case_studies/frg/index';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="The communicative modus operandi of online child sexual groomers" href="../og/index.html" />
+    <link rel="prev" title="Analysing crypto-drug market fora" href="../cdm/index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">CATLISM | Online Compendium</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../eval_metadata/index.html">Metadata evaluation</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/twitter/index.html">Twitter metadata</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/twitter/tw_snscrape-metadata.html">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../eval_metadata/youtube/index.html">Youtube metadata</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../eval_metadata/youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_collection/index.html">Data collection</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/social_media_platforms/index.html">Social Media Platforms</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/twitter/snscrape.html">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">Case-studies: CATLISM practical applications</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../cdm/index.html">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/case_studies/frg/index.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Analysing the language of far-right groups on Twitter and Facebook</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-twitter-data-for-the-corpus">Collecting Twitter data for the corpus</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-twitter-data-for-the-corpus-using-twint">Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">twint</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-twitter-data-for-the-corpus-using-snscrape">Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extract-the-data-from-twint-output-to-xml-format">Extract the data from <code class="docutils literal notranslate"><span class="pre">twint</span></code> output to XML format</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s6-02">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s6.02]</span></code></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-wordpress-blog-data-for-the-corpus">Collecting Wordpress blog data for the corpus</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#syntax-used-for-the-wordpress-blog-pages">Syntax used for the Wordpress blog pages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-links-to-all-the-posts-in-a-blog">Collecting links to all the posts in a blog</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transliterating-emojis-in-the-corpus">Transliterating emojis in the corpus </a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#function-to-transliterate-emojis-using-two-different-output-formats">Function to transliterate emojis (using two different output formats)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-message-before-the-transliteration">Example of message before the transliteration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-e6-06-after-emojis-transliteration-through-s6-04">Example <code class="docutils literal notranslate"><span class="pre">[e6.06]</span></code> after emojis transliteration through <code class="docutils literal notranslate"><span class="pre">[s6.04]</span></code></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="analysing-the-language-of-far-right-groups-on-twitter-and-facebook">
+<h1>Analysing the language of far-right groups on Twitter and Facebook<a class="headerlink" href="#analysing-the-language-of-far-right-groups-on-twitter-and-facebook" title="Permalink to this heading">#</a></h1>
+<span class="sidenote"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">330</span></code></span><blockquote>
+<div><p>The case study [utilised] in this section is based on the research conducted at Swansea University Department of Applied Linguistics under the supervision of Prof. Nuria Lorenzo-Dus, as part of the project ‘Developing Interdisciplinary and Industry Collaboration to Tackle Far-Right Extremist Use of Social Media for Propaganda and Recruitment’ (Principal Investigator Dr. Lella Nouri). Outputs from the research are published in <span id="id1">[<a class="reference internal" href="../../references.html#id56" title="Lella Nouri and Nuria Lorenzo-Dus. Investigating Reclaim Australia and Britain First’s Use of Social Media: Developing a New Model of Imagined Political Communities Online. Journal for Deradicalization, Spring 2019(18):1–34, 2019. URL: http://journals.sfu.ca/jd/index.php/jd/article/view/183/137.">Nouri and Lorenzo-Dus, 2019</a>]</span> and <span id="id2">[<a class="reference internal" href="../../references.html#id57" title="Nuria Lorenzo-Dus and Lella Nouri. The discourse of the US alt-right online – a case study of the \textit Traditionalist Worker Party blog. Critical Discourse Studies, 18(4):410–428, July 2021. URL: https://www.tandfonline.com/doi/full/10.1080/17405904.2019.1708763 (visited on 2022-02-16), doi:10.1080/17405904.2019.1708763.">Lorenzo-Dus and Nouri, 2021</a>]</span> , which served as the basis for the contents [described].<label for='sidenote-role-1' class='margin-toggle'><span id="id3">
+<sup>1</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote d-n"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">330</span></code></span></p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Similar to the tools and techiques described in <a class="reference internal" href="../../data_collection/social_media_platforms/twitter/snscrape.html"><span class="std std-doc">Twitter</span></a>, as of late June 2023 a number of changes have made anonymous access to tweets impossible, and consequently rendering the use of the tool <a class="reference external" href="https://github.com/twintproject/twint"><code class="docutils literal notranslate"><span class="pre">twint</span></code></a> (a project abandoned in the spring of 2022) and the techniques exemplified below useless. They are included to support the contents of the book.</p>
+</div>
+<section id="collecting-twitter-data-for-the-corpus">
+<h2>Collecting Twitter data for the corpus<a class="headerlink" href="#collecting-twitter-data-for-the-corpus" title="Permalink to this heading">#</a></h2>
+<section id="collecting-twitter-data-for-the-corpus-using-twint">
+<span class="sidenote"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">337</span></code></span><h3>Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">twint</span></code><label for='sidenote-role-2' class='margin-toggle'><span id="id4">
+<sup>2</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-2' name='sidenote-role-2' class='margin-toggle'><span class="sidenote d-n"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">337</span></code></span><a class="headerlink" href="#collecting-twitter-data-for-the-corpus-using-twint" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="c6-01">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c6.01]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg></span><a class="headerlink" href="#c6-01" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>twint<span class="w"> </span>-u<span class="w"> </span>Twitter<span class="w"> </span>–since<span class="w"> </span><span class="m">2015</span>-06-16<span class="w"> </span>-o<span class="w"> </span>twint_output.csv<span class="w"> </span>-csv
+</pre></div>
+</div>
+</div>
+</section>
+<section id="collecting-twitter-data-for-the-corpus-using-snscrape">
+<span class="sidenote"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">338</span></code></span><h3>Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">snscrape</span></code><label for='sidenote-role-3' class='margin-toggle'><span id="id5">
+<sup>3</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-3' name='sidenote-role-3' class='margin-toggle'><span class="sidenote d-n"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">338</span></code></span><a class="headerlink" href="#collecting-twitter-data-for-the-corpus-using-snscrape" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="c6-02">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c6.02]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg></span><a class="headerlink" href="#c6-02" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>snscrape<span class="w"> </span>-v<span class="w"> </span>--progress<span class="w"> </span>-jsonl<span class="w"> </span>twitter-search<span class="w"> </span><span class="s1">&#39;since:2015–06–16 from:Twitter&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>snscrape_output.json
+</pre></div>
+</div>
+</div>
+</section>
+<section id="extract-the-data-from-twint-output-to-xml-format">
+<span class="sidenote"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">338-340</span></code></span><h3>Extract the data from <code class="docutils literal notranslate"><span class="pre">twint</span></code> output to XML format<label for='sidenote-role-4' class='margin-toggle'><span id="id6">
+<sup>4</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-4' name='sidenote-role-4' class='margin-toggle'><span class="sidenote d-n"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">338-340</span></code></span><a class="headerlink" href="#extract-the-data-from-twint-output-to-xml-format" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="s6-02">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s6.02]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s6.02_extract_twint_csv.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s6-02" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import the required modules to read/write csv and xml files; and to read/write XML files</span>
+<span class="linenos"> 2</span><span class="kn">import</span> <span class="nn">csv</span>
+<span class="linenos"> 3</span><span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="c1"># Create the root element of the XML structure - &lt;corpus&gt; -, which will contain all the extracted tweets</span>
+<span class="linenos"> 6</span><span class="c1"># as elements defined by the &lt;text&gt; element tag (one tweet = one text)</span>
+<span class="linenos"> 7</span><span class="n">corpus</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s2">&quot;corpus&quot;</span><span class="p">)</span>
+<span class="linenos"> 8</span>
+<span class="linenos"> 9</span><span class="c1"># Open the csv file containing the data collected by twint</span>
+<span class="linenos">10</span><span class="n">csv_data</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;twint_output.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+<span class="linenos">11</span><span class="c1"># Read the content of the file, where each value is separated from the others by a tab (\t) character</span>
+<span class="linenos">12</span><span class="n">csv_data_reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">csv_data</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="linenos">13</span><span class="c1"># Skip the first row, containing the header</span>
+<span class="linenos">14</span><span class="nb">next</span><span class="p">(</span><span class="n">csv_data_reader</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="linenos">15</span><span class="c1"># Create a list of all the rows and store it in the variable &#39;rows&#39;</span>
+<span class="linenos">16</span><span class="n">rows</span> <span class="o">=</span> <span class="p">[</span><span class="n">r</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">csv_data_reader</span><span class="p">]</span>
+<span class="linenos">17</span><span class="c1"># For each row in the list of rows, do:</span>
+<span class="linenos">18</span><span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+<span class="linenos">19</span>    <span class="c1"># Extract each relevant value and store it inside a single variable, by indicating the</span>
+<span class="linenos">20</span>    <span class="c1"># column number where the value is stored in the original data. Python counts from 0, so e.g. column</span>
+<span class="linenos">21</span>    <span class="c1"># number 7 is read as number 6</span>
+<span class="linenos">22</span>    <span class="n">tweet_id</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="linenos">23</span>    <span class="n">tweet_date</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="linenos">24</span>    <span class="n">tweet_username</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+<span class="linenos">25</span>    <span class="n">tweet_user_realname</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span>
+<span class="linenos">26</span>    <span class="n">tweet_content</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span>
+<span class="linenos">27</span>    <span class="c1"># The following variables should contain the value 0 if no urls are included or the tweet is not a retweet,</span>
+<span class="linenos">28</span>    <span class="c1"># and the value 1 when links are present or the tweet is a retweet. For urls, the script checks whether the length</span>
+<span class="linenos">29</span>    <span class="c1"># of the original value is shorter than 3 characters (i.e. it only contains the empty square brackets), in which</span>
+<span class="linenos">30</span>    <span class="c1"># case it assigns the value 0 as no value is present in the data. For &#39;tweet_isretweet&#39; it checks if the word &#39;False&#39;</span>
+<span class="linenos">31</span>    <span class="c1"># appears in the data and assigns 0 if it does or 1 otherwise.</span>
+<span class="linenos">32</span>    <span class="n">tweet_urls_present</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">13</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="k">else</span> <span class="mi">1</span>
+<span class="linenos">33</span>    <span class="n">tweet_isretweet</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">row</span><span class="p">[</span><span class="mi">21</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;False&quot;</span> <span class="k">else</span> <span class="mi">1</span>
+<span class="linenos">34</span>    <span class="c1"># The extracted values are assigned as values to the attributes of &lt;text&gt;.</span>
+<span class="linenos">35</span>    <span class="c1"># The actual content of the tweet is then enclosed inside of &lt;text&gt; using the notation &#39;.text&#39;</span>
+<span class="linenos">36</span>    <span class="n">etree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span>
+<span class="linenos">37</span>        <span class="n">corpus</span><span class="p">,</span>
+<span class="linenos">38</span>        <span class="s2">&quot;text&quot;</span><span class="p">,</span>
+<span class="linenos">39</span>        <span class="nb">id</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_id</span><span class="p">),</span>
+<span class="linenos">40</span>        <span class="n">csv_date_created</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_date</span><span class="p">),</span>
+<span class="linenos">41</span>        <span class="n">csv_username</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_username</span><span class="p">),</span>
+<span class="linenos">42</span>        <span class="n">csv_user_realname</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_user_realname</span><span class="p">),</span>
+<span class="linenos">43</span>        <span class="n">csv_urls_present</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_urls_present</span><span class="p">),</span>
+<span class="linenos">44</span>        <span class="n">csv_isretweet</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_isretweet</span><span class="p">),</span>
+<span class="linenos">45</span>    <span class="p">)</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">tweet_content</span><span class="p">)</span>
+<span class="linenos">46</span><span class="c1"># The XML structure is created by adding all the extracted elements to the main &lt;corpus&gt; element tag</span>
+<span class="linenos">47</span><span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">corpus</span><span class="p">)</span>
+<span class="linenos">48</span><span class="c1"># The resulting XML structure is written to the output.xml file using utf-8 encoding, adding the XML declaration</span>
+<span class="linenos">49</span><span class="c1"># at the beginning and graphically formatting the layout (&#39;pretty_print&#39;)</span>
+<span class="linenos">50</span><span class="n">tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;twint_out.xml&quot;</span><span class="p">,</span> <span class="n">pretty_print</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-of-data-extracted-with-s6-02">
+<span class="sidenote"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">340</span></code></span><h3>Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s6.02]</span></code><label for='sidenote-role-5' class='margin-toggle'><span id="id7">
+<sup>5</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-5' name='sidenote-role-5' class='margin-toggle'><span class="sidenote d-n"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">340</span></code></span><a class="headerlink" href="#example-of-data-extracted-with-s6-02" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e6-04">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.04]</span></code></span><a class="headerlink" href="#e6-04" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;corpus&gt;</span>
+<span class="linenos">3</span><span class="w">  </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;1492120137205526528&quot;</span><span class="w"> </span><span class="na">csv_date_created=</span><span class="s">&quot;2022-02-11T12:55:37+00:00&quot;</span><span class="w"> </span><span class="na">csv_username=</span><span class="s">&quot;Twitter&quot;</span><span class="w"> </span><span class="na">csv_user_realname=</span><span class="s">&quot;Twitter&quot;</span><span class="w"> </span><span class="na">csv_urls_present=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="na">csv_isretweet=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>oh<span class="w"> </span>good<span class="w"> </span>you&#39;re<span class="w"> </span>up<span class="w"> </span>:grinning-face-with-big-eyes:,<span class="w"> </span>here<span class="w"> </span>are<span class="w"> </span>a<span class="w"> </span>million<span class="w"> </span>Tweets<span class="w"> </span>to<span class="w"> </span>look<span class="w"> </span>at<span class="nt">&lt;/text&gt;</span>
+<span class="linenos">4</span><span class="w">  </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;1491089523291394052&quot;</span><span class="w"> </span><span class="na">csv_date_created=</span><span class="s">&quot;2022-02-08T16:40:20+00:00&quot;</span><span class="w"> </span><span class="na">csv_username=</span><span class="s">&quot;Twitter&quot;</span><span class="w"> </span><span class="na">csv_user_realname=</span><span class="s">&quot;Twitter&quot;</span><span class="w"> </span><span class="na">csv_urls_present=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="na">csv_isretweet=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>@Seipati-Sanity<span class="w"> </span>guess<span class="w"> </span>what<span class="w"> </span>we<span class="w"> </span>voted<span class="nt">&lt;/text&gt;</span>
+<span class="linenos">5</span><span class="nt">&lt;/corpus&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+<section id="collecting-wordpress-blog-data-for-the-corpus">
+<h2>Collecting Wordpress blog data for the corpus<a class="headerlink" href="#collecting-wordpress-blog-data-for-the-corpus" title="Permalink to this heading">#</a></h2>
+<section id="syntax-used-for-the-wordpress-blog-pages">
+<span class="sidenote"><sup>6</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">342</span></code></span><h3>Syntax used for the Wordpress blog pages<label for='sidenote-role-6' class='margin-toggle'><span id="id8">
+<sup>6</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-6' name='sidenote-role-6' class='margin-toggle'><span class="sidenote d-n"><sup>6</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">342</span></code></span><a class="headerlink" href="#syntax-used-for-the-wordpress-blog-pages" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e6-05">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.05]</span></code></span><a class="headerlink" href="#e6-05" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>https://example.com/page/<span class="o">[</span>N<span class="o">]</span>/
+</pre></div>
+</div>
+</div>
+</section>
+<section id="collecting-links-to-all-the-posts-in-a-blog">
+<span class="sidenote"><sup>7</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">342-344</span></code></span><h3>Collecting links to all the posts in a blog<label for='sidenote-role-7' class='margin-toggle'><span id="id9">
+<sup>7</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-7' name='sidenote-role-7' class='margin-toggle'><span class="sidenote d-n"><sup>7</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">342-344</span></code></span><a class="headerlink" href="#collecting-links-to-all-the-posts-in-a-blog" title="Permalink to this heading">#</a></h3>
+<span class="sidenote"><sup>8</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">341</span></code></span><blockquote>
+<div><p>Script <code class="docutils literal notranslate"><span class="pre">[s6.03]</span></code> [uses] the module requests and BeautifulSoup […] to crawl the blog pages containing links to the posts and to scrape each post’s URL, respectively. The procedure relies on the default structure of WordPress blogs, whereby users can browse all the available posts in pages where only a preview is shown; these pages are accessible through links formatted as in example <code class="docutils literal notranslate"><span class="pre">[e6.05]</span></code>, where <code class="docutils literal notranslate"><span class="pre">[N]</span></code> is an incremental number starting from 2 indicating the second – up to the <em>n</em>th – page of the blog (the first page is instead missing the <code class="docutils literal notranslate"><span class="pre">/page/[N]/</span></code> string); and the string page indicates the URL path under which the contents are archived. Depending on how the creator of a blog sets up the website, strings such as <code class="docutils literal notranslate"><span class="pre">blog</span></code>, <code class="docutils literal notranslate"><span class="pre">news</span></code>, and <code class="docutils literal notranslate"><span class="pre">articles</span></code> may appear instead of <code class="docutils literal notranslate"><span class="pre">page</span></code>; in such cases it is sufficient to replace the latter with the relevant label in script <code class="docutils literal notranslate"><span class="pre">[s6.03]</span></code>. A further step is then required to adapt it to any other blog built using WordPress by changing the starting web address of the blog in lines 30 and 34.<label for='sidenote-role-8' class='margin-toggle'><span id="id10">
+<sup>8</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-8' name='sidenote-role-8' class='margin-toggle'><span class="sidenote d-n"><sup>8</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">341</span></code></span></p>
+</div></blockquote>
+<div class="literal-block-wrapper docutils container" id="s6-03">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s6.03]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s6.03_collect_posts_urls.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s6-03" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import modules for: using regular expressions;  pausing the script (&#39;sleep&#39;); to collect data from the web;</span>
+<span class="linenos"> 2</span><span class="c1"># and to use BeautifulSoup</span>
+<span class="linenos"> 3</span><span class="kn">import</span> <span class="nn">re</span>
+<span class="linenos"> 4</span><span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="linenos"> 5</span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="linenos"> 6</span><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span><span class="c1"># Compile the regular expression to capture heading tags (&lt;h1&gt;, &lt;h2&gt;, etc...)</span>
+<span class="linenos"> 9</span><span class="n">heading_tags</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^h[1-6]$&quot;</span><span class="p">)</span>
+<span class="linenos">10</span><span class="c1"># Define the headers to be used for crawling the data, so that the script will be &quot;seen&quot; by the server</span>
+<span class="linenos">11</span><span class="c1"># as originating from a Chrome browser running on macOS</span>
+<span class="linenos">12</span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+<span class="linenos">13</span>    <span class="s2">&quot;User-Agent&quot;</span><span class="p">:</span> <span class="s2">&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36&quot;</span>
+<span class="linenos">14</span><span class="p">}</span>
+<span class="linenos">15</span><span class="c1"># Create an empty list to store the collected URLs</span>
+<span class="linenos">16</span><span class="n">links</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="linenos">17</span><span class="c1"># Initialise a counter to generate the incremental page numbers</span>
+<span class="linenos">18</span><span class="n">start_page</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="linenos">19</span><span class="c1"># Set the number of Wordpress pages to be collected</span>
+<span class="linenos">20</span><span class="n">max_page_number</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="linenos">21</span>
+<span class="linenos">22</span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<span class="linenos">23</span>    <span class="c1"># Check if number of the page to be collected is greater than the total number of pages to be collected; if so, write the results to the output file and stop the collection</span>
+<span class="linenos">24</span>    <span class="k">if</span> <span class="n">start_page</span> <span class="o">&gt;</span> <span class="n">max_page_number</span><span class="p">:</span>
+<span class="linenos">25</span>        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;links_list.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">output_file</span><span class="p">:</span>
+<span class="linenos">26</span>            <span class="n">output_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">links</span><span class="p">))</span>
+<span class="linenos">27</span>        <span class="k">break</span>
+<span class="linenos">28</span>    <span class="c1"># Check if the counter &#39;start_page&#39; is set to the first page; if so the URL to crawl is the main page</span>
+<span class="linenos">29</span>    <span class="k">elif</span> <span class="n">start_page</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+<span class="linenos">30</span>        <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://example.com/page/&quot;</span>
+<span class="linenos">31</span>    <span class="c1"># If the counter is set to 2 or more, then the URL follows a different format</span>
+<span class="linenos">32</span>    <span class="k">else</span><span class="p">:</span>
+<span class="linenos">33</span>        <span class="c1"># Construct the URL by including (through the use of format and the {} notation) the number of the counter</span>
+<span class="linenos">34</span>        <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://example.com/page/</span><span class="si">{}</span><span class="s2">/&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">start_page</span><span class="p">)</span>
+<span class="linenos">35</span>    <span class="c1"># Get the content of the URL, using the headers defined in line 11</span>
+<span class="linenos">36</span>    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+<span class="linenos">37</span>    <span class="c1"># Read the collected HTML content in BeautifulSoup using the &#39;lxml&#39; parser</span>
+<span class="linenos">38</span>    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">,</span> <span class="s2">&quot;lxml&quot;</span><span class="p">)</span>
+<span class="linenos">39</span>    <span class="c1"># Find the section that contains the list of articles; oftentimes it is included in the &lt;main&gt; element tag, but this may</span>
+<span class="linenos">40</span>    <span class="c1"># change depending on the Wordpress theme adopted and on the organisation of the contents on the website</span>
+<span class="linenos">41</span>    <span class="n">main_section</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;main&quot;</span><span class="p">)</span>
+<span class="linenos">42</span>    <span class="c1"># Find all instances of the &lt;article&gt; tag, identifying the elements that contain the articles information; similar to the</span>
+<span class="linenos">43</span>    <span class="c1"># &lt;main&gt; element tag, this may vary. A post/content may be labelled as e.g. &#39;article&#39; or &#39;news&#39;, and may be identified by an</span>
+<span class="linenos">44</span>    <span class="c1"># element tag such as &lt;article&gt; or &lt;div class=&quot;news&quot;&gt;. The script should therefore be adapted depending on the structure of the</span>
+<span class="linenos">45</span>    <span class="c1"># website being scraped; if e.g. a &lt;div class=&quot;news&quot;&gt; is employed, the syntax (&quot;div&quot;, {&quot;class&quot;: &quot;news&quot;}) should be used</span>
+<span class="linenos">46</span>    <span class="c1"># instead of (&quot;article&quot;)</span>
+<span class="linenos">47</span>    <span class="n">articles</span> <span class="o">=</span> <span class="n">main_section</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;article&quot;</span><span class="p">)</span>
+<span class="linenos">48</span>    <span class="c1"># For each article found</span>
+<span class="linenos">49</span>    <span class="k">for</span> <span class="n">article</span> <span class="ow">in</span> <span class="n">articles</span><span class="p">:</span>
+<span class="linenos">50</span>        <span class="c1"># Find the first heading tag</span>
+<span class="linenos">51</span>        <span class="n">article_title</span> <span class="o">=</span> <span class="n">article</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">heading_tags</span><span class="p">)</span>
+<span class="linenos">52</span>        <span class="c1"># For each heading tag, find all the hyperlinks tags (&lt;a&gt;)</span>
+<span class="linenos">53</span>        <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">article_title</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">):</span>
+<span class="linenos">54</span>            <span class="nb">print</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="linenos">55</span>            <span class="c1"># Extract the &#39;href&#39; attribute containing the URL to the article, and add it to the &#39;links&#39; list</span>
+<span class="linenos">56</span>            <span class="n">links</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">url</span><span class="p">[</span><span class="s2">&quot;href&quot;</span><span class="p">])</span>
+<span class="linenos">57</span>        <span class="c1"># Wait two seconds before collecting the next article, to avoid making too many requests to the server</span>
+<span class="linenos">58</span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="linenos">59</span>    <span class="c1"># Increase the counter by 1</span>
+<span class="linenos">60</span>    <span class="n">start_page</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+<section id="transliterating-emojis-in-the-corpus">
+<span class="sidenote"><sup>9</sup><code class="docutils literal notranslate"><span class="pre">CATLISM</span></code></span><h2>Transliterating emojis in the corpus <label for='sidenote-role-9' class='margin-toggle'><span id="id11">
+<sup>9</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-9' name='sidenote-role-9' class='margin-toggle'><span class="sidenote d-n"><sup>9</sup><code class="docutils literal notranslate"><span class="pre">CATLISM</span></code></span><a class="headerlink" href="#transliterating-emojis-in-the-corpus" title="Permalink to this heading">#</a></h2>
+<section id="function-to-transliterate-emojis-using-two-different-output-formats">
+<h3>Function to transliterate emojis (using two different output formats)<a class="headerlink" href="#function-to-transliterate-emojis-using-two-different-output-formats" title="Permalink to this heading">#</a></h3>
+<p>The function defined in <code class="docutils literal notranslate"><span class="pre">[s6.04]</span></code> can be imported into any script and be used with the included syntax</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">demojize</span><span class="p">(</span><span class="n">INPUT</span><span class="p">,</span> <span class="n">OUTPUT_FORMAT</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="literal-block-wrapper docutils container" id="s6-04">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s6.04]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s6.04_demojize.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s6-04" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import the required module to transliterate emojis</span>
+<span class="linenos"> 2</span><span class="kn">import</span> <span class="nn">emoji</span>
+<span class="linenos"> 3</span>
+<span class="linenos"> 4</span><span class="c1"># Define the function called &#39;demojize&#39;)</span>
+<span class="linenos"> 5</span><span class="k">def</span> <span class="nf">demojize</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">output</span><span class="p">):</span>
+<span class="linenos"> 6</span><span class="w">    </span><span class="sd">&quot;&quot;&quot;Converts emoji(s) found in a string of text into their transliterated CLDR version; input is:</span>
+<span class="linenos"> 7</span>
+<span class="linenos"> 8</span><span class="sd">    text: the string of text with one or more emojis</span>
+<span class="linenos"> 9</span><span class="sd">    output: the format of the &#39;output.</span>
+<span class="linenos">10</span>
+<span class="linenos">11</span><span class="sd">    If &#39;output&#39; is set to &#39;default&#39;, the result for 🙃 is {upside-down_face}</span>
+<span class="linenos">12</span><span class="sd">    If &#39;output&#39; is set to custom, result is {upside^down^face}</span>
+<span class="linenos">13</span>
+<span class="linenos">14</span><span class="sd">    Usage follows the syntax</span>
+<span class="linenos">15</span><span class="sd">    demojize(INPUT, FORMAT)</span>
+<span class="linenos">16</span><span class="sd">    &quot;&quot;&quot;</span>
+<span class="linenos">17</span>
+<span class="linenos">18</span>    <span class="c1"># If &#39;output&#39; is set to &#39;default&#39;, apply the standard transliteration using square brackets as delimiters</span>
+<span class="linenos">19</span>    <span class="k">if</span> <span class="n">output</span> <span class="o">==</span> <span class="s2">&quot;default&quot;</span><span class="p">:</span>
+<span class="linenos">20</span>        <span class="k">return</span> <span class="n">emoji</span><span class="o">.</span><span class="n">demojize</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">delimiters</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;{&quot;</span><span class="p">,</span> <span class="s2">&quot;}&quot;</span><span class="p">))</span>
+<span class="linenos">21</span>    <span class="c1"># Else if set to &#39;custom&#39; do:</span>
+<span class="linenos">22</span>    <span class="k">elif</span> <span class="n">output</span> <span class="o">==</span> <span class="s2">&quot;custom&quot;</span><span class="p">:</span>
+<span class="linenos">23</span>        <span class="c1"># Create a list and store inside of it the text to be processed</span>
+<span class="linenos">24</span>        <span class="n">out_text</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<span class="linenos">25</span>        <span class="c1"># Use the function &#39;emoji_count&#39; to count the total number of identified emojis</span>
+<span class="linenos">26</span>        <span class="n">emoji_count</span> <span class="o">=</span> <span class="n">emoji</span><span class="o">.</span><span class="n">emoji_count</span><span class="p">(</span><span class="n">out_text</span><span class="p">)</span>
+<span class="linenos">27</span>        <span class="c1"># For each identified emoji do:</span>
+<span class="linenos">28</span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">emoji_count</span><span class="p">):</span>
+<span class="linenos">29</span>            <span class="c1"># Take the first (and only) emoji in the list of emojis found, created through the function &#39;emoji_list&#39;.</span>
+<span class="linenos">30</span>            <span class="c1"># The function create, for each emoji, three data-points: &#39;emoji&#39; containing the actual emoji;</span>
+<span class="linenos">31</span>            <span class="c1"># &#39;match_start&#39; indicates the positional value of the first character of the emoji; &#39;match_end the positional</span>
+<span class="linenos">32</span>            <span class="c1"># value of the last character of the emoji.</span>
+<span class="linenos">33</span>            <span class="n">first_emoji</span> <span class="o">=</span> <span class="n">emoji</span><span class="o">.</span><span class="n">emoji_list</span><span class="p">(</span><span class="n">out_text</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="linenos">34</span>            <span class="c1"># Store the three aforementioned data-points in three separate variables</span>
+<span class="linenos">35</span>            <span class="n">found_emoji</span> <span class="o">=</span> <span class="n">first_emoji</span><span class="p">[</span><span class="s2">&quot;emoji&quot;</span><span class="p">]</span>
+<span class="linenos">36</span>            <span class="n">emoji_start</span> <span class="o">=</span> <span class="n">first_emoji</span><span class="p">[</span><span class="s2">&quot;match_start&quot;</span><span class="p">]</span>
+<span class="linenos">37</span>            <span class="n">emoji_end</span> <span class="o">=</span> <span class="n">first_emoji</span><span class="p">[</span><span class="s2">&quot;match_end&quot;</span><span class="p">]</span>
+<span class="linenos">38</span>            <span class="c1"># Apply the standard demojize function to the identified emoji, and replace the underscore _ with the character ^</span>
+<span class="linenos">39</span>            <span class="n">demojized</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
+<span class="linenos">40</span>                <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">emoji</span><span class="o">.</span><span class="n">demojize</span><span class="p">(</span><span class="n">found_emoji</span><span class="p">,</span> <span class="n">delimiters</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;{&quot;</span><span class="p">,</span> <span class="s2">&quot;}&quot;</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
+<span class="linenos">41</span>            <span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">,</span> <span class="s2">&quot;^&quot;</span><span class="p">)</span>
+<span class="linenos">42</span>            <span class="c1"># Replace the hyphen with the character ^</span>
+<span class="linenos">43</span>            <span class="n">demojized</span> <span class="o">=</span> <span class="n">demojized</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot;^&quot;</span><span class="p">)</span>
+<span class="linenos">44</span>            <span class="c1"># Replace the emoji with its transliterated version in the original text</span>
+<span class="linenos">45</span>            <span class="n">out_text</span><span class="p">[</span><span class="n">emoji_start</span><span class="p">:</span><span class="n">emoji_end</span><span class="p">]</span> <span class="o">=</span> <span class="n">demojized</span>
+<span class="linenos">46</span>        <span class="c1"># Return the full text with transliterated emojis</span>
+<span class="linenos">47</span>        <span class="k">return</span> <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">out_text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-of-message-before-the-transliteration">
+<h3>Example of message before the transliteration<a class="headerlink" href="#example-of-message-before-the-transliteration" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e6-06">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.06]</span></code></span><a class="headerlink" href="#e6-06" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>oh<span class="w"> </span>good<span class="w"> </span>you’re<span class="w"> </span>up<span class="w"> </span>😄,<span class="w"> </span>here<span class="w"> </span>are<span class="w"> </span>a<span class="w"> </span>million<span class="w"> </span>Tweets<span class="w"> </span>to<span class="w"> </span>look<span class="w"> </span>at
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-e6-06-after-emojis-transliteration-through-s6-04">
+<h3>Example <code class="docutils literal notranslate"><span class="pre">[e6.06]</span></code> after emojis transliteration through <code class="docutils literal notranslate"><span class="pre">[s6.04]</span></code><a class="headerlink" href="#example-e6-06-after-emojis-transliteration-through-s6-04" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e6-07">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e6.07]</span></code></span><a class="headerlink" href="#e6-07" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>#<span class="w"> </span>using<span class="w"> </span>option<span class="w"> </span>&#39;default&#39;
+<span class="nt">&lt;text&gt;</span>oh<span class="w"> </span>good<span class="w"> </span>you&#39;re<span class="w"> </span>up<span class="w"> </span>{grinning_face_with_smiling_eyes},<span class="w"> </span>here<span class="w"> </span>are<span class="w"> </span>a<span class="w"> </span>million<span class="w"> </span>Tweets<span class="w"> </span>to<span class="w"> </span>look<span class="w"> </span>at<span class="nt">&lt;/text&gt;</span>
+
+#<span class="w"> </span>using<span class="w"> </span>option<span class="w"> </span>&#39;custom&#39;
+<span class="nt">&lt;text&gt;</span>oh<span class="w"> </span>good<span class="w"> </span>you&#39;re<span class="w"> </span>up<span class="w"> </span>{grinning^face^with^smiling^eyes},<span class="w"> </span>here<span class="w"> </span>are<span class="w"> </span>a<span class="w"> </span>million<span class="w"> </span>Tweets<span class="w"> </span>to<span class="w"> </span>look<span class="w"> </span>at<span class="nt">&lt;/text&gt;</span>
+</pre></div>
+</div>
+</div>
+<hr class="footnotes docutils" />
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../cdm/index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Analysing crypto-drug market fora</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../og/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">The communicative modus operandi of online child sexual groomers</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-twitter-data-for-the-corpus">Collecting Twitter data for the corpus</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-twitter-data-for-the-corpus-using-twint">Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">twint</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-twitter-data-for-the-corpus-using-snscrape">Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extract-the-data-from-twint-output-to-xml-format">Extract the data from <code class="docutils literal notranslate"><span class="pre">twint</span></code> output to XML format</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s6-02">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s6.02]</span></code></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-wordpress-blog-data-for-the-corpus">Collecting Wordpress blog data for the corpus</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#syntax-used-for-the-wordpress-blog-pages">Syntax used for the Wordpress blog pages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-links-to-all-the-posts-in-a-blog">Collecting links to all the posts in a blog</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transliterating-emojis-in-the-corpus">Transliterating emojis in the corpus </a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#function-to-transliterate-emojis-using-two-different-output-formats">Function to transliterate emojis (using two different output formats)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-message-before-the-transliteration">Example of message before the transliteration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-e6-06-after-emojis-transliteration-through-s6-04">Example <code class="docutils literal notranslate"><span class="pre">[e6.06]</span></code> after emojis transliteration through <code class="docutils literal notranslate"><span class="pre">[s6.04]</span></code></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Matteo Di Cristofaro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Matteo Di Cristofaro.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+
+  <footer class="bd-footer">
+  </footer>
+<script async src="https://analytics.umami.is/script.js" data-website-id="c69c4e7a-b900-47c2-bab5-a154909a8bc5"></script>
+
+  </body>
+</html>

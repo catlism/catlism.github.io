@@ -3,18 +3,20 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-theme="dark">
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-
+    <link href="_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="_static/logo.svg" rel="icon" type="image/svg+xml">
     <title>Corpus Approaches to Language in Social Media | Online Compendium &#8212; CATLISM | Online Compendium</title>
   
   
   
   <script data-cfasync="false">
-    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
   
@@ -32,7 +34,11 @@
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -47,19 +53,21 @@
     <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/asciinema-player_2.6.1.js"></script>
     <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
-    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script src="_static/main.js"></script>
     <script src="_static/design-tabs.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="On scripts and tools" href="on_scripts.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
   
   
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
 
   
   
@@ -128,9 +136,113 @@
     <p class="title logo__title">CATLISM | Online Compendium</p>
   
 </a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="eval_metadata/index.html">Metadata evaluation</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="eval_metadata/facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="eval_metadata/instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="eval_metadata/twitter/index.html">Twitter metadata</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/twitter/tw_snscrape-metadata.html">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="eval_metadata/youtube/index.html">Youtube metadata</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="data_collection/index.html">Data collection</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="data_collection/general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="data_collection/social_media_platforms/index.html">Social Media Platforms</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="case_studies/index.html">Case-studies: CATLISM practical applications</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="case_studies/cdm/index.html">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2"><a class="reference internal" href="case_studies/frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
     </div>
 </nav></div>
     </div>
@@ -275,7 +387,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#on-scripts-and-tools">On scripts and tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-this-online-compendium">How to use this online compendium</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-the-online-compendium">Structure of the online compendium</a></li>
 </ul>
             </nav>
         </div>
@@ -289,47 +402,422 @@ document.write(`
                   
   <section id="corpus-approaches-to-language-in-social-media-online-compendium">
 <h1>Corpus Approaches to Language in Social Media | Online Compendium<a class="headerlink" href="#corpus-approaches-to-language-in-social-media-online-compendium" title="Permalink to this heading">#</a></h1>
-<img alt="Cover for the book Corpus Approaches to Language in Social Media" class="img-responsive align-right" src="_images/cover.jpg" />
+<img alt="Cover for the book Corpus Approaches to Language in Social Media" class="img-responsive align-right" src="https://images.tandf.co.uk/common/jackets/crclarge/978100322/9781003225218.jpg" />
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>Version 1.0.0</strong> of the online compendium will be published in early September</p>
+<div class="line-block">
+<div class="line">You are browsing version   v1.0.0</div>
+<div class="line">Current and older versions can be downloaded from the <a class="reference external" href="https://github.com/catlism/catlism.github.io/releases">Github releases page</a></div>
 </div>
-<p>This website serves as online compendium for the book <a class="reference external" href="https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701"><em><strong>Corpus Approaches to Language in Social Media</strong></em></a> (CATLISM), written by Matteo Di Cristofaro and published by Routledge for the series <a class="reference external" href="https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593"><em>Routledge Advances in Corpus Linguistics</em></a>. A <strong>preview of the book</strong> (Chapter 1) can be <a class="reference external" href="https://www.taylorfrancis.com/books/mono/10.4324/9781003225218/corpus-approaches-language-social-media-matteo-di-cristofaro">found on taylorfrancis.com</a>.</p>
-<p>From the book blurb:</p>
-<blockquote>
-<div><p>“This book showcases the unique possibilities of <strong>corpus linguistic methodologies</strong> in engaging with and analysing language <strong>data from social media</strong>, surveying current approaches and offering <strong>guidelines and best practices</strong> for doing language analysis.<br />
-The volume provides an overview of how language in social media has been approached by both linguists and non-linguists, before digging deeper into the identification of <strong>datasets needs to fill linguistic investigations of social media</strong> and the technical aspects of particular platforms which may influence analysis, such as emoticons, retweets, and metadata. Sample <strong>Python code</strong>, along with general guidelines for using it, are provided to empower researchers to <strong>apply these techniques</strong> in their own work, supported by <strong>actual examples from three real-life case studies</strong>.”</p>
-</div></blockquote>
-<p>The online compendium will contain:</p>
-<ul class="simple">
-<li><p>the scripts included in the volume - downloadable and formatted using colour-coded syntax highlighting - aimed at processing data from webpages, blogs, fora, Facebook, Instagram, Twitter, Youtube</p></li>
-<li><p>interactive videos documenting the use of the commands and tools employed throughout the volume</p></li>
-<li><p>further scripts and instructions for tools aimed at collecting data from platforms that, due to reasons of space, could not be included in the volume</p></li>
-<li><p>updates to scripts and commands in case – due to technical changes - they become ineffective/outdated</p></li>
-<li><p>links to preservation copies of all the web pages cited in the volume as archived through The Wayback Machine</p></li>
-</ul>
-<p>Where possible, all the materials are published under the open source <a class="reference external" href="https://choosealicense.com/licenses/gpl-3.0/">GPLv3</a> license.</p>
-<section id="on-scripts-and-tools">
-<h2>On scripts and tools<a class="headerlink" href="#on-scripts-and-tools" title="Permalink to this heading">#</a></h2>
-<p>The following excerpt from <em>Corpus Approaches to Language in Social Media</em> provides some context for the scripts and tools proposed in the volume and shared through this online compendium.</p>
-<p>“In addition to CLI [Command-Line Interface] tools, practical applications of the data-processing techniques are exemplified by means of code written in Python. The choice may look strongly unbalanced towards those readers who already have some degree of acquaintance with Python, while those without any previous experience with Python or any other programming language may feel excluded and hindered. This choice is however motivated by the opposite aim: by shifting the focus from the purely functional aspects of code to its underlying rationale and subjective (human) decisions, the ‘reading of the code’ should - with a look at Rancière’s “ignorant schoolmaster” (1991<label for='sidenote-role-1' class='margin-toggle'><span id="id1">
+</div>
+<p>This website serves as online compendium for the book <a class="reference external" href="https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701"><em><strong>Corpus Approaches to Language in Social Media</strong></em></a> (<code class="docutils literal notranslate"><span class="pre">CATLISM</span></code>; Di Cristofaro 2023) published in the series <a class="reference external" href="https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593"><em>Routledge Advances in Corpus Linguistics</em></a><label for='sidenote-role-1' class='margin-toggle'><span id="id1">
 <sup>1</sup></span>
 
-</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote"><sup>1</sup>Rancière, Jacques. <em>The Ignorant Schoolmaster: Five Lessons in Intellectual Emancipation</em>. Stanford, Calif: Stanford University Press, 1991.</span>) - allow readers to approach the intricacies of programming from a different perspective. One that appreciates “the way code signifies” (Marino 2020:5<label for='sidenote-role-2' class='margin-toggle'><span id="id2">
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote"><sup>1</sup>A preview of the book (Chapter 1) <a class="reference external" href="https://www.taylorfrancis.com/books/mono/10.4324/9781003225218/corpus-approaches-language-social-media-matteo-di-cristofaro">is available from taylorfrancis.com</a></span>.</p>
+<p>The focus of both this compendium and the book is the <strong>collection, processing, and formatting of digital data from <em>social media</em></strong> (understood as “any digital content [that] provides the user with the ability to interact with it […] through a unique uniform resource locator (URL)”<label for='sidenote-role-2' class='margin-toggle'><span id="id2">
 <sup>2</sup></span>
 
-</label><input type='checkbox' id='sidenote-role-2' name='sidenote-role-2' class='margin-toggle'><span class="sidenote"><sup>2</sup>Marino, Mark C. <em>Critical Code Studies</em>. Software Studies. Cambridge, Massachusetts: The MIT Press, 2020.</span>) and opens up paths of interpretations and inferencing, while leaving aside the “chauvinism that creeps into discussions of programming” that produces “a hierarchy based on an arbitrary judgment of what is “real” or “good” or “right” code” (cf. Marino 2020:16–17). For this reason not much relevance nor presence is given to sharing an a-priori knowledge of Python – its basic syntax, loops, ifs, etc…; rather, explanations and descriptions of code snippets and scripts are progressively laid out and blended inside the discursive narration of the operations conducted through the code, and inside the code itself in the form of comments. The use of comments is common practice among developers and scholars to make the code more accessible, and certainly not a novel approach to computational approaches for the social sciences. Here these ‘in-line narrations’ are tailored to the purpose of the volume, aimed at enabling social scientists to grasp the relation between the code and the considerations pertaining the analysis of language, regardless of their coding skills. […] The choice adopted with regards to programming languages follows the simple principle that social scientists should not take the place of programmers or acquire advanced skills in coding, but must be able to engage with code and understand the “medial changes” it opens up (cf. Berry 2012<label for='sidenote-role-3' class='margin-toggle'><span id="id3">
+</label><input type='checkbox' id='sidenote-role-2' name='sidenote-role-2' class='margin-toggle'><span class="sidenote"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">4</span></code></span>) <strong>for corpus purposes</strong> (see also <a class="reference internal" href="on_scripts.html"><span class="std std-doc">On scripts and tools</span></a>).<br />
+The aim is</p>
+<span class="sidenote"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">2-4</span></code></span><blockquote>
+<div><p>proposing a <em><strong>broad view of corpus approaches</strong></em> able to include those notions and mechanisms [’<em>digital technicalities</em>] that – while not classically associated with natural language – are […] i) foundational of the digital environments in which language production and exchanges occur and ii) at the core of the techniques that are used to produce, collect, and process the focus of investigation, that is, digital textual data.<label for='sidenote-role-3' class='margin-toggle'><span id="id3">
 <sup>3</sup></span>
 
-</label><input type='checkbox' id='sidenote-role-3' name='sidenote-role-3' class='margin-toggle'><span class="sidenote"><sup>3</sup>Berry, David M. ‘Introduction: Understanding the Digital Humanities’. In <em>Understanding Digital Humanities</em>, edited by David M. Berry, 1–20. London: Palgrave Macmillan UK, 2012. https://doi.org/10.1057/9780230371934.</span>). Without any presumption of providing all the required basics for coding, the ‘narrations’ […] should also represent a gentle introduction to more advance studies of programming languages, such as the ones included in the materials suggested in the ‘Advanced reading’, a non-comprehensive list of resources – based on the author’s experience – for readers wishing to learn more about Python and its usage.
-At last, readers may at times wonder why what appears to be a more complex approach conducted through the use of code has been adopted instead of e.g. point-and-click tools: this choice is deliberate, and tries to propose the benefits of an ‘artisanal’ approach to digital data along the lines of situated software - i.e. “software designed in and for a particular social situation or context” and that “doesn’t need to be personalized [but that] is personal from its inception” (Shirky 2004<label for='sidenote-role-4' class='margin-toggle'><span id="id4">
+</label><input type='checkbox' id='sidenote-role-3' name='sidenote-role-3' class='margin-toggle'><span class="sidenote d-n"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">2-4</span></code></span></p>
+</div></blockquote>
+<p>As such this <strong>online compendium contains</strong>:</p>
+<p><span class="fas fa-check sd-text-success"></span> the scripts included in the volume<label for='sidenote-role-4' class='margin-toggle'><span id="id4">
 <sup>4</sup></span>
 
-</label><input type='checkbox' id='sidenote-role-4' name='sidenote-role-4' class='margin-toggle'><span class="sidenote"><sup>4</sup>Shirky, Clay. ‘Situated Software’. <em>Clay Shirky’s Writings About the Internet</em>, 30 March 2004. https://web.archive.org/web/20040411202042/http://www.shirky.com/writings/situated_software.html.</span>). Considering how each piece of online data (e.g. a web page) is likely to have some unique characteristics (e.g. in its structure), an ‘artisanal’ approach presents in fact two initial advantages: first it allows researchers to build custom (semi-)automated workflows for the collection of the data that correctly fulfils the research needs and required procedures; second it enables researchers to automatically process data that could otherwise not be collected through existing ready-made procedures or tools. Customisation is not however free from downsides, the major being a degree of experience required with programming and markup languages, as well as with digital data itself. The third advantage therefore is that having to deal with said languages requires an ever-increasing understanding of the characteristics and the ‘nature’ of digital data, which in turn informs the proficiency in the practices of processing and analysing it. To further prompt such benefits the scripts presented throughout the volume present variations, whereby the same operation is conducted using different approaches (syntax, modules, rationales) across different scripts. A choice that, although not in line with Python’s principles (the so-called Zen of Python; cf. Peters 2004<label for='sidenote-role-5' class='margin-toggle'><span id="id5">
-<sup>5</sup></span>
-
-</label><input type='checkbox' id='sidenote-role-5' name='sidenote-role-5' class='margin-toggle'><span class="sidenote"><sup>5</sup>Peters, Tim. ‘PEP 20 – The Zen of Python | Peps.Python.Org’, 19 August 2004. https://peps.python.org/pep-0020/.</span>), will hopefully encourage readers to engage with the code, its meanings, and its possibilities.”</p>
-<hr class="footnotes docutils" />
+</label><input type='checkbox' id='sidenote-role-4' name='sidenote-role-4' class='margin-toggle'><span class="sidenote"><sup>4</sup>Version 1.0.0 reflects the contents, scripts and code snippets as they appear in the printed book; subsequent versions may contain modifications and updates. Consult the <a class="reference external" href="https://catlism.github.io/changelog.html">changelog</a> for a list of changes.</span> - downloadable and formatted using colour-coded syntax highlighting - aimed at <a class="reference internal" href="data_collection/index.html"><span class="std std-doc">collecting</span></a> and <a class="reference internal" href="data_processing/index.html"><span class="std std-doc">processing</span></a> data from webpages, blogs, fora, Facebook, Instagram, Twitter, Youtube</p>
+<p><span class="fas fa-check sd-text-success"></span> interactive videos documenting the use of the commands and tools employed throughout the volume</p>
+<p><span class="fas fa-check sd-text-success"></span> further scripts and instructions for tools aimed at collecting data from platforms that, due to reasons of space, could not be included in the volume;</p>
+<p><span class="fas fa-check sd-text-success"></span> updates to scripts and commands in case – due to technical changes - they become ineffective/outdated;</p>
+<p><span class="fas fa-check sd-text-success"></span> updates to topics discussed in the book;</p>
+<p><span class="fas fa-check sd-text-success"></span> links to preservation copies of all the online materials referenced in the volume as archived through The Wayback Machine</p>
+<p>Where possible and unless stated differently (e.g. in the case of quotations), all the textual contents are published under <a class="reference external" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons CC BY-NC 4.0</a>, while all the scripts are licenced under the open source <a class="reference external" href="https://choosealicense.com/licenses/gpl-3.0/">GPLv3</a> licence - see <a class="reference internal" href="faq.html"><span class="std std-doc"> FAQs</span></a> for more details on how to (re)use the materials.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Descriptions and further details for scripts and code originally available in the book are left out of this compendium. Scripts and code exclusive to this online compendium are fully described and detailed in each relevant page/section.<br />
+A number of answers to common questions are included in the <a class="reference internal" href="faq.html"><span class="std std-doc"><span class="fa fa-circle-question"></span> FAQs</span></a> section.</p>
+</div>
+<section id="how-to-use-this-online-compendium">
+<h2>How to use this online compendium<a class="headerlink" href="#how-to-use-this-online-compendium" title="Permalink to this heading">#</a></h2>
+<p>Consult the <a class="reference internal" href="using_oc.html"><span class="std std-doc">Using the online compendium</span></a> section for more details on how to use this website, as well as a legend of the symbols used throughout the pages.</p>
+</section>
+<section id="structure-of-the-online-compendium">
+<h2>Structure of the online compendium<a class="headerlink" href="#structure-of-the-online-compendium" title="Permalink to this heading">#</a></h2>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Contents<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using_oc.html">Using the online compendium</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="using_oc.html#asciinema-interactive-videos"><code class="docutils literal notranslate"><span class="pre">asciinema</span></code> interactive videos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="using_oc.html#legend">Legend</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="from_the_book/index.html">From the book</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/content_updates.html">Content updates</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/content_updates.html#hi-q-vs-linkedin">Hi-Q vs Linkedin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/content_updates.html#robots-txt">robots.txt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/content_updates.html#youtube-dl">youtube-dl</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/errata.html">Errata</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#missing-command-c4-05">Missing command <code class="docutils literal notranslate"><span class="pre">[c4.05]</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#pages-209-218">Pages 209-218</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#page-227">Page 227</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#pages-229-233">Pages 229-233</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#pages-233-235">Pages 233-235</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#page-236">Page 236</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#pages-255-262">Pages 255-262</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#page-291">Page 291</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_the_book/errata.html#page-321">Page 321</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="setup_env/index.html">Setting up the working environment</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="setup_env/conda.html#install-conda-through-miniconda-on-linux">Install <code class="docutils literal notranslate"><span class="pre">conda</span></code> (through Miniconda) on Linux <span class="fab fa-linux"></span> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+<li class="toctree-l3"><a class="reference internal" href="setup_env/conda.html#conda-basic-commands"><code class="docutils literal notranslate"><span class="pre">conda</span></code> basic commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="setup_env/conda.html#install-pip-through-conda">Install <code class="docutils literal notranslate"><span class="pre">pip</span></code> through <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="eval_metadata/index.html">Metadata evaluation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="eval_metadata/index.html#contents">Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/facebook/index.html">Facebook metadata</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-posts-metadata.html#data-points-from-facebook-scraper-for-posts">Data points from <code class="docutils literal notranslate"><span class="pre">facebook-scraper</span></code> for posts</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-posts-metadata.html#table-5-21"><em>Table 5.21</em> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-profiles-metadata.html#data-points-from-facebook-scraper-for-profiles">Data points from <code class="docutils literal notranslate"><span class="pre">facebook-scraper</span></code> for profiles</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-profiles-metadata.html#table-5-22"><em>Table 5.22</em> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-groups-metadata.html#data-points-from-facebook-scraper-for-groups">Data points from <code class="docutils literal notranslate"><span class="pre">facebook-scraper</span></code> for groups</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/facebook/fb_fbs-groups-metadata.html#table-5-23"><em>Table 5.23</em> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/instagram/index.html">Instagram metadata</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-posts-metadata.html#data-points-from-instaloader-for-posts">Data points from <code class="docutils literal notranslate"><span class="pre">instaloader</span></code> for posts</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-posts-metadata.html#table-5-17"><em>Table 5.17</em> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-comments-metadata.html#data-points-from-instaloader-for-comments">Data points from <code class="docutils literal notranslate"><span class="pre">instaloader</span></code> for comments</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/instagram/ig_instaloader-comments-metadata.html#table-5-18"><em>Table 5.18</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/twitter/index.html">Twitter metadata</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/twitter/tw_snscrape-metadata.html">Twitter metadata</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/twitter/tw_snscrape-metadata.html#data-points-from-snscrape">Data points from <code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/twitter/tw_snscrape-metadata.html#table-5-12"><em>Table 5.12</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="eval_metadata/youtube/index.html">Youtube metadata</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/youtube/yt_ytdl-videos-metadata.html#data-points-from-youtube-dl-for-videos">Data points from <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> for videos</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/youtube/yt_ytdl-videos-metadata.html#table-5-28"><em>Table 5.28</em> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="eval_metadata/youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="eval_metadata/youtube/yt_ytcd-comments-metadata.html#data-points-from-youtube-comment-downloader-for-comments">Data points from <code class="docutils literal notranslate"><span class="pre">youtube-comment-downloader</span></code> for comments</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="eval_metadata/youtube/yt_ytcd-comments-metadata.html#table-5-29"><em>Table 5.29</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data_collection/index.html">Data collection</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_collection/general_purpose/index.html">General purpose scrapers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/archivebox.html">Archivebox</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/archivebox.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/archivebox.html#using-the-tool">Using the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/archivebox.html#extracting-the-data">Extracting the data</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/trafilatura.html">Trafilatura</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/trafilatura.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/trafilatura.html#using-the-tool">Using the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/trafilatura.html#example-of-data-extracted-with-trafilatura">Example of data extracted with Trafilatura</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html">BeautifulSoup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#extracting-the-data">Extracting the data</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#extract-links-from-html-pages">Extract links from HTML pages</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#download-html-pages">Download HTML pages</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#use-requests-in-script-s5-02a">Use <code class="docutils literal notranslate"><span class="pre">requests</span></code> in script <code class="docutils literal notranslate"><span class="pre">[s5.02a]</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#extract-metadata-from-the-downloaded-html-pages">Extract metadata from the downloaded HTML pages</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#download-pdf-files-linked-in-html-pages">Download PDF files linked in HTML pages</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#extract-the-contents-of-pdf-files-as-plain-text">Extract the contents of PDF files as plain-text</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#create-an-xml-corpus-combining-the-metadata-from-html-pages-and-the-contents-of-pdf-files">Create an XML corpus combining the metadata from HTML pages and the contents of PDF files</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/general_purpose/beautifulsoup.html#basic-structure-of-the-metadata-table-included-in-morethesis-pages">Basic structure of the metadata table included in MoreThesis pages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_collection/social_media_platforms/index.html">Social Media Platforms</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html">Facebook</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#using-the-tool">Using the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#extracting-the-data">Extracting the data</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#extract-data-from-posts">Extract data from posts</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#how-to-use-script-s5-10">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.10]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#extract-data-from-profiles">Extract data from profiles</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#implement-the-collection-of-profile-details-s5-11-into-s5-10">Implement the collection of profile details (<code class="docutils literal notranslate"><span class="pre">[s5.11]</span></code>) into <code class="docutils literal notranslate"><span class="pre">[s5.10]</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/facebook/fbs.html#example-of-data-extracted-with-s5-10">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.10]</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html">Instagram</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#using-the-tool">Using the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#extracting-the-data">Extracting the data</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#extracting-and-merging-data-from-posts-and-comments">Extracting and merging data from posts and comments</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#how-to-use-script-s5-09">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.09]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#example-of-data-extracted-with-s5-09">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.09]</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/instagram/instaloader.html#fix-login-error-using-a-session-file-for-the-login-option">Fix <code class="docutils literal notranslate"><span class="pre">login</span> <span class="pre">error</span></code> using a ‘session file’ for the <code class="docutils literal notranslate"><span class="pre">--login</span></code> option</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html">Twitter</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#using-the-tool">Using the tool</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#collecting-tweets-from-a-list-of-search-terms">Collecting tweets from a list of search terms</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#install-the-required-modules">Install the required modules</a></li>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#script-to-read-the-list-of-search-terms-and-download-tweets">Script to read the list of search terms and download tweets</a></li>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#using-script-s5-07">Using script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#example-of-filename-saved-by-script-s5-07">Example of filename saved by script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#extracting-the-data">Extracting the data</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#how-to-use-script-s5-08">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/twitter/snscrape.html#example-of-data-extracted-with-s5-08">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html">Youtube</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#installing-the-tools">Installing the tools</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#using-the-tools">Using the tools</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#extracting-the-data">Extracting the data</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#extract-collected-youtube-data-everything-except-comments-to-xml-format">Extract collected Youtube data (everything except comments) to XML format</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#how-to-use-script-s5-13">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#extract-collected-youtube-comments-to-xml-format">Extract collected Youtube comments to XML format</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#example-of-data-extracted-with-s5-13">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#example-of-data-extracted-with-s5-14">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.14]</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#example-of-subtitle-formats">Example of subtitle formats</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#ttml-format">TTML format </a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#srv-format-without-auto-captioning">SRV format without auto-captioning</a></li>
+<li class="toctree-l5"><a class="reference internal" href="data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html#srv-format-with-auto-captioning">SRV format with auto-captioning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data_processing/index.html">Data processing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/dates_time_unix.html">Date, time, and Unix</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/dates_time_unix.html#parse-a-date-in-string-format">Parse a date in string format</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/text_normalisation.html">Text normalisation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/text_normalisation.html#using-the-tool">Using the tool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/text_normalisation.html#example-of-normalised-data-in-xml-format-generated-with-vard">Example of normalised data in XML format generated with VARD</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/pdf_word_images.html">PDF, Word, images</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/pdf_word_images.html#extract-text-from-pdf-and-other-multimedia-formats">Extract text from PDF and other multimedia formats</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/pdf_word_images.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/pdf_word_images.html#using-the-tool">Using the tool</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/language_detection.html">Language detection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/language_detection.html#identify-a-set-of-predefined-languages-in-txt-files-and-write-a-summary-report-in-spreadsheet-format">Identify a set of predefined languages in .txt files and write a summary report in spreadsheet format</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/emoticons_emojis.html">Emoticons and emojis</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/emoticons_emojis.html#install-the-required-module">Install the required module<svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/emoticons_emojis.html#function-to-transliterate-emojis-using-two-different-output-formats">Function to transliterate emojis (using two different output formats)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/hashtags.html">Hashtags (word segmentation)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/hashtags.html#install-the-required-module">Install the required module<svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/hashtags.html#segment-hashtags-and-transform-them-into-xml-tags-in-a-xml-corpus-file">Segment hashtags and transform them into XML tags in a XML corpus file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/hashtags.html#example-of-hashtags-transformed-through-s5-17">Example of hashtags transformed through <code class="docutils literal notranslate"><span class="pre">[s5.17]</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/hashtags.html#word-segmentation-tools-for-languages-other-than-english">Word segmentation tools for languages other than English</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/other_elements.html">Other elements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/other_elements.html#regular-expression-to-capture-usernames-e-g-matteodic">Regular expression to capture usernames (e.g. <code class="docutils literal notranslate"><span class="pre">&#64;matteodic</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/other_elements.html#regular-expression-to-capture-simple-urls-e-g-http-example-com-and-https-example-com">Regular expression to capture simple URLs (e.g. <code class="docutils literal notranslate"><span class="pre">http://example.com</span></code> and <code class="docutils literal notranslate"><span class="pre">https://example.com</span></code>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/other_elements.html#regular-expression-to-capture-complex-urls-e-g-simple-urls-plus-email-addresses-mailto-links-urls-with-optional-parameters">Regular expression to capture complex URLs (e.g. simple URLs plus email addresses, <code class="docutils literal notranslate"><span class="pre">mailto:</span></code> links, URLs with optional parameters)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/other_elements.html#regular-expression-to-capture-cashtags-e-g-eur">Regular expression to capture cashtags (e.g. <code class="docutils literal notranslate"><span class="pre">$EUR</span></code>)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/annotations/stanza.html">Annotations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_processing/annotations/stanza.html#stanza">Stanza</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/annotations/stanza.html#installing-the-tool">Installing the tool</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/annotations/stanza.html#importing-the-module-and-installing-a-language-model">Importing the module and installing a language model</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/annotations/stanza.html#annotating-textual-data-from-txt-files-into-xml-format">Annotating textual data from <code class="docutils literal notranslate"><span class="pre">.txt</span></code> files into XML format</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_processing/annotations/stanza.html#how-to-use-script-s5-19">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.19]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/annotations/stanza.html#annotating-textual-data-from-txt-files-into-verticalised-xml-format">Annotating textual data from <code class="docutils literal notranslate"><span class="pre">.txt</span></code> files into verticalised XML format</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="data_processing/annotations/stanza.html#how-to-use-script-s5-20">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.20]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="data_processing/annotations/stanza.html#example-of-data-extracted-with-script-s5-19">Example of data extracted with script <code class="docutils literal notranslate"><span class="pre">[s5.19]</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data_exploration/index.html">Data exploration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data_preservation/index.html">Data preservation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_preservation/git101.html">Git 101: the basics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#initiate-git-in-a-local-folder">Initiate <code class="docutils literal notranslate"><span class="pre">git</span></code> in a local folder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#clone-a-remote-repository">Clone a remote repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#add-all-changes-even-from-previously-untracked-files-to-the-local-git-database-i-e-stage-the-changes">Add all changes (even from previously untracked files) to the local <code class="docutils literal notranslate"><span class="pre">git</span></code> database (i.e. <code class="docutils literal notranslate"><span class="pre">stage</span></code> the changes)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#record-commit-all-changes-along-with-a-textual-description-of-what-has-been-changed">Record (<code class="docutils literal notranslate"><span class="pre">commit</span></code>) all changes, along with a textual description of what has been changed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#send-push-all-changes-to-the-remote-repository">Send (<code class="docutils literal notranslate"><span class="pre">push</span></code>) all changes to the remote repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#obtain-fetch-all-changes-from-the-remote-repository">Obtain (<code class="docutils literal notranslate"><span class="pre">fetch</span></code>) all changes from the remote repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#include-apply-fetch-all-changes-from-the-remote-repository-to-the-local-repository">Include/apply (<code class="docutils literal notranslate"><span class="pre">fetch</span></code>) all changes from the remote repository to the local repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data_preservation/git101.html#obtain-and-include-apply-pull-all-changes-from-the-remote-repository-to-the-local-repository">Obtain <em>and</em> include/apply (<code class="docutils literal notranslate"><span class="pre">pull</span></code>) all changes from the remote repository to the local repository</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="case_studies/index.html">Case-studies: CATLISM practical applications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="case_studies/cdm/index.html">Analysing crypto-drug market fora</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/cdm/index.html#overall-structure-of-a-post-in-silk-road-1">Overall structure of a post in Silk Road 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/cdm/index.html#extracting-the-data-from-html-pages-to-xml-format">Extracting the data from HTML pages to XML format</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/cdm/index.html#meta-representation-of-contents-extracted-in-xml-format-through-s6-01-silk-road-corpus">Meta-representation of contents extracted in XML format through <code class="docutils literal notranslate"><span class="pre">[s6.01]</span></code> (Silk Road corpus)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/cdm/index.html#meta-representation-of-the-xml-structure-of-the-reference-corpus-dpm-corpus">Meta-representation of the XML structure of the reference corpus (DPM corpus)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/cdm/index.html#example-of-page-from-silk-road-1-forum">Example of page from Silk Road 1 forum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="case_studies/frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/frg/index.html#collecting-twitter-data-for-the-corpus">Collecting Twitter data for the corpus</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#collecting-twitter-data-for-the-corpus-using-twint">Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">twint</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#collecting-twitter-data-for-the-corpus-using-snscrape">Collecting Twitter data for the corpus using <code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#extract-the-data-from-twint-output-to-xml-format">Extract the data from <code class="docutils literal notranslate"><span class="pre">twint</span></code> output to XML format</a></li>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#example-of-data-extracted-with-s6-02">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s6.02]</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/frg/index.html#collecting-wordpress-blog-data-for-the-corpus">Collecting Wordpress blog data for the corpus</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#syntax-used-for-the-wordpress-blog-pages">Syntax used for the Wordpress blog pages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#collecting-links-to-all-the-posts-in-a-blog">Collecting links to all the posts in a blog</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/frg/index.html#transliterating-emojis-in-the-corpus">Transliterating emojis in the corpus </a><ul>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#function-to-transliterate-emojis-using-two-different-output-formats">Function to transliterate emojis (using two different output formats)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#example-of-message-before-the-transliteration">Example of message before the transliteration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="case_studies/frg/index.html#example-e6-06-after-emojis-transliteration-through-s6-04">Example <code class="docutils literal notranslate"><span class="pre">[e6.06]</span></code> after emojis transliteration through <code class="docutils literal notranslate"><span class="pre">[s6.04]</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/og/index.html#collecting-the-data-from-perverted-justice">Collecting the data from Perverted Justice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/og/index.html#creating-the-final-corpus">Creating the final corpus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/og/index.html#sample-from-the-final-corpus">Sample from the final corpus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="case_studies/og/index.html#example-of-the-interactive-plot-created-for-the-visual-exploration-of-collocations">Example of the interactive plot created for the visual exploration of collocations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html"><span class="fa fa-circle-question"></span> FAQs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#how-do-i-cite-your-work">How do I cite your work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#can-i-use-modify-script-x-for-my-own-purposes-publication">Can I use/modify script X for my own purposes/publication?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#a-script-command-is-not-working-can-you-help">A script/command is not working, can you help?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#i-have-found-an-error-in-a-script-can-you-fix-it">I have found an error in a script, can you fix it?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#i-have-found-an-error-in-a-webpage-can-you-fix-it">I have found an error in a webpage, can you fix it?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#i-have-found-an-error-in-the-book-can-you-add-it-to-the-errata-section">I have found an error in the book, can you add it to the <span class="xref myst">Errata</span> section?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#i-have-feedback-suggestions-how-can-i-share-it-them-with-you">I have feedback/suggestions, how can I share it/them with you?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#can-i-download-the-online-compendium-for-local-offline-use">Can I download the online compendium for local/offline use?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#can-i-download-all-the-scripts-and-only-the-scripts-at-once">Can I download all the scripts (and only the scripts) at once?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html#the-website-looks-too-dark">The website looks too dark!</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="changelog.html#version-1-0-0">Version 1.0.0</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+</div>
+</div>
+</details><hr class="footnotes docutils" />
 </section>
 </section>
 
@@ -342,6 +830,15 @@ At last, readers may at times wonder why what appears to be a more complex appro
                 <footer class="bd-footer-article">
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
+    <a class="right-next"
+       href="on_scripts.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">On scripts and tools</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -357,7 +854,8 @@ At last, readers may at times wonder why what appears to be a more complex appro
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#on-scripts-and-tools">On scripts and tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-this-online-compendium">How to use this online compendium</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-of-the-online-compendium">Structure of the online compendium</a></li>
 </ul>
   </nav></div>
 
@@ -394,6 +892,9 @@ By Matteo Di Cristofaro
   
   <div class="footer-item">
     
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
   </div>
   
 </div></div>

@@ -1,0 +1,930 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="dark">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <link href="../../_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="../../_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="../../_static/logo.svg" rel="icon" type="image/svg+xml">
+    <title>Twitter metadata &#8212; CATLISM | Online Compendium</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/asciinema-player_2.6.1.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="../../_static/main.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'eval_metadata/twitter/tw_snscrape-metadata';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Youtube metadata" href="../youtube/index.html" />
+    <link rel="prev" title="Twitter metadata" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">CATLISM | Online Compendium</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">Metadata evaluation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Twitter metadata</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../youtube/index.html">Youtube metadata</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_collection/index.html">Data collection</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/social_media_platforms/index.html">Social Media Platforms</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/twitter/snscrape.html">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../case_studies/index.html">Case-studies: CATLISM practical applications</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../case_studies/cdm/index.html">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../case_studies/frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/eval_metadata/twitter/tw_snscrape-metadata.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Twitter metadata</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-points-from-snscrape">Data points from <code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#table-5-12"><em>Table 5.12</em></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="twitter-metadata">
+<h1>Twitter metadata<a class="headerlink" href="#twitter-metadata" title="Permalink to this heading">#</a></h1>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Consult <a class="reference internal" href="../index.html"><span class="std std-doc">Metadata evaluation</span></a> for an explanation of the evaluation system included in the column <em>Int. Data</em>.</p>
+</div>
+<section id="data-points-from-snscrape">
+<span class="sidenote"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">197-203</span></code></span><h2>Data points from <code class="docutils literal notranslate"><span class="pre">snscrape</span></code><label for='sidenote-role-1' class='margin-toggle'><span id="id1">
+<sup>1</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote d-n"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">197-203</span></code></span><a class="headerlink" href="#data-points-from-snscrape" title="Permalink to this heading">#</a></h2>
+<section id="table-5-12">
+<h3><em>Table 5.12</em><a class="headerlink" href="#table-5-12" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute name</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Int. Data</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">_type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Internal value added by snscrape, whose value describes the snscrape module used to collect the data (in the case of the twitter-search module, the value is <code class="docutils literal notranslate"><span class="pre">snscrape.modules.twitter.Tweet</span></code>)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">cashtags.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>An array containing the string version of the cashtags included in the tweet, without the $ character</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">content</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Content of the tweet with URLs transformed through the Twitter link shortener t.co (see attribute renderedContent)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">conversationId</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The unique ID of the conversation</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">coordinates.*</span></code></p></td>
+<td><p>object</p></td>
+<td><p>[SID]</p></td>
+<td><p>JSON object containing the geographical coordinates in Decimal Degrees (DD) format</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">coordinates._type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Internal value added by snscrape, whose value describes the snscrape module used to collect the data</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">coordinates.latitude</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The latitude of the location from where the tweet was sent</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">coordinates.longitude</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The longitude of the location from where the tweet was sent</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">date</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Date on which the tweet was posted, using the format YYYY-MM-DDTHH:MM:SS+TZ</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">hashtags.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>List of strings containing the hashtags included in the tweet’s contents as strings stripped of the # character; one item for each hashtag</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">id</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Tweet unique ID</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">inReplyToTweetId</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID + SID</p></td>
+<td><p>Unique ID of the tweet the current tweet replies to</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">inReplyToUser.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>Array of JSON objects, each one containing details about the creator of the tweet the current tweet replies to, formatted according to the same structure as user.*</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">lang</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The language in which the content of the tweet is written, as identified by Twitter using 2-character <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1 format</a></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">likeCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of likes (visually rendered with the image of a heart on Twitter) the tweet has at the time of scraping</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">media.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>Array of JSON objects, each one containing details regarding the attached media file</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">media._type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Internal value added by snscrape, whose value describes the snscrape module used to collect the data</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">media.fullUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>For pictures only. Direct link to the full-sized image – appearing when a user clicks on the tweet’s image</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">media.previewUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>For pictures only. Direct link to the resized image – appearing when viewing the tweet from the web or app interface</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">media.thumbnailUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>For videos only. Direct link to the video thumbnail</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">media.variants.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>For videos only. Array of JSON objects, each one containing details regarding the different versions Twitter creates for the attached video.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">media.variants.0._type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>For videos only. Internal value added by snscrape, whose value describes the snscrape module used to collect the data</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">media.variants.0.bitrate</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>For videos only. The bitrate of the video</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">media.variants.0.contentType</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>For videos only. The textual description of the format of the file, e.g. “video/mp4”</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">media.variants.0.url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>For videos only. Direct link to the video</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">mentionedUsers.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>Array of JSON objects composed of items containing details about users included in the tweet’s contents, formatted according to the same structure as user.*</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">outlinks.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>A list of strings, each one representing one of the links included in the tweet’s contents</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">place.*</span></code></p></td>
+<td><p>object</p></td>
+<td><p>[SID]</p></td>
+<td><p>JSON object containing the details of the place from where the tweet was posted, as identified by Twitter</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">place._type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Internal value added by snscrape, whose value describes the snscrape module used to collect the data</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">place.fullName</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Full extended name of the location as identified by Twitter</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">place.name</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Short name of the location as identified by Twitter</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">place.type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Type of location: e.g. “Country”, “City”, etc…</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">place.country</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The name of the country where the place is located, as identified by Twitter</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">place.countryCode</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Two-letter country code of the country, in <a class="reference external" href="https://en.wikipedia.org/wiki/ISO_3166-2">ISO 3166-2 format</a></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">quoteCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of times the tweet has been quoted by other tweets at the time of scraping</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">quotedTweet.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>JSON object composed of items containing details about the quoted tweet and its creator, formatted according to the same structure as the JSON object for the original tweet</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">renderedContent</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Content (from attribute content) of the tweet as it appears on the web or app interface and formatted without the use of t.co URL shortener</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">replyCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Numbers of replies the tweet has received at the time of scraping</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">retweetCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of times the tweet has been retweeted at the time of scraping</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">retweetedTweet.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>Array of JSON objects containing details about the retweeted tweet and its creator, formatted according to the same structure as the JSON object for the original tweet</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">source</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID + SID</p></td>
+<td><p>Link in HTML syntax of the application used by the user to post the tweet; for the official Twitter mobile interface this appears as &lt;a href=”https://mobile.twitter.com” rel=”nofollow”&gt;Twitter Web App</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">sourceLabel</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Plain text name of the application used by the user to post the tweet</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">sourceUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Direct link to the used-application website</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">tcooutlinks.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>A list of strings, each one representing one of the links included in the tweet’s contents shortened using the t.co service</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Direct URL to the tweet</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.*</span></code></p></td>
+<td><p>object</p></td>
+<td><p>[SID]</p></td>
+<td><p>JSON object containing details about the account who posted the tweet</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user._type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Internal value added by snscrape, whose value described the snscrape module used to collect the data</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.created</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Date on which the account was created, using the format YYYY-MM-DDTHH:MM:SS+TZ</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.description</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Description associated with the account, as written by the user and as appearing in the web or app interface</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.descriptionUrls.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>JSON object containing details about the URLS included in the account description – one JSON item per URL</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.descriptionUrls.indices.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>List containing the positional number of the first and last character of the URL</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.descriptionUrls.tcourl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Shortened URL using the t.co service</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.descriptionUrls.text</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Plain text version of the URL, as written by the user</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.descriptionUrls.url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID + SID</p></td>
+<td><p>Full URL version, including http(s):// - if missing from the text version</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.displayname</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The full name associated with the account, as written by the user</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.favouritesCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of tweets the account has liked at the time of scraping</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.followersCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of followers the account has at the time of scraping</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.friendsCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of users the account is following – i.e. friends – at the time of scraping</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The account unique ID</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.label.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>Array of JSON objects, each one containing details regarding the government and state-affiliated media account labels on Twitter</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.label._type</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Internal value added by snscrape, whose value describes the snscrape module used to collect the data</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.label.badgeUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Direct link to the image appearing, in the Twitter interface, next to the description of the label</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.label.description</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Description appearing on the Twitter interface describing the details of the media account according to government and state-affiliated labels employed by Twitter</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.label.longDescription</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Longer description (if available) of the media account according to government and state-affiliated labels employed by Twitter</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.label.url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>URL to the documentation ‘About government and state-affiliated media account labels on Twitter’</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.linkTcourl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Shortened version of the URL the user has indicated in the ‘Website’ field of the account, using t.co</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.linkUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Plain text version of the URL the user has indicated in the ‘Website’ field of the account</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.listedCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of public lists the account is a member of, at the time of scraping</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.location</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>User-defined location of the account’s profile</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.mediaCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of multimedia contents the account has uploaded on Twitter at the time of scraping</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.profileBannerUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Direct link to the account’s banner picture</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.profileImageUrl</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Direct link to the account’s profile picture</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.protected</span></code></p></td>
+<td><p>bool</p></td>
+<td><p>SID</p></td>
+<td><p>Indicates whether the account is public – i.e. anyone can read the user’s tweets, value equal to “false” – or private – only accounts that have been accepted by the user can read their tweets, value equal to “true”</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.rawDescription</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Description associated with the account, as written by the user with URLs transformed through the Twitter link shortener t.co</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.statusesCount</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The number of tweets the account has posted at the time of scraping</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Full link to the account’s page, using the username as written by the user</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">user.username</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Username of the account through which the tweet was posted</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">user.verified</span></code></p></td>
+<td><p>bool</p></td>
+<td><p>SID</p></td>
+<td><p>Indicates whether the account is verified by Twitter or not – i.e. if a blue stamp is shown next to the displayname value</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="footnotes docutils" />
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Twitter metadata</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../youtube/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Youtube metadata</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-points-from-snscrape">Data points from <code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#table-5-12"><em>Table 5.12</em></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Matteo Di Cristofaro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Matteo Di Cristofaro.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+
+  <footer class="bd-footer">
+  </footer>
+<script async src="https://analytics.umami.is/script.js" data-website-id="c69c4e7a-b900-47c2-bab5-a154909a8bc5"></script>
+
+  </body>
+</html>

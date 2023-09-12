@@ -1,0 +1,858 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="dark">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <link href="../../../_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="../../../_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="../../../_static/logo.svg" rel="icon" type="image/svg+xml">
+    <title>Twitter &#8212; CATLISM | Online Compendium</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/asciinema-player_2.6.1.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="../../../_static/main.js"></script>
+    <script src="../../../_static/design-tabs.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'data_collection/social_media_platforms/twitter/snscrape';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Youtube" href="../youtube/yt-dlp_ytcd.html" />
+    <link rel="prev" title="Instagram" href="../instagram/instaloader.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">CATLISM | Online Compendium</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../eval_metadata/index.html">Metadata evaluation</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/twitter/index.html">Twitter metadata</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/twitter/tw_snscrape-metadata.html">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/youtube/index.html">Youtube metadata</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../index.html">Data collection</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../index.html">Social Media Platforms</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../youtube/yt-dlp_ytcd.html">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../case_studies/index.html">Case-studies: CATLISM practical applications</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../case_studies/cdm/index.html">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../case_studies/frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/data_collection/social_media_platforms/twitter/snscrape.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Twitter</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-the-tool">Installing the tool</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-tool">Using the tool</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-tweets-from-a-list-of-search-terms">Collecting tweets from a list of search terms</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#install-the-required-modules">Install the required modules</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#script-to-read-the-list-of-search-terms-and-download-tweets">Script to read the list of search terms and download tweets</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#using-script-s5-07">Using script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-filename-saved-by-script-s5-07">Example of filename saved by script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extracting-the-data">Extracting the data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-script-s5-08">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code><svg aria-hidden="true" class="sd-octicon sd-octicon-repo-template sd-text-success" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill-rule="evenodd"></path></svg></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s5-08">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code></a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="twitter">
+<h1>Twitter<a class="headerlink" href="#twitter" title="Permalink to this heading">#</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>As of late June 2023 a number of changes have made anonymous access to tweets impossible, consequently rendering the use of tools such as <code class="docutils literal notranslate"><span class="pre">snscrape</span></code> and other “API-less” ones useless. Apparently Twitter will reinstate anonymous access in the future (see <a class="reference external" href="https://github.com/JustAnotherArchivist/snscrape/issues/996">this discussion from <code class="docutils literal notranslate"><span class="pre">snscrape</span></code> issue pages</a>), but <strong>as of 10th September 2023 a number of commands and scripts included in this page - and marked with <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg> are not working</strong>. They are included to support the contents of the book, and new (working) ones will be included if anything changes.</p>
+</div>
+<p>Data collection from Twitter can be obtained using <a class="reference external" href="https://github.com/JustAnotherArchivist/snscrape"><code class="docutils literal notranslate"><span class="pre">snscrape</span></code></a>.<br />
+Options and arguments for the tool can be found in the <a class="reference external" href="https://github.com/JustAnotherArchivist/snscrape">official documentation</a>.</p>
+<section id="installing-the-tool">
+<span class="sidenote"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">183</span></code></span><h2>Installing the tool<label for='sidenote-role-1' class='margin-toggle'><span id="id1">
+<sup>1</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote d-n"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">183</span></code></span><a class="headerlink" href="#installing-the-tool" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="c5-11">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.11]</span></code></span><a class="headerlink" href="#c5-11" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>snscrape
+</pre></div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-video" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 4.5a.25.25 0 00-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 00.25-.25V4.75a.25.25 0 00-.25-.25H1.75zM0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0122.25 21H1.75A1.75 1.75 0 010 19.25V4.75z"></path><path d="M9 15.584V8.416a.5.5 0 01.77-.42l5.576 3.583a.5.5 0 010 .842L9.77 16.005a.5.5 0 01-.77-.42z"></path></svg> <code class="docutils literal notranslate"><span class="pre">[c5.11]</span></code><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<script id="asciicast-607191" data-theme="monokai" data-preload="1" data-font-size="25px"  src="https://asciinema.org/a/607191.js" async></script></div>
+</details></section>
+<section id="using-the-tool">
+<span class="sidenote"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">&quot;CATLISM,</span> <span class="pre">183;</span> <span class="pre">191-192</span></code></span><h2>Using the tool<label for='sidenote-role-2' class='margin-toggle'><span id="id2">
+<sup>2</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-2' name='sidenote-role-2' class='margin-toggle'><span class="sidenote d-n"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">&quot;CATLISM,</span> <span class="pre">183;</span> <span class="pre">191-192</span></code></span><a class="headerlink" href="#using-the-tool" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="c5-12">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.12]</span></code></span><a class="headerlink" href="#c5-12" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">snscrape</span> <span class="p">[</span><span class="n">GLOBAL</span><span class="o">-</span><span class="n">OPTIONS</span><span class="p">]</span> <span class="n">SCRAPER</span><span class="o">-</span><span class="n">NAME</span> <span class="p">[</span><span class="n">SCRAPER</span><span class="o">-</span><span class="n">OPTIONS</span><span class="p">]</span> <span class="p">[</span><span class="n">SCRAPER</span><span class="o">-</span><span class="n">ARGUMENTS</span> <span class="o">...</span> <span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-13">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.13]</span></code></span><a class="headerlink" href="#c5-13" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">snscrape</span> <span class="n">SCRAPER</span><span class="o">-</span><span class="n">NAME</span> <span class="o">--</span><span class="n">help</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-14">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.14]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg></span><a class="headerlink" href="#c5-14" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">snscrape</span> <span class="o">-</span><span class="n">v</span> <span class="o">--</span><span class="n">progress</span> <span class="o">--</span><span class="n">jsonl</span> <span class="n">twitter</span><span class="o">-</span><span class="n">search</span> <span class="s1">&#39;[QUERY]&#39;</span> <span class="o">&gt;</span> <span class="n">OUTPUT</span><span class="o">.</span><span class="n">jsonl</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-15">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.15]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg></span><a class="headerlink" href="#c5-15" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">snscrape</span> <span class="o">-</span><span class="n">v</span> <span class="o">--</span><span class="n">progress</span> <span class="o">--</span><span class="n">jsonl</span> <span class="n">twitter</span><span class="o">-</span><span class="n">search</span> <span class="s1">&#39;(&quot;technology&quot; OR &quot;physics&quot;) (&quot;space&quot; OR &quot;rockets&quot;)&#39;</span> <span class="o">&gt;</span> <span class="n">OUTPUT</span><span class="o">.</span><span class="n">jsonl</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-16">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.16]</span></code></span><a class="headerlink" href="#c5-16" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="s2">&quot;technology&quot;</span> <span class="n">OR</span> <span class="s2">&quot;physics&quot;</span><span class="p">)</span> <span class="p">(</span><span class="s2">&quot;space&quot;</span> <span class="n">OR</span> <span class="s2">&quot;rockets&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-17">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.17]</span></code></span><a class="headerlink" href="#c5-17" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">techology</span> <span class="n">OR</span> <span class="n">physics</span><span class="p">)</span> <span class="p">(</span><span class="n">space</span> <span class="n">OR</span> <span class="n">rokets</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-18">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.18]</span></code></span><a class="headerlink" href="#c5-18" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="s2">&quot;technology&quot;</span> <span class="n">OR</span> <span class="s2">&quot;physics&quot;</span><span class="p">)</span> <span class="o">-</span><span class="p">(</span><span class="s2">&quot;games&quot;</span> <span class="n">OR</span> <span class="s2">&quot;console&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-19">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.19]</span></code></span><a class="headerlink" href="#c5-19" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">(</span>🏴<span class="w"> </span>OR<span class="w"> </span>🌈<span class="o">)</span><span class="w"> </span>since_time:1654034400<span class="w"> </span>until_time:1656626399
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-20">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.20]</span></code></span><a class="headerlink" href="#c5-20" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">source</span><span class="p">:</span><span class="n">twitter_web_app</span> <span class="n">since_time</span><span class="p">:</span><span class="mi">1654038000</span> <span class="n">until_time</span><span class="p">:</span><span class="mi">1659308400</span> <span class="nd">@POTUS</span> <span class="o">-</span><span class="n">from</span><span class="p">:</span><span class="n">POTUS</span> <span class="o">-</span><span class="nb">filter</span><span class="p">:</span><span class="n">media</span>
+</pre></div>
+</div>
+</div>
+<section id="collecting-tweets-from-a-list-of-search-terms">
+<span class="sidenote"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">193-196</span></code></span><h3>Collecting tweets from a list of search terms<label for='sidenote-role-3' class='margin-toggle'><span id="id3">
+<sup>3</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-3' name='sidenote-role-3' class='margin-toggle'><span class="sidenote d-n"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">193-196</span></code></span><a class="headerlink" href="#collecting-tweets-from-a-list-of-search-terms" title="Permalink to this heading">#</a></h3>
+<section id="install-the-required-modules">
+<h4>Install the required modules<a class="headerlink" href="#install-the-required-modules" title="Permalink to this heading">#</a></h4>
+<div class="literal-block-wrapper docutils container" id="c5-21">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.21]</span></code></span><a class="headerlink" href="#c5-21" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pandas</span>
+</pre></div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-video" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 4.5a.25.25 0 00-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 00.25-.25V4.75a.25.25 0 00-.25-.25H1.75zM0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0122.25 21H1.75A1.75 1.75 0 010 19.25V4.75z"></path><path d="M9 15.584V8.416a.5.5 0 01.77-.42l5.576 3.583a.5.5 0 010 .842L9.77 16.005a.5.5 0 01-.77-.42z"></path></svg> <code class="docutils literal notranslate"><span class="pre">[c5.21]</span></code><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<script id="asciicast-607192" data-theme="monokai" data-preload="1" data-font-size="25px"  src="https://asciinema.org/a/607192.js" async></script></div>
+</details></section>
+<section id="script-to-read-the-list-of-search-terms-and-download-tweets">
+<h4>Script to read the list of search terms and download tweets<a class="headerlink" href="#script-to-read-the-list-of-search-terms-and-download-tweets" title="Permalink to this heading">#</a></h4>
+<div class="literal-block-wrapper docutils container" id="s5-07">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s5.07_snscrape_from_list.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg></span><a class="headerlink" href="#s5-07" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="c1"># Adapted from the following sources</span>
+<span class="linenos">  2</span><span class="c1"># https://github.com/MartinBeckUT/TwitterScraper/blob/127b15b3878ab0c1b74438011056d89152701db1/snscrape/python-wrapper/snscrape-python-wrapper.py</span>
+<span class="linenos">  3</span><span class="c1"># https://github.com/satomlins/snscrape-by-location/blob/1f605fb6e1caff3577198792a7717ffbf3c3f454/snscrape_by_location_tutorial.ipynb</span>
+<span class="linenos">  4</span><span class="c1"># Import the modules for: using snscrape; working with dataframes; employing command-line arguments; using regular expressions</span>
+<span class="linenos">  5</span>
+<span class="linenos">  6</span><span class="kn">import</span> <span class="nn">snscrape.modules.twitter</span> <span class="k">as</span> <span class="nn">sntwitter</span>
+<span class="linenos">  7</span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="linenos">  8</span><span class="kn">import</span> <span class="nn">argparse</span>
+<span class="linenos">  9</span><span class="kn">import</span> <span class="nn">re</span>
+<span class="linenos"> 10</span>
+<span class="linenos"> 11</span><span class="c1"># Add the ability to specify arguments for the script</span>
+<span class="linenos"> 12</span><span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">formatter_class</span><span class="o">=</span><span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentDefaultsHelpFormatter</span><span class="p">)</span>
+<span class="linenos"> 13</span><span class="c1"># Construct the first argument as the name of the file containing the search terms</span>
+<span class="linenos"> 14</span><span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;searchlist&quot;</span><span class="p">)</span>
+<span class="linenos"> 15</span><span class="c1"># Construct the optional second argument (following the label --max) as the maximum number of tweets to be collected</span>
+<span class="linenos"> 16</span><span class="c1"># for each search term</span>
+<span class="linenos"> 17</span><span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+<span class="linenos"> 18</span>    <span class="s2">&quot;--max&quot;</span><span class="p">,</span>
+<span class="linenos"> 19</span>    <span class="n">dest</span><span class="o">=</span><span class="s2">&quot;maxResults&quot;</span><span class="p">,</span>
+<span class="linenos"> 20</span>    <span class="nb">type</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="linenos"> 21</span>    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="linenos"> 22</span>    <span class="k">else</span> <span class="n">parser</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;--max-results N must be zero or positive&quot;</span><span class="p">),</span>
+<span class="linenos"> 23</span>    <span class="n">metavar</span><span class="o">=</span><span class="s2">&quot;N&quot;</span><span class="p">,</span>
+<span class="linenos"> 24</span>    <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Only return the first N results&quot;</span><span class="p">,</span>
+<span class="linenos"> 25</span><span class="p">)</span>
+<span class="linenos"> 26</span><span class="c1"># Read the provided arguments</span>
+<span class="linenos"> 27</span><span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+<span class="linenos"> 28</span><span class="c1"># Read the first argument as the name of the file containing the search terms</span>
+<span class="linenos"> 29</span><span class="n">search_list</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">searchlist</span>
+<span class="linenos"> 30</span><span class="c1"># Read the second (optional) argument as the maximum number of tweets to be collected for each search term</span>
+<span class="linenos"> 31</span><span class="n">maxResults</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">maxResults</span>
+<span class="linenos"> 32</span>
+<span class="linenos"> 33</span><span class="c1"># Open the search terms list</span>
+<span class="linenos"> 34</span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">search_list</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="linenos"> 35</span>    <span class="c1"># For every search terms do</span>
+<span class="linenos"> 36</span>    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+<span class="linenos"> 37</span>        <span class="c1"># Eliminate the &#39;newline&#39; character (\n)</span>
+<span class="linenos"> 38</span>        <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="linenos"> 39</span>        <span class="c1"># Clean the search term from characters that are invalid in filenames using a regular expression; this is used for the output file only.</span>
+<span class="linenos"> 40</span>        <span class="c1"># From https://stackoverflow.com/a/71199182</span>
+<span class="linenos"> 41</span>        <span class="n">clean_word</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[/</span><span class="se">\\</span><span class="s2">?%*:|</span><span class="se">\&quot;</span><span class="s2">&lt;&gt;\x7F\x00-\x1F]&quot;</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">word</span><span class="p">)</span>
+<span class="linenos"> 42</span>        <span class="c1"># Create an empty list that will contain the collected tweets</span>
+<span class="linenos"> 43</span>        <span class="n">tweets_list</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="linenos"> 44</span>        <span class="c1"># Collect tweets for the search terms, taking into account the maximum number of tweets (if supplied)</span>
+<span class="linenos"> 45</span>        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">tweet</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sntwitter</span><span class="o">.</span><span class="n">TwitterSearchScraper</span><span class="p">(</span><span class="n">word</span><span class="p">)</span><span class="o">.</span><span class="n">get_items</span><span class="p">()):</span>
+<span class="linenos"> 46</span>            <span class="c1"># Stop the collection of tweets once the maximum number supplied is reach</span>
+<span class="linenos"> 47</span>            <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">maxResults</span><span class="p">:</span>
+<span class="linenos"> 48</span>                <span class="k">break</span>
+<span class="linenos"> 49</span>            <span class="c1"># Add all the data-points collected for the tweet to the previously created list</span>
+<span class="linenos"> 50</span>            <span class="n">tweets_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+<span class="linenos"> 51</span>                <span class="p">[</span>
+<span class="linenos"> 52</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">date</span><span class="p">,</span>
+<span class="linenos"> 53</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+<span class="linenos"> 54</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">content</span><span class="p">,</span>
+<span class="linenos"> 55</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">url</span><span class="p">,</span>
+<span class="linenos"> 56</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">username</span><span class="p">,</span>
+<span class="linenos"> 57</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">followersCount</span><span class="p">,</span>
+<span class="linenos"> 58</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">replyCount</span><span class="p">,</span>
+<span class="linenos"> 59</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">retweetCount</span><span class="p">,</span>
+<span class="linenos"> 60</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">likeCount</span><span class="p">,</span>
+<span class="linenos"> 61</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">quoteCount</span><span class="p">,</span>
+<span class="linenos"> 62</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">lang</span><span class="p">,</span>
+<span class="linenos"> 63</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">outlinks</span><span class="p">,</span>
+<span class="linenos"> 64</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">media</span><span class="p">,</span>
+<span class="linenos"> 65</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">retweetedTweet</span><span class="p">,</span>
+<span class="linenos"> 66</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">quotedTweet</span><span class="p">,</span>
+<span class="linenos"> 67</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">inReplyToTweetId</span><span class="p">,</span>
+<span class="linenos"> 68</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">inReplyToUser</span><span class="p">,</span>
+<span class="linenos"> 69</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">mentionedUsers</span><span class="p">,</span>
+<span class="linenos"> 70</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">coordinates</span><span class="p">,</span>
+<span class="linenos"> 71</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">place</span><span class="p">,</span>
+<span class="linenos"> 72</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">hashtags</span><span class="p">,</span>
+<span class="linenos"> 73</span>                    <span class="n">tweet</span><span class="o">.</span><span class="n">cashtags</span><span class="p">,</span>
+<span class="linenos"> 74</span>                <span class="p">]</span>
+<span class="linenos"> 75</span>            <span class="p">)</span>
+<span class="linenos"> 76</span>            <span class="c1"># Create a dataframe from the tweets list above, naming the columns with the provided human-readable labels</span>
+<span class="linenos"> 77</span>            <span class="n">tweets_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+<span class="linenos"> 78</span>                <span class="n">tweets_list</span><span class="p">,</span>
+<span class="linenos"> 79</span>                <span class="n">columns</span><span class="o">=</span><span class="p">[</span>
+<span class="linenos"> 80</span>                    <span class="s2">&quot;Datetime&quot;</span><span class="p">,</span>
+<span class="linenos"> 81</span>                    <span class="s2">&quot;Tweet Id&quot;</span><span class="p">,</span>
+<span class="linenos"> 82</span>                    <span class="s2">&quot;Text&quot;</span><span class="p">,</span>
+<span class="linenos"> 83</span>                    <span class="s2">&quot;URL&quot;</span><span class="p">,</span>
+<span class="linenos"> 84</span>                    <span class="s2">&quot;Username&quot;</span><span class="p">,</span>
+<span class="linenos"> 85</span>                    <span class="s2">&quot;N. followers&quot;</span><span class="p">,</span>
+<span class="linenos"> 86</span>                    <span class="s2">&quot;N. replies&quot;</span><span class="p">,</span>
+<span class="linenos"> 87</span>                    <span class="s2">&quot;N. retweets&quot;</span><span class="p">,</span>
+<span class="linenos"> 88</span>                    <span class="s2">&quot;N. likes&quot;</span><span class="p">,</span>
+<span class="linenos"> 89</span>                    <span class="s2">&quot;N. quote&quot;</span><span class="p">,</span>
+<span class="linenos"> 90</span>                    <span class="s2">&quot;Language&quot;</span><span class="p">,</span>
+<span class="linenos"> 91</span>                    <span class="s2">&quot;Outlink&quot;</span><span class="p">,</span>
+<span class="linenos"> 92</span>                    <span class="s2">&quot;Media&quot;</span><span class="p">,</span>
+<span class="linenos"> 93</span>                    <span class="s2">&quot;Retweeted tweet&quot;</span><span class="p">,</span>
+<span class="linenos"> 94</span>                    <span class="s2">&quot;Quoted tweet&quot;</span><span class="p">,</span>
+<span class="linenos"> 95</span>                    <span class="s2">&quot;In reply to tweet ID&quot;</span><span class="p">,</span>
+<span class="linenos"> 96</span>                    <span class="s2">&quot;In reply to user&quot;</span><span class="p">,</span>
+<span class="linenos"> 97</span>                    <span class="s2">&quot;Mentioned users&quot;</span><span class="p">,</span>
+<span class="linenos"> 98</span>                    <span class="s2">&quot;Geo coordinates&quot;</span><span class="p">,</span>
+<span class="linenos"> 99</span>                    <span class="s2">&quot;Place&quot;</span><span class="p">,</span>
+<span class="linenos">100</span>                    <span class="s2">&quot;Hashtags&quot;</span><span class="p">,</span>
+<span class="linenos">101</span>                    <span class="s2">&quot;Cashtags&quot;</span><span class="p">,</span>
+<span class="linenos">102</span>                <span class="p">],</span>
+<span class="linenos">103</span>            <span class="p">)</span>
+<span class="linenos">104</span>            <span class="c1"># Export the dataframe to a tab-delimited CSV whose filename is equivalent to the search term cleaned from characters that cannot be included in filenames</span>
+<span class="linenos">105</span>            <span class="n">tweets_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">clean_word</span> <span class="o">+</span> <span class="s2">&quot;.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="using-script-s5-07">
+<h4>Using script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code><a class="headerlink" href="#using-script-s5-07" title="Permalink to this heading">#</a></h4>
+<p>From the terminal, once inside the folder where script <code class="docutils literal notranslate"><span class="pre">snscrape_from_list.py</span></code> has been saved and where the <code class="docutils literal notranslate"><span class="pre">SEARCH_LIST.txt</span></code> file resides, run command <code class="docutils literal notranslate"><span class="pre">[c5.22]</span></code> after changing <code class="docutils literal notranslate"><span class="pre">--max</span> <span class="pre">N</span></code> to the desired value (e.g. <code class="docutils literal notranslate"><span class="pre">--max</span> <span class="pre">10</span></code>).</p>
+<div class="literal-block-wrapper docutils container" id="c5-22">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.22]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-stop sd-text-danger" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path></svg></span><a class="headerlink" href="#c5-22" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">snscrape_from_list</span><span class="o">.</span><span class="n">py</span> <span class="n">SEARCH_LIST</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="nb">max</span> <span class="n">N</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-of-filename-saved-by-script-s5-07">
+<h4>Example of filename saved by script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code><a class="headerlink" href="#example-of-filename-saved-by-script-s5-07" title="Permalink to this heading">#</a></h4>
+<div class="literal-block-wrapper docutils container" id="e5-09">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.09]</span></code></span><a class="headerlink" href="#e5-09" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">(</span>🏴<span class="w"> </span>OR<span class="w"> </span>🌈<span class="o">)</span><span class="w"> </span>since_time-1654034400<span class="w"> </span>until_time-1656626399.csv
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="extracting-the-data">
+<span class="sidenote"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">204-206</span></code></span><h2>Extracting the data<label for='sidenote-role-4' class='margin-toggle'><span id="id4">
+<sup>4</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-4' name='sidenote-role-4' class='margin-toggle'><span class="sidenote d-n"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">204-206</span></code></span><a class="headerlink" href="#extracting-the-data" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="s5-08">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s5.08_extract_snscrape_jsonl.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s5-08" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import the required modules to read/write jsonl and xml files</span>
+<span class="linenos"> 2</span><span class="kn">import</span> <span class="nn">jsonlines</span>
+<span class="linenos"> 3</span><span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="c1"># Create the root element of the XML structure - named &#39;corpus&#39; -, which will contain all the extracted tweets</span>
+<span class="linenos"> 6</span><span class="c1"># as elements defined by the &#39;text&#39; tag (one tweet = one text)</span>
+<span class="linenos"> 7</span><span class="n">corpus</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s2">&quot;corpus&quot;</span><span class="p">)</span>
+<span class="linenos"> 8</span>
+<span class="linenos"> 9</span><span class="c1"># Open the jsonl file</span>
+<span class="linenos">10</span><span class="n">tweets</span> <span class="o">=</span> <span class="n">jsonlines</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;snscrape_output.jsonl&quot;</span><span class="p">)</span>
+<span class="linenos">11</span><span class="c1"># Read it line by line - i.e. one tweet at a time -, and for each line do:</span>
+<span class="linenos">12</span><span class="k">for</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">tweets</span><span class="p">:</span>
+<span class="linenos">13</span>    <span class="c1"># Read the selected data points and store each one in a separate variable</span>
+<span class="linenos">14</span>    <span class="n">tweet_id</span> <span class="o">=</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span>
+<span class="linenos">15</span>    <span class="n">tweet_date</span> <span class="o">=</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span>
+<span class="linenos">16</span>    <span class="n">tweet_username</span> <span class="o">=</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;user&quot;</span><span class="p">][</span><span class="s2">&quot;username&quot;</span><span class="p">]</span>
+<span class="linenos">17</span>    <span class="n">tweet_user_realname</span> <span class="o">=</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;user&quot;</span><span class="p">][</span><span class="s2">&quot;displayname&quot;</span><span class="p">]</span>
+<span class="linenos">18</span>    <span class="n">tweet_content</span> <span class="o">=</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+<span class="linenos">19</span>    <span class="c1"># The following variables should contain the value 0 if no urls are included or the tweet is not a retweet,</span>
+<span class="linenos">20</span>    <span class="c1"># and the value 1 when links are present or the tweet is a retweet</span>
+<span class="linenos">21</span>    <span class="n">tweet_urls_present</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;outlinks&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">1</span>
+<span class="linenos">22</span>    <span class="n">tweet_isretweet</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;retweetedTweet&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">1</span>
+<span class="linenos">23</span>    <span class="c1"># The extracted values are assigned as values to the arguments of a tag labelled &#39;text&#39; - contained inside of the main</span>
+<span class="linenos">24</span>    <span class="c1"># &lt;corpus&gt; element tag - separating one tweet from another. The actual content of the tweet is</span>
+<span class="linenos">25</span>    <span class="c1"># then enclosed inside of the &lt;text&gt; element tag using the notation &#39;.text&#39;</span>
+<span class="linenos">26</span>    <span class="n">etree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span>
+<span class="linenos">27</span>        <span class="n">corpus</span><span class="p">,</span>
+<span class="linenos">28</span>        <span class="s2">&quot;text&quot;</span><span class="p">,</span>
+<span class="linenos">29</span>        <span class="nb">id</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_id</span><span class="p">),</span>
+<span class="linenos">30</span>        <span class="n">date</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_date</span><span class="p">),</span>
+<span class="linenos">31</span>        <span class="n">username</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_username</span><span class="p">),</span>
+<span class="linenos">32</span>        <span class="n">user_realname</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_user_realname</span><span class="p">),</span>
+<span class="linenos">33</span>        <span class="n">urls_present</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_urls_present</span><span class="p">),</span>
+<span class="linenos">34</span>        <span class="n">isretweet</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweet_isretweet</span><span class="p">),</span>
+<span class="linenos">35</span>    <span class="p">)</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">tweet_content</span><span class="p">)</span>
+<span class="linenos">36</span><span class="c1"># The XML structure is created by adding all the extracted elements to the main &#39;corpus&#39; tag</span>
+<span class="linenos">37</span><span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">corpus</span><span class="p">)</span>
+<span class="linenos">38</span><span class="c1"># The resulting XML structure is written to the output.xml file using utf-8 encoding, adding the XML declaration</span>
+<span class="linenos">39</span><span class="c1"># at the beginning and graphically formatting the layout (&#39;pretty_print&#39;)</span>
+<span class="linenos">40</span><span class="n">tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;output.xml&quot;</span><span class="p">,</span> <span class="n">pretty_print</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<section id="how-to-use-script-s5-08">
+<h3>How to use script <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg><a class="headerlink" href="#how-to-use-script-s5-08" title="Permalink to this heading">#</a></h3>
+<p>Copy/download the file <code class="docutils literal notranslate"><span class="pre">s5.08_extract_snscrape_jsonl.py</span></code> inside the folder where the output file <code class="docutils literal notranslate"><span class="pre">snscrape_output.jsonl</span></code> downloaded through <code class="docutils literal notranslate"><span class="pre">snscrape</span></code> (e.g. through <code class="docutils literal notranslate"><span class="pre">c5.14</span></code>) resides; then browse inside the folder through the terminal, e.g.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>Downloads/twitter_data/
+</pre></div>
+</div>
+<p>At last, run the script from the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>s5.08_extract_snscrape_jsonl.py
+</pre></div>
+</div>
+</section>
+</section>
+<section id="example-of-data-extracted-with-s5-08">
+<span class="sidenote"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">204</span></code></span><h2>Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code><label for='sidenote-role-5' class='margin-toggle'><span id="id5">
+<sup>5</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-5' name='sidenote-role-5' class='margin-toggle'><span class="sidenote d-n"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">204</span></code></span><a class="headerlink" href="#example-of-data-extracted-with-s5-08" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="e5-10">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.10]</span></code></span><a class="headerlink" href="#e5-10" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;corpus&gt;</span>
+<span class="linenos">3</span><span class="w">  </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;ID_NUMBER&quot;</span><span class="w"> </span><span class="na">date=</span><span class="s">&quot;YYYY-MM-DDThh:mm:ssTZD&quot;</span><span class="w"> </span><span class="na">username=</span><span class="s">&quot;USERNAME&quot;</span><span class="w"> </span><span class="na">user_realname=</span><span class="s">&quot;USER_REAL_NAME&quot;</span><span class="w"> </span><span class="na">urls_present=</span><span class="s">&quot;0_OR_1&quot;</span><span class="w"> </span><span class="na">isretweet=</span><span class="s">&quot;0_OR_1&quot;</span><span class="nt">&gt;</span>TWEET<span class="w"> </span>TEXT<span class="nt">&lt;/text&gt;</span>
+<span class="linenos">4</span><span class="nt">&lt;/corpus&gt;</span>
+</pre></div>
+</div>
+</div>
+<hr class="footnotes docutils" />
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../instagram/instaloader.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Instagram</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../youtube/yt-dlp_ytcd.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Youtube</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-the-tool">Installing the tool</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-tool">Using the tool</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collecting-tweets-from-a-list-of-search-terms">Collecting tweets from a list of search terms</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#install-the-required-modules">Install the required modules</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#script-to-read-the-list-of-search-terms-and-download-tweets">Script to read the list of search terms and download tweets</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#using-script-s5-07">Using script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-filename-saved-by-script-s5-07">Example of filename saved by script <code class="docutils literal notranslate"><span class="pre">[s5.07]</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extracting-the-data">Extracting the data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-script-s5-08">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code><svg aria-hidden="true" class="sd-octicon sd-octicon-repo-template sd-text-success" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill-rule="evenodd"></path></svg></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s5-08">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.08]</span></code></a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Matteo Di Cristofaro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Matteo Di Cristofaro.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+
+  <footer class="bd-footer">
+  </footer>
+<script async src="https://analytics.umami.is/script.js" data-website-id="c69c4e7a-b900-47c2-bab5-a154909a8bc5"></script>
+
+  </body>
+</html>

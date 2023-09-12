@@ -1,0 +1,1081 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="dark">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <link href="../../_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="../../_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="../../_static/logo.svg" rel="icon" type="image/svg+xml">
+    <title>Youtube metadata for videos &#8212; CATLISM | Online Compendium</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/asciinema-player_2.6.1.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="../../_static/main.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'eval_metadata/youtube/yt_ytdl-videos-metadata';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Youtube metadata for comments" href="yt_ytcd-comments-metadata.html" />
+    <link rel="prev" title="Youtube metadata" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">CATLISM | Online Compendium</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">Metadata evaluation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../twitter/index.html">Twitter metadata</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../twitter/tw_snscrape-metadata.html">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Youtube metadata</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_collection/index.html">Data collection</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../data_collection/social_media_platforms/index.html">Social Media Platforms</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/twitter/snscrape.html">Twitter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data_collection/social_media_platforms/youtube/yt-dlp_ytcd.html">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../case_studies/index.html">Case-studies: CATLISM practical applications</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../case_studies/cdm/index.html">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../case_studies/frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/eval_metadata/youtube/yt_ytdl-videos-metadata.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Youtube metadata for videos</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-points-from-youtube-dl-for-videos">Data points from <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> for videos</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#table-5-28"><em>Table 5.28</em> <svg aria-hidden="true" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="youtube-metadata-for-videos">
+<h1>Youtube metadata for videos<a class="headerlink" href="#youtube-metadata-for-videos" title="Permalink to this heading">#</a></h1>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Consult <a class="reference internal" href="../index.html"><span class="std std-doc">Metadata evaluation</span></a> for an explanation of the evaluation system included in the column <em>Int. Data</em>.</p>
+</div>
+<section id="data-points-from-youtube-dl-for-videos">
+<span class="sidenote"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">255-262</span></code></span><h2>Data points from <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> for videos<label for='sidenote-role-1' class='margin-toggle'><span id="id1">
+<sup>1</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote d-n"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">255-262</span></code></span><a class="headerlink" href="#data-points-from-youtube-dl-for-videos" title="Permalink to this heading">#</a></h2>
+<section id="table-5-28">
+<h3><em>Table 5.28</em> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg><a class="headerlink" href="#table-5-28" title="Permalink to this heading">#</a></h3>
+<p>Descriptions are adapted from <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> source code.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute name</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Int. Data</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">_filename</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Full name of the video file</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">abr</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Average audio bitrate in KBit/s</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">acodec</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Name of the audio codec in use</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">age_limit</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID + PID</p></td>
+<td><p>Age restriction for the video, as an integer (years) (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">alt_title</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>A secondary title of the video. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">average_rating</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Average rating give by users, the scale used depends on the webpage (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">categories.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID + PID]</p></td>
+<td><p>An array of strings, each one describing a category that the video falls in, for example [“Sports”, “Berlin”] as assigned by the Youtube system and the content’s creator (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">channel</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Full name of the channel the video is uploaded on. Note that channel fields may or may not repeat uploader fields. This depends on a particular extractor. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">channel_id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Id of the channel. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">channel_url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Full URL to a channel webpage. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">chapters.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>An array of dictionaries containing the start and end time of each video chapter, as defined by the content creator</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">chapters.0.end_time</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The end time of the chapter in seconds (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">chapters.0.start_time</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The start time of the chapter in seconds (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">chapters.0.title</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The title of the chapter</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">comment_count</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Number of comments on the video (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">creator</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The creator of the video. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">description</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Full video description. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">dislike_count</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Number of negative ratings of the video</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">display_id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>An alternative identifier for the video, not necessarily unique, but available before title. Typically, id is something like “4234987”, title “Dancing naked mole rats”, and display_id “dancing-naked-mole-rats” (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">duration</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID + PID</p></td>
+<td><p>Length of the video in seconds. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">end_time</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Time in seconds where the reproduction should end, as specified in the URL. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">ext</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Video filename extension.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">extractor</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Label of the tool used to extract the data</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">extractor_key</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Unique ID of the operation conducted by the tool used to extract the data</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">format</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Textual description of the format of the content, e.g. ‘160 - 256x144 (144p)’ indicating the internal Youtube number assigned to the format, the size of the content (width and height in pixels) and the resolution of the format</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>A list of dictionaries for each format available, ordered from worst to best quality.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.abr</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Average audio bitrate in KBit/s</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.acodec</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Name of the audio codec in use</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.asr</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Audio sampling rate in Hertz</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.container</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The name of the file container (e.g. mp4)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.downloader_options.http_chunk_size</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The number of parts in which the file is split when transmitted from the Youtube server to the local client</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.ext</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The extension of the format</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.filesize</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The number of bytes, if known in advance</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.filesize_approx</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>An estimate for the number of bytes</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.format</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>A human-readable description of the format (“mp4 container with h264/opus”). Calculated from the format_id, width, height. and format_note fields if missing.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.format_id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>A short description of the format (“mp4_h264_opus” or “19”). Technically optional, but strongly recommended.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.format_note</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Additional info about the format (“3D” or “DASH video”)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.fps</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Frame rate of the video</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.fragment_base_url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Base URL for fragments. Each fragment’s path value (if present) will be relative to this URL.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.fragments</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>A list of fragments of a fragmented media. Each fragment entry must contain either an url or a path. If an url is present it should be considered by a client. Otherwise both path and fragment_base_url must be present.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.height</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Height of the video in pixels</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.http_headers.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[CID]</p></td>
+<td><p>An array containing objects with additional HTTP headers (i.e. instructions) that were added to the request made for collecting the data</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.http_headers.Accept</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>Description of the formats requested to the server</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.http_headers.Accept-Charset</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>List of the character encodings requested to the server</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.http_headers.Accept-Encoding</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>List of the compression formats requested to the server</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.http_headers.Accept-Language</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>List of the languages (in two-letter codes, e.g. ‘en’) requested to the server</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.http_headers.User-Agent</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>The User-Agent (see ‘Crawling and scraping the data’) employed</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.language</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Language code, e.g. “de” or “en-US” of the content, as defined by the creator</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.language_preference</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>The preferred language of the content to be shown to viewers, as set by the creator</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.manifest_url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The URL of the manifest file in case of fragmented media (DASH, hls, hds)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.no_resume</span></code></p></td>
+<td><p>bool</p></td>
+<td><p>PID</p></td>
+<td><p>Whether the server supports download resuming</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.player_url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Link to the player URL, i.e. the web tool used to play the video</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.preference</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Order number of this format. If this field is present and not None, the formats get sorted by this field, regardless of all other values. -1 for default (order by other properties), -2 or smaller for less than default. &lt; -1000 to hide the format (if there is another one which is strictly better)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.protocol</span></code></p></td>
+<td><p>string</p></td>
+<td><p>CID</p></td>
+<td><p>The protocol used for the actual download, lower-case. “http”, “https”, “rtsp”, “rtmp”, “rtmpe”, “m3u8”, “m3u8_native” or “http_dash_segments”.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.quality</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Order number of the video quality of this format, irrespective of the file format. -1 for default (order by other properties), -2 or smaller for less than default.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.resolution</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Textual description of width and height in pixels</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.source_preference</span></code></p></td>
+<td><p>number</p></td>
+<td><p>CID</p></td>
+<td><p>Order number for the selected video source (quality takes higher priority) -1 for default (order by other properties), -2 or smaller for less than default.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.stretched_ratio</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>If given and not 1, indicates that the video’s pixels are not square.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.tbr</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Average bitrate of audio and video in KBit/s</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The full URL of the video file</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.vbr</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Average video bitrate in KBit/s</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.vcodec</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The codec used to encode the video</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">formats.0.width</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Width of the video in pixels</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">fps</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The number of Frames Per Second of the video</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">fulltitle</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The full title of the content, as written by the creator</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">height</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Height of the video in pixels</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Unique video identifier; this is the code that appears in a Youtube URL</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">is_live</span></code></p></td>
+<td><p>bool</p></td>
+<td><p>SID</p></td>
+<td><p>Whether this video is a live stream that goes on instead of a fixed-length video. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">license</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID + PID</p></td>
+<td><p>Licence name the video is licenced under. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">like_count</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Number of positive ratings of the video (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">location</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Physical location where the video was filmed as set by the creator (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">playlist</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Name of the playlist the video is part of</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">playlist_id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Unique ID of the playlist</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">playlist_index</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID + PID</p></td>
+<td><p>Order number of this video in the playlist it belongs to</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">playlist_title</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Title of the playlist</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">playlist_uploader</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Name of account that uploaded the playlist</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">playlist_uploader_id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Unique ID of the account that uploaded the playlist</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">release_date</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The date (YYYYMMDD) when the video was released. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">repost_count</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Number of reposts of the video (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">resolution</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The video resolution, e.g. 144p</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">start_time</span></code></p></td>
+<td><p>number</p></td>
+<td><p>SID</p></td>
+<td><p>Time in seconds where the reproduction should start, as specified in the URL. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">stretched_ratio</span></code></p></td>
+<td><p>bool</p></td>
+<td><p>PID</p></td>
+<td><p>Whether the video proportions should be kept intact or the video should be resized</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">subtitles.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>The available subtitles as a dictionary in the format {tag: subformats}. “tag” is usually a language code, and “subformats” is a list sorted from lower to higher preference</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">subtitles.*.[LL].data</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID + PID</p></td>
+<td><p>The subtitles file contents (optional), where [LL] is a two-letter label identifying the language using <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1 format</a></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">subtitles.*.[LL].ext</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>The extension of the subtitle track format (e.g. SRV3), where [LL] is a two-letter label identifying the language using <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1 format</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">subtitles.*.[LL].url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>A URL pointing to the subtitles file (optional), where [LL] is a two-letter label identifying the language using <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1 format</a></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">tags.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[SID]</p></td>
+<td><p>A list of strings each one representing a tag assigned to the video, e.g. [“sweden”, “pop music”] by the creator (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnail</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>Full URL to a video thumbnail image.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.*</span></code></p></td>
+<td><p>array</p></td>
+<td><p>[PID]</p></td>
+<td><p>An array of JSON objects containing details for the preview thumbnails</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.filesize</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>The size of the thumbnail file in KB</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.height</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Height of the thumbnail in pixels</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Thumbnail format internal ID</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.preference</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Quality of the image using internal descriptions</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.resolution</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Resolution of the video in the format “{width}x{height”}, deprecated)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Direct link to the thumbnail image</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">thumbnails.0.width</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Width of the thumbnail in pixels</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">timestamp</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>UNIX timestamp of the moment the video became available. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">title</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Video title as written by the creator</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">upload_date</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID + PID</p></td>
+<td><p>Video upload date (YYYYMMDD). If not explicitly set, calculated from timestamp. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">uploader</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Full name of the video uploader. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">uploader_id</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Unique ID of the video uploader. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">uploader_url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>Full URL to a personal webpage of the video uploader. (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">vbr</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Average video bitrate in KBit/s</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">vcodec</span></code></p></td>
+<td><p>string</p></td>
+<td><p>PID</p></td>
+<td><p>Name of the video codec in use</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">view_count</span></code></p></td>
+<td><p>number</p></td>
+<td><p>AID</p></td>
+<td><p>How many users have watched the video on the platform. (optional)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">webpage_url</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The URL to the video webpage, if given to youtube-dl it should allow to get the same result again. (It will be set by YoutubeDL if it’s missing) (e.g. <code class="docutils literal notranslate"><span class="pre">&lt;http://www.ted.com/talks/dan_dennett_on_our_consciousness.html&gt;</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">webpage_url_basename</span></code></p></td>
+<td><p>string</p></td>
+<td><p>SID</p></td>
+<td><p>The name of the web page contained in the webpage_url data-point, e.g. <code class="docutils literal notranslate"><span class="pre">&lt;http://www.ted.com/talks/dan_dennett_on_our_consciousness.html&gt;</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">width</span></code></p></td>
+<td><p>number</p></td>
+<td><p>PID</p></td>
+<td><p>Width of the video in pixels</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="footnotes docutils" />
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Youtube metadata</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="yt_ytcd-comments-metadata.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Youtube metadata for comments</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-points-from-youtube-dl-for-videos">Data points from <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> for videos</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#table-5-28"><em>Table 5.28</em> <svg aria-hidden="true" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"></path></svg></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Matteo Di Cristofaro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Matteo Di Cristofaro.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+
+  <footer class="bd-footer">
+  </footer>
+<script async src="https://analytics.umami.is/script.js" data-website-id="c69c4e7a-b900-47c2-bab5-a154909a8bc5"></script>
+
+  </body>
+</html>

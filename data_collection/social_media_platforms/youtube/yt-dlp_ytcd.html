@@ -1,0 +1,976 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-theme="dark">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <link href="../../../_static/logo-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="../../../_static/logo-32x32.png" sizes="32x32" rel="icon" type="image/png">
+    <link href="../../../_static/logo.svg" rel="icon" type="image/svg+xml">
+    <title>Youtube &#8212; CATLISM | Online Compendium</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "dark";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/asciinema-player_2.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/asciinema-custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/sphinx_highlight.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/asciinema-player_2.6.1.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="../../../_static/main.js"></script>
+    <script src="../../../_static/design-tabs.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'data_collection/social_media_platforms/youtube/yt-dlp_ytcd';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Data processing" href="../../../data_processing/index.html" />
+    <link rel="prev" title="Twitter" href="../twitter/snscrape.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="dark">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../../index.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">CATLISM | Online Compendium</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../on_scripts.html">On scripts and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../using_oc.html">Using the online compendium</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../from_the_book/index.html">From the book</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/contents_list.html">Reference list for online contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/content_updates.html">Content updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/preservation_links.html">Preservation copies of online materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/errata.html">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../from_the_book/from_pdf.html">Copy-pasting code from the PDF version of the book</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../setup_env/index.html">Setting up the working environment</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../setup_env/conda.html">Using <code class="docutils literal notranslate"><span class="pre">conda</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../eval_metadata/index.html">Metadata evaluation</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/facebook/index.html">Facebook metadata</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/facebook/fb_fbs-posts-metadata.html">Facebook metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/facebook/fb_fbs-profiles-metadata.html">Facebook metadata for profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/facebook/fb_fbs-groups-metadata.html">Facebook metadata for groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/instagram/index.html">Instagram metadata</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/instagram/ig_instaloader-posts-metadata.html">Instagram metadata for posts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/instagram/ig_instaloader-comments-metadata.html">Instagram metadata for comments</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/twitter/index.html">Twitter metadata</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/twitter/tw_snscrape-metadata.html">Twitter metadata</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../eval_metadata/youtube/index.html">Youtube metadata</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/youtube/yt_ytdl-videos-metadata.html">Youtube metadata for videos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../eval_metadata/youtube/yt_ytcd-comments-metadata.html">Youtube metadata for comments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../index.html">Data collection</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../general_purpose/index.html">General purpose scrapers</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/lancsbox.html">#LancsBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/archivebox.html">Archivebox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/trafilatura.html">Trafilatura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general_purpose/beautifulsoup.html">BeautifulSoup</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../index.html">Social Media Platforms</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../facebook/fbs.html">Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../instagram/instaloader.html">Instagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../twitter/snscrape.html">Twitter</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Youtube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../data_processing/index.html">Data processing</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/dates_time_unix.html">Date, time, and Unix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/text_normalisation.html">Text normalisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/pdf_word_images.html">PDF, Word, images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/language_detection.html">Language detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/emoticons_emojis.html">Emoticons and emojis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/hashtags.html">Hashtags (word segmentation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/other_elements.html">Other elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/annotations/stanza.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_processing/vrt_format.html">Verticalised (.vrt) format</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../data_exploration/index.html">Data exploration</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_exploration/openrefine/openrefine.html">OpenRefine</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../data_preservation/index.html">Data preservation</a><input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-13"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_preservation/wayback_machine.html">Wayback Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../data_preservation/git101.html">Git 101: the basics</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../case_studies/index.html">Case-studies: CATLISM practical applications</a><input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-14"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../case_studies/cdm/index.html">Analysing crypto-drug market fora</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../case_studies/frg/index.html">Analysing the language of far-right groups on Twitter and Facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../acknowledgments.html">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/data_collection/social_media_platforms/youtube/yt-dlp_ytcd.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Youtube</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-the-tools">Installing the tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-tools">Using the tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extracting-the-data">Extracting the data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extract-collected-youtube-data-everything-except-comments-to-xml-format">Extract collected Youtube data (everything except comments) to XML format</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-script-s5-13">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code><svg aria-hidden="true" class="sd-octicon sd-octicon-repo-template sd-text-success" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill-rule="evenodd"></path></svg></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extract-collected-youtube-comments-to-xml-format">Extract collected Youtube comments to XML format</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s5-13">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s5-14">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.14]</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-subtitle-formats">Example of subtitle formats</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ttml-format">TTML format </a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#srv-format-without-auto-captioning">SRV format without auto-captioning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#srv-format-with-auto-captioning">SRV format with auto-captioning</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="youtube">
+<h1>Youtube<a class="headerlink" href="#youtube" title="Permalink to this heading">#</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>As of March 2023 the tool <a class="reference external" href="https://github.com/ytdl-org/youtube-dl/"><code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code></a> (release <code class="docutils literal notranslate"><span class="pre">2021.12.17</span></code>) suggested in the book has a number of issues and cannot therefore be used to correctly download data from Youtube.<br />
+The commands below make use of <a class="reference external" href="https://github.com/yt-dlp/yt-dlp"><code class="docutils literal notranslate"><span class="pre">yt-dlp</span></code></a>, an alternative tool (forked from <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> with fixed issues and additional options) whose basic usage is identical to <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code>. <strong>Any command included in the book and using <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> can be replicated with <code class="docutils literal notranslate"><span class="pre">yt-dlp</span></code> instead</strong> - as done in the contents below.</p>
+</div>
+<p>Data collection from Youtube (and <a class="reference external" href="http://ytdl-org.github.io/youtube-dl/supportedsites.html">more than 1,200 platforms - the same ones supported by <code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code></a>) can be obtained using <a class="reference external" href="https://github.com/yt-dlp/yt-dlp"><code class="docutils literal notranslate"><span class="pre">yt-dlp</span></code></a>.<br />
+Options and arguments for the tool can be found in the <a class="reference external" href="https://github.com/yt-dlp/yt-dlp/blob/master/README.md">official documentation</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While <code class="docutils literal notranslate"><span class="pre">yt-dlp</span></code> supports the extraction of comments (<code class="docutils literal notranslate"><span class="pre">youtube-dl</span></code> does not have such option), this page currently follows the contents of the book, where comments are downloaded using <a class="reference external" href="https://github.com/egbertbouman/youtube-comment-downloader"><code class="docutils literal notranslate"><span class="pre">youtube-comment-downloader</span></code></a>.<br />
+<strong>Future versions of the compendium will include options for downloading comments using <code class="docutils literal notranslate"><span class="pre">yt-dlp</span></code></strong>.</p>
+</div>
+<section id="installing-the-tools">
+<span class="sidenote"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">247</span></code></span><h2>Installing the tools<label for='sidenote-role-1' class='margin-toggle'><span id="id1">
+<sup>1</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-1' name='sidenote-role-1' class='margin-toggle'><span class="sidenote d-n"><sup>1</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">247</span></code></span><a class="headerlink" href="#installing-the-tools" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="c5-28">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.28]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></span><a class="headerlink" href="#c5-28" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>yt-dlp
+</pre></div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-video" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 4.5a.25.25 0 00-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 00.25-.25V4.75a.25.25 0 00-.25-.25H1.75zM0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0122.25 21H1.75A1.75 1.75 0 010 19.25V4.75z"></path><path d="M9 15.584V8.416a.5.5 0 01.77-.42l5.576 3.583a.5.5 0 010 .842L9.77 16.005a.5.5 0 01-.77-.42z"></path></svg> <code class="docutils literal notranslate"><span class="pre">[c5.28]</span></code><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<script id="asciicast-607195" data-theme="monokai" data-preload="1" data-font-size="25px"  src="https://asciinema.org/a/607195.js" async></script></div>
+</details><div class="literal-block-wrapper docutils container" id="c5-30">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.30]</span></code></span><a class="headerlink" href="#c5-30" title="Permalink to this code">#</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>youtube-comment-downloader
+</pre></div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<svg version="1.1" width="2.0em" height="2.0em" class="sd-octicon sd-octicon-video" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 4.5a.25.25 0 00-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 00.25-.25V4.75a.25.25 0 00-.25-.25H1.75zM0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0122.25 21H1.75A1.75 1.75 0 010 19.25V4.75z"></path><path d="M9 15.584V8.416a.5.5 0 01.77-.42l5.576 3.583a.5.5 0 010 .842L9.77 16.005a.5.5 0 01-.77-.42z"></path></svg> <code class="docutils literal notranslate"><span class="pre">[c5.30]</span></code><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<script id="asciicast-607196" data-theme="monokai" data-preload="1" data-font-size="25px"  src="https://asciinema.org/a/607196.js" async></script></div>
+</details></section>
+<section id="using-the-tools">
+<span class="sidenote"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">247;254;263</span></code></span><h2>Using the tools<label for='sidenote-role-2' class='margin-toggle'><span id="id2">
+<sup>2</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-2' name='sidenote-role-2' class='margin-toggle'><span class="sidenote d-n"><sup>2</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">247;254;263</span></code></span><a class="headerlink" href="#using-the-tools" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="c5-29">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.29]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></span><a class="headerlink" href="#c5-29" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">yt</span><span class="o">-</span><span class="n">dlp</span> <span class="s1">&#39;URL&#39;</span> <span class="o">--</span><span class="n">write</span><span class="o">-</span><span class="n">info</span><span class="o">-</span><span class="n">json</span> <span class="o">--</span><span class="n">skip</span><span class="o">-</span><span class="n">download</span> <span class="o">--</span><span class="n">write</span><span class="o">-</span><span class="n">annotations</span> <span class="o">--</span><span class="n">write</span><span class="o">-</span><span class="n">description</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-32">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.32]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></span><a class="headerlink" href="#c5-32" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">yt</span><span class="o">-</span><span class="n">dlp</span> <span class="s1">&#39;URL&#39;</span> <span class="o">--</span><span class="n">write</span><span class="o">-</span><span class="n">info</span><span class="o">-</span><span class="n">json</span> <span class="o">--</span><span class="n">skip</span><span class="o">-</span><span class="n">download</span> <span class="o">--</span><span class="n">write</span><span class="o">-</span><span class="n">subs</span> <span class="o">--</span><span class="n">sub</span><span class="o">-</span><span class="n">langs</span> <span class="n">LL</span> <span class="o">--</span><span class="n">sub</span><span class="o">-</span><span class="nb">format</span> <span class="n">FORMAT</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="c5-31">
+<div class="code-block-caption"><span class="caption-text">Command <code class="docutils literal notranslate"><span class="pre">[c5.31]</span></code> <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-git-pull-request sd-text-warning" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></span><a class="headerlink" href="#c5-31" title="Permalink to this code">#</a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">youtube</span><span class="o">-</span><span class="n">comment</span><span class="o">-</span><span class="n">downloader</span> <span class="o">--</span><span class="n">url</span> <span class="s2">&quot;URL&quot;</span> <span class="o">--</span><span class="n">output</span> <span class="n">FILE</span><span class="o">.</span><span class="n">jsonl</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="extracting-the-data">
+<h2>Extracting the data<a class="headerlink" href="#extracting-the-data" title="Permalink to this heading">#</a></h2>
+<section id="extract-collected-youtube-data-everything-except-comments-to-xml-format">
+<span class="sidenote"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">264-269</span></code></span><h3>Extract collected Youtube data (everything except comments) to XML format<label for='sidenote-role-3' class='margin-toggle'><span id="id3">
+<sup>3</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-3' name='sidenote-role-3' class='margin-toggle'><span class="sidenote d-n"><sup>3</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">264-269</span></code></span><a class="headerlink" href="#extract-collected-youtube-data-everything-except-comments-to-xml-format" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="s5-13">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s5-13" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="c1"># Import modules for: working on local folders and files; regular expressions; finding files in folder;</span>
+<span class="linenos">  2</span><span class="c1"># reading JSON files; using BeautifulSoup; working with XML files</span>
+<span class="linenos">  3</span><span class="kn">import</span> <span class="nn">os</span>
+<span class="linenos">  4</span><span class="kn">import</span> <span class="nn">re</span>
+<span class="linenos">  5</span><span class="kn">from</span> <span class="nn">glob</span> <span class="kn">import</span> <span class="n">glob</span>
+<span class="linenos">  6</span><span class="kn">import</span> <span class="nn">json</span>
+<span class="linenos">  7</span><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="linenos">  8</span><span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+<span class="linenos">  9</span>
+<span class="linenos"> 10</span><span class="c1"># Manually set the 2-letter ISO 3166-1 language code (e.g. English = en), so that only the subtitle files for the set</span>
+<span class="linenos"> 11</span><span class="c1"># language are processed</span>
+<span class="linenos"> 12</span><span class="n">language_code</span> <span class="o">=</span> <span class="s2">&quot;en&quot;</span>
+<span class="linenos"> 13</span>
+<span class="linenos"> 14</span><span class="c1"># Create a regular expression to capture the title of the video preceding youtube-dl default naming conventions, where:</span>
+<span class="linenos"> 15</span><span class="c1"># [FILENAME].info.json = the JSON file containing the metadata details</span>
+<span class="linenos"> 16</span><span class="c1"># [FILENAME].[LL].srv3 = the XML file containing the subtitles in SRV3 format, where [LL] is the 2-letter ISO 3166-1 language code</span>
+<span class="linenos"> 17</span><span class="c1"># [FILENAME].[LL].ttml = the XML file containing the subtitles in TTML format, where [LL] is the 2-letter ISO 3166-1 language code</span>
+<span class="linenos"> 18</span><span class="n">filename_filter</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
+<span class="linenos"> 19</span>    <span class="s2">&quot;(.*?)\.(info\.json|[A-Za-z]{1,3}\.srv3|[A-Za-z]{1,3}\.ttml)&quot;</span>
+<span class="linenos"> 20</span><span class="p">)</span>
+<span class="linenos"> 21</span><span class="c1"># Create an empty list to store all the video titles</span>
+<span class="linenos"> 22</span><span class="n">unique_filenames_list</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="linenos"> 23</span><span class="c1"># List all filenames present in the folder where the script resides</span>
+<span class="linenos"> 24</span><span class="n">files</span> <span class="o">=</span> <span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.*&quot;</span><span class="p">)</span>
+<span class="linenos"> 25</span>
+<span class="linenos"> 26</span><span class="c1"># For every single filename found in the folder, do:</span>
+<span class="linenos"> 27</span><span class="k">for</span> <span class="n">single_file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+<span class="linenos"> 28</span>    <span class="c1"># Search for the regular expression for capturing metadata and subtitle files in the filename, and store the result</span>
+<span class="linenos"> 29</span>    <span class="c1"># in the &#39;found_filename&#39; variable</span>
+<span class="linenos"> 30</span>    <span class="n">found_filename</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">filename_filter</span><span class="p">,</span> <span class="n">single_file</span><span class="p">)</span>
+<span class="linenos"> 31</span>    <span class="c1"># If the filename matches the regular expression, extract the filename without the extensions; then check if the cleaned</span>
+<span class="linenos"> 32</span>    <span class="c1"># filename is present in the unique_filenames_list, and if not add it</span>
+<span class="linenos"> 33</span>    <span class="k">if</span> <span class="n">found_filename</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">found_filename</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">unique_filenames_list</span><span class="p">:</span>
+<span class="linenos"> 34</span>        <span class="n">unique_filenames_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">found_filename</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="linenos"> 35</span>
+<span class="linenos"> 36</span>
+<span class="linenos"> 37</span><span class="c1"># Create the function to convert the time-format employed by TTML (HH:MM:SS.MS) into the one employed by SRV3</span>
+<span class="linenos"> 38</span><span class="c1"># (total number of milliseconds); adapted from</span>
+<span class="linenos"> 39</span><span class="c1"># https://stackoverflow.com/questions/59314323/how-to-convert-timestamp-into-milliseconds-in-python</span>
+<span class="linenos"> 40</span><span class="k">def</span> <span class="nf">convert_timestamp</span><span class="p">(</span><span class="n">msf</span><span class="p">):</span>
+<span class="linenos"> 41</span>    <span class="n">hours</span><span class="p">,</span> <span class="n">minutes</span><span class="p">,</span> <span class="n">seconds</span> <span class="o">=</span> <span class="n">msf</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;:&quot;</span><span class="p">)</span>
+<span class="linenos"> 42</span>    <span class="n">seconds</span><span class="p">,</span> <span class="n">milliseconds</span> <span class="o">=</span> <span class="n">seconds</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span>
+<span class="linenos"> 43</span>    <span class="n">hours</span><span class="p">,</span> <span class="n">minutes</span><span class="p">,</span> <span class="n">seconds</span><span class="p">,</span> <span class="n">milliseconds</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span>
+<span class="linenos"> 44</span>        <span class="nb">int</span><span class="p">,</span> <span class="p">(</span><span class="n">hours</span><span class="p">,</span> <span class="n">minutes</span><span class="p">,</span> <span class="n">seconds</span><span class="p">,</span> <span class="n">milliseconds</span><span class="p">)</span>
+<span class="linenos"> 45</span>    <span class="p">)</span>
+<span class="linenos"> 46</span>    <span class="k">return</span> <span class="p">(</span><span class="n">hours</span> <span class="o">*</span> <span class="mi">3600</span> <span class="o">+</span> <span class="n">minutes</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">+</span> <span class="n">seconds</span><span class="p">)</span> <span class="o">*</span> <span class="mi">1000</span> <span class="o">+</span> <span class="n">milliseconds</span>
+<span class="linenos"> 47</span>
+<span class="linenos"> 48</span>
+<span class="linenos"> 49</span><span class="c1"># For each unique filename found do:</span>
+<span class="linenos"> 50</span><span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">unique_filenames_list</span><span class="p">:</span>
+<span class="linenos"> 51</span>    <span class="c1"># Recreate the full filenames with extensions, and store each one of them into a single variable</span>
+<span class="linenos"> 52</span>    <span class="n">json_file</span> <span class="o">=</span> <span class="n">filename</span> <span class="o">+</span> <span class="s2">&quot;.info.json&quot;</span>
+<span class="linenos"> 53</span>    <span class="n">srv3_file</span> <span class="o">=</span> <span class="n">filename</span> <span class="o">+</span> <span class="s2">&quot;.&quot;</span> <span class="o">+</span> <span class="n">language_code</span> <span class="o">+</span> <span class="s2">&quot;.srv3&quot;</span>
+<span class="linenos"> 54</span>    <span class="n">ttml_file</span> <span class="o">=</span> <span class="n">filename</span> <span class="o">+</span> <span class="s2">&quot;.&quot;</span> <span class="o">+</span> <span class="n">language_code</span> <span class="o">+</span> <span class="s2">&quot;.ttml&quot;</span>
+<span class="linenos"> 55</span>    <span class="c1"># Create the XML element &lt;text&gt;, root element of the final output</span>
+<span class="linenos"> 56</span>    <span class="n">text_tag</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s2">&quot;text&quot;</span><span class="p">)</span>
+<span class="linenos"> 57</span>
+<span class="linenos"> 58</span>    <span class="c1"># Open the metadata JSON file:</span>
+<span class="linenos"> 59</span>    <span class="n">metadata_file</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="n">json_file</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+<span class="linenos"> 60</span>    <span class="c1"># Add a set of metadata points as attributes of the &lt;text&gt; element tag</span>
+<span class="linenos"> 61</span>    <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;uploader&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata_file</span><span class="p">[</span><span class="s2">&quot;uploader&quot;</span><span class="p">]</span>
+<span class="linenos"> 62</span>    <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata_file</span><span class="p">[</span><span class="s2">&quot;upload_date&quot;</span><span class="p">]</span>
+<span class="linenos"> 63</span>    <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;views&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">metadata_file</span><span class="p">[</span><span class="s2">&quot;view_count&quot;</span><span class="p">])</span>
+<span class="linenos"> 64</span>    <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata_file</span><span class="p">[</span><span class="s2">&quot;fulltitle&quot;</span><span class="p">]</span>
+<span class="linenos"> 65</span>    <span class="c1"># Check if the &#39;like_count&#39; metadata point is present, if not assign the value &quot;na&quot; to the &#39;like_count&#39; attribute</span>
+<span class="linenos"> 66</span>    <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;likes&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
+<span class="linenos"> 67</span>        <span class="n">metadata_file</span><span class="p">[</span><span class="s2">&quot;like_count&quot;</span><span class="p">]</span> <span class="k">if</span> <span class="s2">&quot;like_count&quot;</span> <span class="ow">in</span> <span class="n">metadata_file</span> <span class="k">else</span> <span class="s2">&quot;na&quot;</span>
+<span class="linenos"> 68</span>    <span class="p">)</span>
+<span class="linenos"> 69</span>
+<span class="linenos"> 70</span>    <span class="c1"># Check if the SRV3 file exists (priority is given to SRV3 over TTML due to the presence of autocaptioning details);</span>
+<span class="linenos"> 71</span>    <span class="c1"># if so, do:</span>
+<span class="linenos"> 72</span>    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">srv3_file</span><span class="p">):</span>
+<span class="linenos"> 73</span>        <span class="c1"># Assign the attribute &#39;format&#39; with a value of &#39;srv&#39; to the &lt;text&gt; element tag</span>
+<span class="linenos"> 74</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;format&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;srv3&quot;</span>
+<span class="linenos"> 75</span>        <span class="c1"># Create the output filename using the input filename</span>
+<span class="linenos"> 76</span>        <span class="n">output_filename</span> <span class="o">=</span> <span class="n">srv3_file</span> <span class="o">+</span> <span class="s2">&quot;.xml&quot;</span>
+<span class="linenos"> 77</span>        <span class="c1"># Open the SRV3 file</span>
+<span class="linenos"> 78</span>        <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">srv3_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+<span class="linenos"> 79</span>        <span class="c1"># Parse its XML contents using BeautifulSoup</span>
+<span class="linenos"> 80</span>        <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">features</span><span class="o">=</span><span class="s2">&quot;xml&quot;</span><span class="p">)</span>
+<span class="linenos"> 81</span>        <span class="c1"># If the attribute &#39;ac&#39; (= autocaption) with value &#39;255&#39; is found in the &lt;s&gt; element tag then the subtitles are the result of autocaptioning; hence assign the value &#39;true&#39; to the variable &#39;is_ac&#39;. Otherwise assign the value &#39;false&#39; to &#39;is_ac&#39;</span>
+<span class="linenos"> 82</span>        <span class="k">if</span> <span class="n">soup</span><span class="o">.</span><span class="n">body</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;s&quot;</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;ac&quot;</span><span class="p">:</span> <span class="s2">&quot;255&quot;</span><span class="p">}):</span>
+<span class="linenos"> 83</span>            <span class="n">is_ac</span> <span class="o">=</span> <span class="s2">&quot;true&quot;</span>
+<span class="linenos"> 84</span>        <span class="k">else</span><span class="p">:</span>
+<span class="linenos"> 85</span>            <span class="n">is_ac</span> <span class="o">=</span> <span class="s2">&quot;false&quot;</span>
+<span class="linenos"> 86</span>
+<span class="linenos"> 87</span>        <span class="c1"># Assign the value of &#39;is_ac&#39; to the &lt;text&gt; element tag attribute &#39;autocaption&#39;</span>
+<span class="linenos"> 88</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;autocaption&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">is_ac</span>
+<span class="linenos"> 89</span>
+<span class="linenos"> 90</span>        <span class="c1"># For each paragraph (i.e. each line of the subtitles) in the file do:</span>
+<span class="linenos"> 91</span>        <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">body</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">):</span>
+<span class="linenos"> 92</span>            <span class="c1"># Check if the textual content of the paragraph is longer than 1 character; this avoids adding empty paragraphs to the final output</span>
+<span class="linenos"> 93</span>            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sent</span><span class="o">.</span><span class="n">get_text</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+<span class="linenos"> 94</span>                <span class="c1"># Create a &lt;p&gt; element tag inside of the XML output</span>
+<span class="linenos"> 95</span>                <span class="n">p_tag</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">text_tag</span><span class="p">,</span> <span class="s2">&quot;p&quot;</span><span class="p">)</span>
+<span class="linenos"> 96</span>                <span class="c1"># Add the attribute &#39;time&#39; (indicating the starting time of the paragraph) and assign it the value appearing in &#39;t&#39;</span>
+<span class="linenos"> 97</span>                <span class="n">p_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">sent</span><span class="p">[</span><span class="s2">&quot;t&quot;</span><span class="p">])</span>
+<span class="linenos"> 98</span>                <span class="c1"># Add the attribute &#39;is_ac&#39; and assign it the value of the previously created variable &#39;is_ac&#39;</span>
+<span class="linenos"> 99</span>                <span class="n">p_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;is_ac&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">is_ac</span>
+<span class="linenos">100</span>                <span class="n">p_tag</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">sent</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="linenos">101</span>            <span class="c1"># If the paragraph does not contain any text (i.e. its length is &lt; 1), skip it</span>
+<span class="linenos">102</span>            <span class="k">else</span><span class="p">:</span>
+<span class="linenos">103</span>                <span class="k">continue</span>
+<span class="linenos">104</span>
+<span class="linenos">105</span>    <span class="c1"># If the SRV3 file does not exists, check if the TTML file does instead; then do (only the steps that differ from the</span>
+<span class="linenos">106</span>    <span class="c1"># SRV3 procedure are commented):</span>
+<span class="linenos">107</span>    <span class="k">elif</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">ttml_file</span><span class="p">):</span>
+<span class="linenos">108</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;format&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;ttml&quot;</span>
+<span class="linenos">109</span>        <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;autocaption&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;na&quot;</span>
+<span class="linenos">110</span>        <span class="n">output_filename</span> <span class="o">=</span> <span class="n">ttml_file</span> <span class="o">+</span> <span class="s2">&quot;.xml&quot;</span>
+<span class="linenos">111</span>        <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">ttml_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+<span class="linenos">112</span>        <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">features</span><span class="o">=</span><span class="s2">&quot;xml&quot;</span><span class="p">)</span>
+<span class="linenos">113</span>
+<span class="linenos">114</span>        <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">body</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">):</span>
+<span class="linenos">115</span>            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sent</span><span class="o">.</span><span class="n">get_text</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+<span class="linenos">116</span>                <span class="n">p_tag</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">text_tag</span><span class="p">,</span> <span class="s2">&quot;p&quot;</span><span class="p">)</span>
+<span class="linenos">117</span>                <span class="c1"># Add the &#39;time&#39; attribute, assigning it as value the starting time from the &#39;begin&#39; attribute in the original file,</span>
+<span class="linenos">118</span>                <span class="c1"># converted into milliseconds using the &#39;convert_timestamp&#39; function</span>
+<span class="linenos">119</span>                <span class="n">p_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">convert_timestamp</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sent</span><span class="p">[</span><span class="s2">&quot;begin&quot;</span><span class="p">])))</span>
+<span class="linenos">120</span>                <span class="n">p_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;is_ac&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;na&quot;</span>
+<span class="linenos">121</span>                <span class="n">p_tag</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">sent</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+<span class="linenos">122</span>            <span class="k">else</span><span class="p">:</span>
+<span class="linenos">123</span>                <span class="k">continue</span>
+<span class="linenos">124</span>    <span class="c1"># If neither the SRV3 nor the TTML files are found, print &#39;No subtitle files found.&#39;</span>
+<span class="linenos">125</span>    <span class="k">else</span><span class="p">:</span>
+<span class="linenos">126</span>        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No subtitle files found.&quot;</span><span class="p">)</span>
+<span class="linenos">127</span>
+<span class="linenos">128</span>    <span class="c1"># Write the extracted data formatted in XML to the final XML structure</span>
+<span class="linenos">129</span>    <span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">text_tag</span><span class="p">)</span>
+<span class="linenos">130</span>    <span class="c1"># Write the XML to the output file</span>
+<span class="linenos">131</span>    <span class="n">tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span>
+<span class="linenos">132</span>        <span class="n">output_filename</span><span class="p">,</span> <span class="n">pretty_print</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span>
+<span class="linenos">133</span>    <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<section id="how-to-use-script-s5-13">
+<h4>How to use script <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-repo-template sd-text-success" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg><a class="headerlink" href="#how-to-use-script-s5-13" title="Permalink to this heading">#</a></h4>
+<p>Copy/download the file <code class="docutils literal notranslate"><span class="pre">s5.13_youtube-dl_subs-to-XML.py</span></code> inside the folder where the data downloaded through <code class="docutils literal notranslate"><span class="pre">ytp-dl</span></code> (e.g. through <code class="docutils literal notranslate"><span class="pre">c5.29</span></code> and <code class="docutils literal notranslate"><span class="pre">c5.32</span></code>) resides; then browse inside the folder through the terminal, e.g.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>Downloads/youtube_data/
+</pre></div>
+</div>
+<p>At last, run the script from the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>s5.13_youtube-dl_subs-to-XML.py
+</pre></div>
+</div>
+</section>
+</section>
+<section id="extract-collected-youtube-comments-to-xml-format">
+<span class="sidenote"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">269-272</span></code></span><h3>Extract collected Youtube comments to XML format<label for='sidenote-role-4' class='margin-toggle'><span id="id4">
+<sup>4</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-4' name='sidenote-role-4' class='margin-toggle'><span class="sidenote d-n"><sup>4</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">269-272</span></code></span><a class="headerlink" href="#extract-collected-youtube-comments-to-xml-format" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="s5-14">
+<div class="code-block-caption"><span class="caption-text">Script <code class="docutils literal notranslate"><span class="pre">[s5.14]</span></code> <a class="reference external" href="https://github.com/catlism/catlism_scripts/raw/main/s5.14_youtube-comments_to_XML.py"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-download sd-text-primary" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg></a></span><a class="headerlink" href="#s5-14" title="Permalink to this code">#</a></div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import modules for: regular expressions; reading timestamps as date objects; loading files using regular expression;</span>
+<span class="linenos"> 2</span><span class="c1"># generate random numbers; reading JSONL files; working with XML files</span>
+<span class="linenos"> 3</span><span class="kn">import</span> <span class="nn">re</span>
+<span class="linenos"> 4</span><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="linenos"> 5</span><span class="kn">from</span> <span class="nn">glob</span> <span class="kn">import</span> <span class="n">glob</span>
+<span class="linenos"> 6</span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+<span class="linenos"> 7</span><span class="kn">import</span> <span class="nn">jsonlines</span>
+<span class="linenos"> 8</span><span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span><span class="c1"># List all filenames with the .jsonl extension</span>
+<span class="linenos">11</span><span class="n">files</span> <span class="o">=</span> <span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.jsonl&quot;</span><span class="p">)</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="c1"># For each file do:</span>
+<span class="linenos">14</span><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+<span class="linenos">15</span>    <span class="c1"># Create the root &lt;text&gt; element tag</span>
+<span class="linenos">16</span>    <span class="n">text_tag</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s2">&quot;text&quot;</span><span class="p">)</span>
+<span class="linenos">17</span>    <span class="c1"># Generate and assign a random number as attribute &#39;id&#39; of the &lt;text&gt; element tag</span>
+<span class="linenos">18</span>    <span class="n">text_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100000</span><span class="p">))</span>
+<span class="linenos">19</span>    <span class="c1"># Create the output filename using the original one and substituting &#39;.jsonl&#39; with &#39;.xml&#39;</span>
+<span class="linenos">20</span>    <span class="n">output_filename</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;*.jsonl&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.xml&quot;</span>
+<span class="linenos">21</span>    <span class="c1"># Read the file as a jsonlines one:</span>
+<span class="linenos">22</span>    <span class="k">with</span> <span class="n">jsonlines</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="k">as</span> <span class="n">comments</span><span class="p">:</span>
+<span class="linenos">23</span>        <span class="c1"># For each line (i.e. metadata data-points for one comment) do:</span>
+<span class="linenos">24</span>        <span class="k">for</span> <span class="n">comment</span> <span class="ow">in</span> <span class="n">comments</span><span class="p">:</span>
+<span class="linenos">25</span>            <span class="c1"># Create a &lt;comment&gt; element tag to enclose the comment</span>
+<span class="linenos">26</span>            <span class="n">comment_tag</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">text_tag</span><span class="p">,</span> <span class="s2">&quot;comment&quot;</span><span class="p">)</span>
+<span class="linenos">27</span>            <span class="c1"># Extract the comment id (&#39;cid&#39;) and save it to a variable</span>
+<span class="linenos">28</span>            <span class="n">comment_id</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;cid&quot;</span><span class="p">])</span>
+<span class="linenos">29</span>            <span class="c1"># Check if the &#39;cid&#39; contains a full stop character. If so, the comment is a reply to another comment: take the string on</span>
+<span class="linenos">30</span>            <span class="c1"># the left of the full stop and assign it as value of the attribute &#39;comment_id&#39;, then the string on the right and assign</span>
+<span class="linenos">31</span>            <span class="c1"># it as value of the attribute &#39;comment_reply_to&#39; to preserve the original hierarchical structure</span>
+<span class="linenos">32</span>            <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;(.*?)\.(.*)&quot;</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<span class="linenos">33</span>                <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;comment_id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
+<span class="linenos">34</span>                    <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;(.*?)\.(.*)&quot;</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">)</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="linenos">35</span>                <span class="p">)</span>
+<span class="linenos">36</span>                <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;comment_reply_to&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
+<span class="linenos">37</span>                    <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;(.*?)\.(.*)&quot;</span><span class="p">,</span> <span class="n">comment_id</span><span class="p">)</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="linenos">38</span>                <span class="p">)</span>
+<span class="linenos">39</span>            <span class="c1"># If there is no full stop character, assign the &#39;comment_id&#39; as value of the &lt;comment&gt; attribute &#39;comment_id&#39; and the</span>
+<span class="linenos">40</span>            <span class="c1"># value &#39;na&#39; to the &#39;comment_reply_to&#39; attribute</span>
+<span class="linenos">41</span>            <span class="k">else</span><span class="p">:</span>
+<span class="linenos">42</span>                <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;comment_id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">comment_id</span>
+<span class="linenos">43</span>                <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;comment_reply_to&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;na&quot;</span>
+<span class="linenos">44</span>
+<span class="linenos">45</span>            <span class="c1"># Extract other metadata data-points and assign them to a set of attributes of the &lt;comment&gt; element tag</span>
+<span class="linenos">46</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;username&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;author&quot;</span><span class="p">])</span>
+<span class="linenos">47</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;votes&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;votes&quot;</span><span class="p">])</span>
+<span class="linenos">48</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;heart&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;heart&quot;</span><span class="p">])</span>
+<span class="linenos">49</span>            <span class="c1"># Read the Unix timestamp from the metadata data-point &#39;time_parsed&#39; and convert it into a human-readable datetime object,</span>
+<span class="linenos">50</span>            <span class="c1"># then store it into the &#39;comment_date&#39; variable</span>
+<span class="linenos">51</span>            <span class="n">comment_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;time_parsed&quot;</span><span class="p">])</span>
+<span class="linenos">52</span>            <span class="c1"># Format the time at which the message was posted into the format HHMM (hours and minutes)</span>
+<span class="linenos">53</span>            <span class="n">comment_date_time</span> <span class="o">=</span> <span class="n">comment_date</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%H%M&quot;</span><span class="p">)</span>
+<span class="linenos">54</span>            <span class="c1"># Assign the date elements to different metadata attributes</span>
+<span class="linenos">55</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_d&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment_date</span><span class="o">.</span><span class="n">day</span><span class="p">)</span>
+<span class="linenos">56</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_m&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment_date</span><span class="o">.</span><span class="n">month</span><span class="p">)</span>
+<span class="linenos">57</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_y&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment_date</span><span class="o">.</span><span class="n">year</span><span class="p">)</span>
+<span class="linenos">58</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s2">&quot;date_time&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment_date_time</span><span class="p">)</span>
+<span class="linenos">59</span>
+<span class="linenos">60</span>            <span class="c1"># At last, write the content of the comment as the text value of the &lt;comment&gt; element tag</span>
+<span class="linenos">61</span>            <span class="n">comment_tag</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comment</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">])</span>
+<span class="linenos">62</span>
+<span class="linenos">63</span>    <span class="c1"># Write the extracted data formatted in XML to the final XML structure</span>
+<span class="linenos">64</span>    <span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">text_tag</span><span class="p">)</span>
+<span class="linenos">65</span>    <span class="c1"># Write the XML to the output file</span>
+<span class="linenos">66</span>    <span class="n">tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span>
+<span class="linenos">67</span>        <span class="n">output_filename</span><span class="p">,</span> <span class="n">pretty_print</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span>
+<span class="linenos">68</span>    <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+<section id="example-of-data-extracted-with-s5-13">
+<span class="sidenote"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">264</span></code></span><h2>Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code><label for='sidenote-role-5' class='margin-toggle'><span id="id5">
+<sup>5</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-5' name='sidenote-role-5' class='margin-toggle'><span class="sidenote d-n"><sup>5</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">264</span></code></span><a class="headerlink" href="#example-of-data-extracted-with-s5-13" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="e5-18">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.18]</span></code></span><a class="headerlink" href="#e5-18" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">uploader=</span><span class="s">&quot;USERNAME&quot;</span><span class="w"> </span><span class="na">date=</span><span class="s">&quot;YYYYMMMDD&quot;</span><span class="w"> </span><span class="na">views=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">likes=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">title=</span><span class="s">&quot;TITLE_OF_THE_VIDEO&quot;</span><span class="w"> </span><span class="na">format=</span><span class="s">&quot;FORMAT_NAME&quot;</span><span class="w"> </span><span class="na">autocaption=</span><span class="s">&quot;TRUE_OR_FALSE&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">3</span><span class="w">  </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">time=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">is_ac=</span><span class="s">&quot;TRUE_OR_FALSE&quot;</span><span class="nt">&gt;</span>SUBTITLES<span class="w"> </span>LINE<span class="nt">&lt;/p&gt;</span>
+<span class="linenos">4</span><span class="nt">&lt;/text&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-of-data-extracted-with-s5-14">
+<span class="sidenote"><sup>6</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">264</span></code></span><h2>Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.14]</span></code><label for='sidenote-role-6' class='margin-toggle'><span id="id6">
+<sup>6</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-6' name='sidenote-role-6' class='margin-toggle'><span class="sidenote d-n"><sup>6</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">264</span></code></span><a class="headerlink" href="#example-of-data-extracted-with-s5-14" title="Permalink to this heading">#</a></h2>
+<div class="literal-block-wrapper docutils container" id="e5-19">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.19]</span></code></span><a class="headerlink" href="#e5-19" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;TEXT_ID&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">3</span><span class="w">  </span><span class="nt">&lt;comment</span><span class="w"> </span><span class="na">comment_id=</span><span class="s">&quot;UNIQUE_ID&quot;</span><span class="w"> </span><span class="na">comment_reply_to=</span><span class="s">&quot;UNIQUE_ID_OF_THE_COMMENT_OR_NA&quot;</span><span class="w"> </span><span class="na">username=</span><span class="s">&quot;USERNAME&quot;</span><span class="w"> </span><span class="na">votes=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">heart=</span><span class="s">&quot;TRUE_OR_FALSE&quot;</span><span class="w"> </span><span class="na">date_d=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_m=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_y=</span><span class="s">&quot;NUMBER&quot;</span><span class="w"> </span><span class="na">date_time=</span><span class="s">&quot;NUMBER&quot;</span><span class="nt">&gt;</span>TEXTUAL<span class="w"> </span>CONTENT<span class="w"> </span>OF<span class="w"> </span>THE<span class="w"> </span>COMMENT<span class="nt">&lt;/comment&gt;</span>
+<span class="linenos">4</span><span class="nt">&lt;/text&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="example-of-subtitle-formats">
+<h2>Example of subtitle formats<a class="headerlink" href="#example-of-subtitle-formats" title="Permalink to this heading">#</a></h2>
+<section id="ttml-format">
+<span class="sidenote"><sup>7</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">252-253</span></code></span><h3>TTML format <label for='sidenote-role-7' class='margin-toggle'><span id="id7">
+<sup>7</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-7' name='sidenote-role-7' class='margin-toggle'><span class="sidenote d-n"><sup>7</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">252-253</span></code></span><a class="headerlink" href="#ttml-format" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e5-14">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.14]</span></code></span><a class="headerlink" href="#e5-14" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="linenos"> 2</span><span class="nt">&lt;tt</span><span class="w"> </span><span class="na">xml:lang=</span><span class="s">&quot;en&quot;</span><span class="w"> </span><span class="na">xmlns=</span><span class="s">&quot;http://www.w3.org/ns/ttml&quot;</span><span class="w"> </span><span class="na">xmlns:ttm=</span><span class="s">&quot;http://www.w3.org/ns/ttml#metadata&quot;</span><span class="w"> </span><span class="na">xmlns:tts=</span><span class="s">&quot;http://www.w3.org/ns/ttml#styling&quot;</span><span class="w"> </span><span class="na">xmlns:ttp=</span><span class="s">&quot;http://www.w3.org/ns/ttml#parameter&quot;</span><span class="w"> </span><span class="na">ttp:profile=</span><span class="s">&quot;http://www.w3.org/TR/profile/sdp-us&quot;</span><span class="nt">&gt;</span>
+<span class="linenos"> 3</span><span class="w">    </span><span class="nt">&lt;head&gt;</span>
+<span class="linenos"> 4</span><span class="w">        </span><span class="nt">&lt;styling&gt;</span>
+<span class="linenos"> 5</span><span class="w">            </span><span class="nt">&lt;style</span><span class="w"> </span><span class="na">xml:id=</span><span class="s">&quot;s1&quot;</span><span class="w"> </span><span class="na">tts:textAlign=</span><span class="s">&quot;center&quot;</span><span class="w"> </span><span class="na">tts:extent=</span><span class="s">&quot;90% 90%&quot;</span><span class="w"> </span><span class="na">tts:origin=</span><span class="s">&quot;5% 5%&quot;</span><span class="w"> </span><span class="na">tts:displayAlign=</span><span class="s">&quot;after&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos"> 6</span><span class="w">            </span><span class="nt">&lt;style</span><span class="w"> </span><span class="na">xml:id=</span><span class="s">&quot;s2&quot;</span><span class="w"> </span><span class="na">tts:fontSize=</span><span class="s">&quot;.72c&quot;</span><span class="w"> </span><span class="na">tts:backgroundColor=</span><span class="s">&quot;black&quot;</span><span class="w"> </span><span class="na">tts:color=</span><span class="s">&quot;white&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos"> 7</span><span class="w">        </span><span class="nt">&lt;/styling&gt;</span>
+<span class="linenos"> 8</span><span class="w">        </span><span class="nt">&lt;layout&gt;</span>
+<span class="linenos"> 9</span><span class="w">            </span><span class="nt">&lt;region</span><span class="w"> </span><span class="na">xml:id=</span><span class="s">&quot;r1&quot;</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;s1&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos">10</span><span class="w">        </span><span class="nt">&lt;/layout&gt;</span>
+<span class="linenos">11</span><span class="w">    </span><span class="nt">&lt;/head&gt;</span>
+<span class="linenos">12</span><span class="w">    </span><span class="nt">&lt;body</span><span class="w"> </span><span class="na">region=</span><span class="s">&quot;r1&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">13</span><span class="w">        </span><span class="nt">&lt;div&gt;</span>
+<span class="linenos">14</span><span class="w">            </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">begin=</span><span class="s">&quot;00:00:09.870&quot;</span><span class="w"> </span><span class="na">end=</span><span class="s">&quot;00:00:16.110&quot;</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;s2&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">15</span><span class="w">                </span>In<span class="w"> </span>light<span class="w"> </span>of<span class="w"> </span>recent<span class="w"> </span>events<span class="w"> </span>concerning<span class="w"> </span>newscasters
+<span class="linenos">16</span><span class="w">                </span><span class="nt">&lt;br</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos">17</span><span class="w">                </span>being<span class="w"> </span>lost<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>fog<span class="w"> </span>of…<span class="w"> </span>memory.
+<span class="linenos">18</span><span class="w">            </span><span class="nt">&lt;/p&gt;</span>
+<span class="linenos">19</span><span class="w">        </span><span class="nt">&lt;/div&gt;</span>
+<span class="linenos">20</span><span class="w">    </span><span class="nt">&lt;/body&gt;</span>
+<span class="linenos">21</span><span class="nt">&lt;/tt&gt;</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="srv-format-without-auto-captioning">
+<span class="sidenote"><sup>8</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">253</span></code></span><h3>SRV format without auto-captioning<label for='sidenote-role-8' class='margin-toggle'><span id="id8">
+<sup>8</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-8' name='sidenote-role-8' class='margin-toggle'><span class="sidenote d-n"><sup>8</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">253</span></code></span><a class="headerlink" href="#srv-format-without-auto-captioning" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e5-15">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.15]</span></code></span><a class="headerlink" href="#e5-15" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="linenos">2</span><span class="nt">&lt;timedtext</span><span class="w"> </span><span class="na">format=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">3</span><span class="w">    </span><span class="nt">&lt;body&gt;</span>
+<span class="linenos">4</span><span class="w">        </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;9870&quot;</span><span class="w"> </span><span class="na">d=</span><span class="s">&quot;6240&quot;</span><span class="nt">&gt;</span>In<span class="w"> </span>light<span class="w"> </span>of<span class="w"> </span>recent<span class="w"> </span>events<span class="w"> </span>concerning<span class="w"> </span>newscasters
+<span class="linenos">5</span>being<span class="w"> </span>lost<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>fog<span class="w"> </span>of…<span class="w"> </span>memory.<span class="nt">&lt;/p&gt;</span>
+<span class="linenos">6</span><span class="w">        </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;16110&quot;</span><span class="w"> </span><span class="na">d=</span><span class="s">&quot;4340&quot;</span><span class="nt">&gt;</span>It<span class="w"> </span>may<span class="w"> </span>be<span class="w"> </span>pertinent<span class="w"> </span>to<span class="w"> </span>ask:
+<span class="linenos">7</span>can<span class="w"> </span>we<span class="w"> </span>trust<span class="w"> </span>the<span class="w"> </span>news<span class="w"> </span>media?<span class="nt">&lt;/p&gt;</span>
+<span class="linenos">8</span><span class="w">    </span><span class="nt">&lt;/body&gt;</span>
+<span class="linenos">9</span><span class="nt">&lt;/timedtext&gt;</span><span class="w"> </span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="srv-format-with-auto-captioning">
+<span class="sidenote"><sup>9</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">253-254</span></code></span><h3>SRV format with auto-captioning<label for='sidenote-role-9' class='margin-toggle'><span id="id9">
+<sup>9</sup></span>
+
+</label><input type='checkbox' id='sidenote-role-9' name='sidenote-role-9' class='margin-toggle'><span class="sidenote d-n"><sup>9</sup><code class="docutils literal notranslate"><span class="pre">CATLISM,</span> <span class="pre">253-254</span></code></span><a class="headerlink" href="#srv-format-with-auto-captioning" title="Permalink to this heading">#</a></h3>
+<div class="literal-block-wrapper docutils container" id="e5-16">
+<div class="code-block-caption"><span class="caption-text">Example <code class="docutils literal notranslate"><span class="pre">[e5.16]</span></code></span><a class="headerlink" href="#e5-16" title="Permalink to this code">#</a></div>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="linenos"> 2</span><span class="nt">&lt;timedtext</span><span class="w"> </span><span class="na">format=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>
+<span class="linenos"> 3</span><span class="w">    </span><span class="nt">&lt;head&gt;</span>
+<span class="linenos"> 4</span><span class="w">        </span><span class="nt">&lt;ws</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos"> 5</span><span class="w">        </span><span class="nt">&lt;ws</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">mh=</span><span class="s">&quot;2&quot;</span><span class="w"> </span><span class="na">ju=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="na">sd=</span><span class="s">&quot;3&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos"> 6</span><span class="w">        </span><span class="nt">&lt;wp</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos"> 7</span><span class="w">        </span><span class="nt">&lt;wp</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">ap=</span><span class="s">&quot;6&quot;</span><span class="w"> </span><span class="na">ah=</span><span class="s">&quot;20&quot;</span><span class="w"> </span><span class="na">av=</span><span class="s">&quot;100&quot;</span><span class="w"> </span><span class="na">rc=</span><span class="s">&quot;2&quot;</span><span class="w"> </span><span class="na">cc=</span><span class="s">&quot;40&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos"> 8</span><span class="w">    </span><span class="nt">&lt;/head&gt;</span>
+<span class="linenos"> 9</span><span class="w">    </span><span class="nt">&lt;body&gt;</span>
+<span class="linenos">10</span><span class="w">        </span><span class="nt">&lt;w</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="na">d=</span><span class="s">&quot;957600&quot;</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">wp=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">ws=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="linenos">11</span><span class="w">        </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;1040&quot;</span><span class="w"> </span><span class="na">d=</span><span class="s">&quot;3360&quot;</span><span class="w"> </span><span class="na">w=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">12</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span>welcome<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">13</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;320&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>to<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">14</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;560&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>super<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">15</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;799&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>mario<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">16</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;1040&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>bros<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">17</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;1280&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>chaos<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">18</span><span class="w">        </span><span class="nt">&lt;/p&gt;</span>
+<span class="linenos">19</span><span class="w">        </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;2710&quot;</span><span class="w"> </span><span class="na">d=</span><span class="s">&quot;1690&quot;</span><span class="w"> </span><span class="na">w=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">a=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="linenos">20</span><span class="w">        </span><span class="nt">&lt;p</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;2720&quot;</span><span class="w"> </span><span class="na">d=</span><span class="s">&quot;2960&quot;</span><span class="w"> </span><span class="na">w=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+<span class="linenos">21</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span>edition<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">22</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;320&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>enjoy<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">23</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;719&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>the<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">24</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;800&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>peaceful<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">25</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;1199&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>music<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">26</span><span class="w">            </span><span class="nt">&lt;s</span><span class="w"> </span><span class="na">t=</span><span class="s">&quot;1520&quot;</span><span class="w"> </span><span class="na">ac=</span><span class="s">&quot;255&quot;</span><span class="nt">&gt;</span><span class="w"> </span>while<span class="nt">&lt;/s&gt;</span>
+<span class="linenos">27</span><span class="w">        </span><span class="nt">&lt;/p&gt;</span>
+<span class="linenos">28</span><span class="w">    </span><span class="nt">&lt;/body&gt;</span>
+<span class="linenos">29</span><span class="nt">&lt;/timedtext&gt;</span>
+</pre></div>
+</div>
+</div>
+<hr class="footnotes docutils" />
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../twitter/snscrape.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Twitter</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../../data_processing/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data processing</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-the-tools">Installing the tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-tools">Using the tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extracting-the-data">Extracting the data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extract-collected-youtube-data-everything-except-comments-to-xml-format">Extract collected Youtube data (everything except comments) to XML format</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-script-s5-13">How to use script <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code><svg aria-hidden="true" class="sd-octicon sd-octicon-repo-template sd-text-success" height="1.0em" version="1.1" viewbox="0 0 16 16" width="1.0em"><path d="M6 .75A.75.75 0 016.75 0h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 .75zm5 0a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V1.5h-.75A.75.75 0 0111 .75zM4.992.662a.75.75 0 01-.636.848c-.436.063-.783.41-.846.846a.75.75 0 01-1.485-.212A2.501 2.501 0 014.144.025a.75.75 0 01.848.637zM2.75 4a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 012.75 4zm10.5 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zM2.75 8a.75.75 0 01.75.75v.268A1.72 1.72 0 013.75 9h.5a.75.75 0 010 1.5h-.5a.25.25 0 00-.25.25v.75c0 .28.114.532.3.714a.75.75 0 01-1.05 1.072A2.495 2.495 0 012 11.5V8.75A.75.75 0 012.75 8zm10.5 0a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-2h-.75a.75.75 0 010-1.5h.75v-.25a.75.75 0 01.75-.75zM6 9.75A.75.75 0 016.75 9h2.5a.75.75 0 010 1.5h-2.5A.75.75 0 016 9.75zm-1 2.5v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill-rule="evenodd"></path></svg></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extract-collected-youtube-comments-to-xml-format">Extract collected Youtube comments to XML format</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s5-13">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.13]</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-data-extracted-with-s5-14">Example of data extracted with <code class="docutils literal notranslate"><span class="pre">[s5.14]</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-subtitle-formats">Example of subtitle formats</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ttml-format">TTML format </a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#srv-format-without-auto-captioning">SRV format without auto-captioning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#srv-format-with-auto-captioning">SRV format with auto-captioning</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Matteo Di Cristofaro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023, Matteo Di Cristofaro.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+
+  <footer class="bd-footer">
+  </footer>
+<script async src="https://analytics.umami.is/script.js" data-website-id="c69c4e7a-b900-47c2-bab5-a154909a8bc5"></script>
+
+  </body>
+</html>
