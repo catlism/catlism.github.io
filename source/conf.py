@@ -22,7 +22,7 @@ copyright = "2023, Matteo Di Cristofaro"
 author = "Matteo Di Cristofaro"
 
 # The full version, including alpha/beta/rc tags
-release = "1.0.0"
+release = "v1.0.0"
 
 master_doc = "index"
 
@@ -32,10 +32,33 @@ master_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinxcontrib.bibtex", "myst_parser", "sphinx_design", "sphinx_copybutton"]
 
-bibtex_bibfiles = ["bibliography.bib"]
+#pygment_style = ["github-dark"]
+extensions = [
+    "sphinxcontrib.bibtex",
+    "myst_parser",
+    "sphinx_design",
+    "sphinx_copybutton",
+    "sphinx_git",
+    "sphinxcontrib.asciinema",
+    "sphinxext.remoteliteralinclude",
+    "sphinx_favicon",
+    "sphinxcontrib.lastupdate",
+    #"sphinx_tippy",
+]
+
+favicons = [
+    "logo-16x16.png",
+    "logo-32x32.png",
+    "logo.svg",
+]
+
+# Set option to enable use of Figures syntax in markdown https://myst-parser.readthedocs.io/en/v0.16.0/syntax/optional.html?highlight=figures#markdown-figures
+myst_enable_extensions = ["colon_fence", "strikethrough"]
+
+bibtex_bibfiles = ["../../catlism_bib/bibliography.bib"]
 bibtex_reference_style = "author_year"
+bibtex_default_style = "alpha"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -55,23 +78,61 @@ html_theme = "sphinx_book_theme"
 
 # Set custom CSS and JS files
 
-html_css_files = ["https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"]
-html_js_files = ["https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js", "main.js"]
-#html_css_files = ['https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css',]
-#html_js_files = ['https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js','main.js',]
+html_css_files = ["custom.css","https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"]
+html_js_files = [
+    "https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js",
+    "main.js",
+]
+# html_css_files = ['https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css',]
+# html_js_files = ['https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js','main.js',]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-# Set theme options
+
+# Set theme options, drawn from booktheme conf.py
+# https://github.com/executablebooks/sphinx-book-theme/blob/master/docs/conf.py
 html_theme_options = {
-    "repository_url": "https://github.com/catlism/catlism.github.io",
+    "repository_url": "https://github.com/catlism/catlism.github.io/",
+    "repository_branch": "main",
     "use_sidenotes": True,
+    #"use_source_button": True,
     "show_toc_level": 2,
     "show_nav_level": 1,
-
+    # "home_page_in_toc": True,
+    "pygment_light_style": "colorful",
+    "pygment_dark_style": "monokai",
+    "extra_footer": "<div>Built with <a href='https://github.com/executablebooks/sphinx-book-theme'>Sphinx book theme</a></div><div><a href='https://catlism.github.io/privacy.html'>Privacy</a></div>",
+    "icon_links": [
+        {
+            # Label for this link
+            "name": "GitHub",
+            # URL where the link will redirect
+            "url": "https://github.com/catlism/catlism.github.io/",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa-brands fa-square-github",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        }
+    ],
 }
 
 html_title = "CATLISM | Online Compendium"
+
+html_sidebars = {
+    "**": ["navbar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
+}
+
+# Make the website default to dark theme
+html_context = {
+    "default_mode": "dark"
+}
+
+sphinxcontrib_asciinema_defaults = {
+    'theme': 'monokai',
+    'preload': 1,
+    'font-size': '25px',
+#    'path': 'path/to/castdir'
+}
