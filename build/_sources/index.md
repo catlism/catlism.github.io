@@ -9,7 +9,6 @@
 ```{eval-rst}
 .. note:: 
     | You are browsing version  |version| |release|
-    | Current and older versions can be downloaded from the `Github releases page <https://github.com/catlism/catlism.github.io/releases>`_
 ```
 
 This website serves as online compendium for the book [***Corpus Approaches to Language in Social Media***](https://www.routledge.com/Corpus-Approaches-to-Language-in-Social-Media/Cristofaro/p/book/9781032125701) (`CATLISM`; Di Cristofaro 2023) published in the series [*Routledge Advances in Corpus Linguistics*](https://www.routledge.com/Routledge-Advances-in-Corpus-Linguistics/book-series/SE0593)[^sn4].  
@@ -21,6 +20,7 @@ The aim is
   
 As such this **online compendium contains**:  
   
+:::{dropdown} 
 {fas}`check;sd-text-success` the scripts included in the volume[^sn6] - downloadable and formatted using colour-coded syntax highlighting - aimed at [collecting](data_collection/index.md) and [processing](data_processing/index.md) data from webpages, blogs, fora, Facebook, Instagram, Twitter, Youtube  
   
 {fas}`check;sd-text-success` interactive videos documenting the use of the commands and tools employed throughout the volume  
@@ -32,22 +32,21 @@ As such this **online compendium contains**:
 {fas}`check;sd-text-success` updates to topics discussed in the book;  
   
 {fas}`check;sd-text-success` links to preservation copies of all the online materials referenced in the volume as archived through The Wayback Machine  
-  
-Where possible and unless stated differently (e.g. in the case of quotations), all the textual contents are published under [Creative Commons CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), while all the scripts are licenced under the open source [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) licence - see [](faq.md) for more details on how to (re)use the materials.  
+:::
 
-```{important}
-Descriptions and further details for scripts and code originally available in the book are left out of this compendium. Scripts and code exclusive to this online compendium are fully described and detailed in each relevant page/section.  
-A number of answers to common questions are included in the [{fa}`circle-question` FAQs](faq.md) section.
+```{eval-rst}
+.. epigraph::
+    Where possible and unless stated differently (e.g. in the case of quotations), all the textual contents are published under [Creative Commons CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), while all the scripts are licenced under the open source [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) licence - see [](faq.md) for more details on how to (re)use the materials.
 ```
   
+
+ 
 
 ## How to use this online compendium
 
 Consult the [](./using_oc.md) section for more details on how to use this website, as well as a legend of the symbols used throughout the pages.
 
-## Structure of the online compendium
-
-:::{dropdown} Contents
+:::{dropdown} Site map
 ```{toctree}
 on_scripts.md
 using_oc.md

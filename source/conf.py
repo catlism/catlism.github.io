@@ -22,7 +22,7 @@ copyright = "2023, Matteo Di Cristofaro"
 author = "Matteo Di Cristofaro"
 
 # The full version, including alpha/beta/rc tags
-release = "v1.0.0"
+release = "v1.0.1"
 
 master_doc = "index"
 
