@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "catlism_oc"
-copyright = "2023, Matteo Di Cristofaro"
+copyright = "2023-2024, Matteo Di Cristofaro"
 author = "Matteo Di Cristofaro"
 
 # The full version, including alpha/beta/rc tags
