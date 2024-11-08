@@ -16,9 +16,10 @@
 
 
 # -- Project information -----------------------------------------------------
+import time
 
 project = "catlism_oc"
-copyright = "2023, Matteo Di Cristofaro"
+copyright = f'2023-{time.strftime("%Y")}, Matteo Di Cristofaro'
 author = "Matteo Di Cristofaro"
 
 # The full version, including alpha/beta/rc tags
@@ -56,7 +57,7 @@ favicons = [
 # Set option to enable use of Figures syntax in markdown https://myst-parser.readthedocs.io/en/v0.16.0/syntax/optional.html?highlight=figures#markdown-figures
 myst_enable_extensions = ["colon_fence", "strikethrough"]
 
-bibtex_bibfiles = ["../../catlism_bib/bibliography.bib"]
+bibtex_bibfiles = ["bibliography.bib"]
 bibtex_reference_style = "author_year"
 bibtex_default_style = "alpha"
 
