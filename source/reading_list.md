@@ -5,7 +5,7 @@
     and set to  in case the scraper failed to get it from the html source).   
     The major sources for the materials are [Hacker News](https://news.ycombinator.com/news) and [/.Slashdot](https://slashdot.org/).
 
-    Last update:07-11-2024
+    Last update:08-11-2024
     
 | Link | Year | Archived copy|
 |------|------|--------------|
