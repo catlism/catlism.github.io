@@ -10,3 +10,4 @@
 | Link | Year | Archived copy|
 |------|------|--------------|
 | [C’è troppa gente troppo sola](https://www.internazionale.it/opinione/annamaria-testa/2019/05/27/solitudine-emergenza) | 2019 | [archived](https://web.archive.org/web/20241107111650/https://www.internazionale.it/opinione/annamaria-testa/2019/05/27/solitudine-emergenza) |
+| [Automating some git commands with Python - GeeksforGeeks](https://www.geeksforgeeks.org/automating-some-git-commands-with-python/) | 2024 | [archived](https://web.archive.org/web/20240927191529/https://www.geeksforgeeks.org/automating-some-git-commands-with-python/) |
