@@ -6,8 +6,9 @@ The majority of the resources are selected from two aggregators, [Hacker News](h
 Some materials may be behind a paywall (and the archived copy may consequently be unavailable); in such cases you may try using the browser extension  available for both [Firefox](https://github.com/bpc-clone/bypass-paywalls-firefox-clean/) and [Chrome](https://github.com/bpc-clone/bypass-paywalls-chrome-clean).
     Last update:10-11-2024
     
-| Link | Year | Published | Added |
-|------|------|-----------|-------|
+| Link | Published | Added | Archived |
+|------|-----------|-------|----------|
 | [Exploring Internet traffic shifts and cyber attacks during the 2024 US election](https://blog.cloudflare.com/exploring-internet-traffic-shifts-and-cyber-attacks-during-the-2024-us-election/) | 2024 | 20241108 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241107113222/https://blog.cloudflare.com/exploring-internet-traffic-shifts-and-cyber-attacks-during-the-2024-us-election/) |
 | [Despite its impressive output, generative AI doesn't have a coherent understanding of the world, researchers suggest](https://techxplore.com/news/2024-11-output-generative-ai-doesnt-coherent.html) | 2024 | 20241108 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241106023901/https://techxplore.com/news/2024-11-output-generative-ai-doesnt-coherent.html) |
 | [Liberation Technology / Journal of Democracy](https://www.journalofdemocracy.org/articles/liberation-technology/) | N/A | 20241110 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240525024602/https://journalofdemocracy.org/articles/liberation-technology/) |
+| [Liberation technology: dreams, politics, history](https://www.opendemocracy.net/en/liberation-technology-dreams-politics-history/) | N/A | 20241110 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240411142653/https://www.opendemocracy.net/en/liberation-technology-dreams-politics-history/) |
