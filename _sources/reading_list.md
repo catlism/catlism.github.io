@@ -9,3 +9,6 @@ Last update:11-11-2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 2024 | 20241111 | [{octicon}\`archive;2em;sd-text-primary\`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
+| [When Machine Learning Tells the Wrong Story](https://jackcook.com/2024/11/09/bigger-fish.html) | N/A | 20241111 | [{octicon}\`archive;2em;sd-text-primary\`](https://web.archive.org/web/20241110131130/https://jackcook.com/2024/11/09/bigger-fish.html) |
+| [Liberation technology: dreams, politics, history](https://www.opendemocracy.net/en/liberation-technology-dreams-politics-history/) | N/A | 20241111 | [{octicon}\`archive;2em;sd-text-primary\`](https://web.archive.org/web/20240411142653/https://www.opendemocracy.net/en/liberation-technology-dreams-politics-history/) |
+| [Network Of Time](https://networkoftime.com/about.html) | N/A | 20241111 | [{octicon}\`archive;2em;sd-text-primary\`](https://web.archive.org/web/20241111175227/https://networkoftime.com/about.html) |
