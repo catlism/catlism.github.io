@@ -1,3 +1,5 @@
+# Reading list
+
 ```{admonition} Disclaimer
 :class: sidebar danger
 Some resources in this list may:
@@ -12,7 +14,7 @@ Following is an **opinionated list** of resources interconnected to *digital tec
 Updated several times a week, it contains both the original link and a preservation link (served by the Wayback Machine). Resources can be sorted by publication date (retrieved through [Wallabag](https://wallabag.org/), or [htmldate](https://github.com/adbar/htmldate) if the former fails; set to `N/A` if both scrapers fails to extract it from the HTML source), or the date the resource was added to the list.
 Some materials may be behind a paywall (and the archived copy may consequently be unavailable); in such cases you may try using the browser extension `Bypass Paywalls Clean` available for both [Firefox](https://github.com/bpc-clone/bypass-paywalls-firefox-clean/) and [Chrome](https://github.com/bpc-clone/bypass-paywalls-chrome-clean).
 
-[^1]: "those notions and mechanisms that – while not classically associated with natural language – are […] i) foundational of the digital environments in which language production and exchanges occur and ii) at the core of the techniques that are used to produce, collect, and process the focus of investigation, that is, digital textual data." (CATLISM, 2-4)
+The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
 Last update: 23/11/2024
 | Link | Published | Added | Archived |
@@ -285,3 +287,7 @@ Last update: 23/11/2024
 | [Pokémon Go Players Have Unwittingly Trained AI to Navigate the World](https://www.404media.co/pokemon-go-players-have-unwittingly-trained-ai-to-navigate-the-world/) | 20241119 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241122132637/https://www.404media.co/pokemon-go-players-have-unwittingly-trained-ai-to-navigate-the-world/) |
 | [Testing AI on language comprehension tasks reveals insensitivity to underlying meaning - Scientific Reports](https://www.nature.com/articles/s41598-024-79531-8?error=cookies_not_supported&code=e6dfa971-d674-4fdc-968c-77e94b1fc662) | 20241114 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241123113852/https://www.nature.com/articles/s41598-024-79531-8) |
 | [The macOS LC_COLLATE hunt - Zhiming Wang](https://blog.zhimingwang.org/macos-lc_collate-hunt) | 20200603 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241121040044/https://blog.zhimingwang.org/macos-lc_collate-hunt) |
+| [down in the posting mines / poking at ghosts](https://youngvulgarian.substack.com/p/down-in-the-posting-mines-poking) | 20241122 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241122133047/https://youngvulgarian.substack.com/p/down-in-the-posting-mines-poking) |
+| [How OpenAI stress-tests its large language models](https://www.technologyreview.com/2024/11/21/1107158/how-openai-stress-tests-its-large-language-models/) | 20241121 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241122171224/https://www.technologyreview.com/2024/11/21/1107158/how-openai-stress-tests-its-large-language-models) |
+| [For Teens Online, Conspiracy Theories Are Commonplace. Media Literacy Is Not. - EdSurge News](https://www.edsurge.com/news/2024-11-07-for-teens-online-conspiracy-theories-are-commonplace-media-literacy-is-not) | 20241107 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241118092718/https://www.edsurge.com/news/2024-11-07-for-teens-online-conspiracy-theories-are-commonplace-media-literacy-is-not) |
+| [Remembering Cyberia, the World's First Ever Cyber Cafe](https://www.vice.com/en/article/worlds-first-ever-cyber-cafe-cyberia-london/) | 20241121 | 20241123 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241122013338/https://www.vice.com/en/article/worlds-first-ever-cyber-cafe-cyberia-london/) |
