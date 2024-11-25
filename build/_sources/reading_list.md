@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 24/11/2024
+Last update: 25/11/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
