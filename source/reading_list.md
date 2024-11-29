@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 28/11/2024
+Last update: 29/11/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -427,3 +427,9 @@ Last update: 28/11/2024
 | [Five ways you might already encounter AI in cities (and not realise it)](https://theconversation.com/five-ways-you-might-already-encounter-ai-in-cities-and-not-realise-it-243290) | N/A | 20241128 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241128020155/https://theconversation.com/five-ways-you-might-already-encounter-ai-in-cities-and-not-realise-it-243290) |
 | [About Ethnographic Data Visualization – The Side Unseen](https://commons.princeton.edu/invisible-violence/engagement/) | 20240101 | 20241128 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240703234947/http://commons.princeton.edu/invisible-violence/engagement/) |
 | [OkCupid Study Reveals the Perils of Big-Data Science](https://www.wired.com/2016/05/okcupid-study-reveals-perils-big-data-science/) | 20160514 | 20241128 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240927001440/https://www.wired.com/2016/05/okcupid-study-reveals-perils-big-data-science/) |
+| [Japanese scientists were pioneers of AI, yet they’re being written out of its history](https://theconversation.com/japanese-scientists-were-pioneers-of-ai-yet-theyre-being-written-out-of-its-history-243762) | N/A | 20241129 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241128102755/https://theconversation.com/japanese-scientists-were-pioneers-of-ai-yet-theyre-being-written-out-of-its-history-243762) |
+| [Reddit overtakes X in popularity of social media platforms in UK](https://www.theguardian.com/technology/2024/nov/28/reddit-overtakes-x-in-popularity-of-social-media-platforms-in-uk) | 20241128 | 20241129 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241129020013/https://www.theguardian.com/technology/2024/nov/28/reddit-overtakes-x-in-popularity-of-social-media-platforms-in-uk) |
+| [Conversational Game Theory – Collective Intelligence Engine for Ai and Humans](https://aikiwiki.com/) | 20240402 | 20241129 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241128112130/https://aikiwiki.com/) |
+| [AI can now create a replica of your personality](https://www.technologyreview.com/2024/11/20/1107100/ai-can-now-create-a-replica-of-your-personality/) | 20241120 | 20241129 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241126201406/https://www.technologyreview.com/2024/11/20/1107100/ai-can-now-create-a-replica-of-your-personality/) |
+| [The trouble with openness](https://anderegg.ca/2024/11/27/the-trouble-with-openness) | 20241127 | 20241129 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241128225151/https://anderegg.ca/2024/11/27/the-trouble-with-openness) |
+| [Details matter with open source models](https://aider.chat/2024/11/21/quantization.html) | 20241121 | 20241129 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241121194626/https://aider.chat/2024/11/21/quantization.html) |
