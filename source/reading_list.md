@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 30/11/2024
+Last update: 01/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -488,3 +488,6 @@ Last update: 30/11/2024
 | [A Bug in Early Creative Commons Licenses Has Enabled a New Breed of Superpredator](https://doctorow.medium.com/a-bug-in-early-creative-commons-licenses-has-enabled-a-new-breed-of-superpredator-5f6360713299) | N/A | 20241130 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241121212600/https://doctorow.medium.com/a-bug-in-early-creative-commons-licenses-has-enabled-a-new-breed-of-superpredator-5f6360713299) |
 | [AI Prompt Engineering Is Dead](https://spectrum.ieee.org/prompt-engineering-is-dead) | 20240306 | 20241130 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241117024602/https://spectrum.ieee.org/prompt-engineering-is-dead) |
 | [Atlas of internet surveillance maps ownership of network infrastructures worldwide](https://techxplore.com/news/2024-03-atlas-internet-surveillance-ownership-network.html) | 20240305 | 20241130 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240415161834/https://techxplore.com/news/2024-03-atlas-internet-surveillance-ownership-network.html) |
+| [Open-source champion Kelsey Hightower on the promise of Bluesky](https://www.siliconrepublic.com/enterprise/kelsey-hightower-bluesky-ap-protocol-open-source-kubernetes) | 20241126 | 20241201 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241129001051/https://www.siliconrepublic.com/enterprise/kelsey-hightower-bluesky-ap-protocol-open-source-kubernetes) |
+| [Why We See Digital Ads After Talking About Something / McNutt & Partners](https://www.mcnuttpartners.com/why-we-see-digital-ads-after-talking-about-something/) | 20210125 | 20241201 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241130061235/https://www.mcnuttpartners.com/why-we-see-digital-ads-after-talking-about-something/) |
+| [‘His Facebook was a shrine to my face’: the day I caught my catfish](https://www.theguardian.com/lifeandstyle/2024/nov/30/his-facebook-was-a-shrine-to-my-face-the-day-i-caught-my-catfish) | 20241130 | 20241201 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241201020048/https://www.theguardian.com/lifeandstyle/2024/nov/30/his-facebook-was-a-shrine-to-my-face-the-day-i-caught-my-catfish) |
