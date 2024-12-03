@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 02/12/2024
+Last update: 03/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -497,3 +497,11 @@ Last update: 02/12/2024
 | [Modelling Historical Information with Structured Assertion Records](https://releven.univie.ac.at/news/detailansicht/news/blog-post-31-tara-andrews/) | 20241129 | 20241202 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202020050/https://releven.univie.ac.at/news/detailansicht/news/blog-post-31-tara-andrews/) |
 | [The Myth of Objective Data](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) | 20230417 | 20241202 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240916233410/https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) |
 | [An Open Source Python Library for Anonymizing Sensitive Data - Scientific Data](https://www.nature.com/articles/s41597-024-04019-z?error=cookies_not_supported&code=021d4680-5c81-4fa7-ba06-2ea2e5262c7a) | 20241126 | 20241202 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202020134/https://www.nature.com/articles/s41597-024-04019-z) |
+| [Can Google Scholar survive the AI revolution?](https://www.nature.com/articles/d41586-024-03746-y?error=cookies_not_supported&code=57e9f0a9-65cd-4093-b285-ecc9b9b69616) | 20241119 | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203020015/https://www.nature.com/articles/d41586-024-03746-y) |
+| [You Have One Voice / Hazel Weakly](https://hazelweakly.me/blog/you-have-one-voice/) | 20240101 | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202071332/https://hazelweakly.me/blog/you-have-one-voice/) |
+| ['Brain rot' named Oxford Word of the Year 2024 - Oxford University Press](https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/) | 20241202 | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202090914/https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/) |
+| [How AI Log Analysis Is Shaping Observability’s Future](https://thenewstack.io/how-ai-log-analysis-is-shaping-observabilitys-future/) | 20241122 | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202075422/https://thenewstack.io/how-ai-log-analysis-is-shaping-observabilitys-future/) |
+| [Can a Comma Solve a Crime?](https://www.thedial.world/articles/news/issue-22/forensic-linguists-solve-crimes) | 20241121 | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202090617/https://www.thedial.world/articles/news/issue-22/forensic-linguists-solve-crimes) |
+| [How ChatGPT Search (Mis)represents Publisher Content](https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php) | N/A | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241130013932/https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php) |
+| [The Evolution of Machine Translation: A Brief History and What’s Coming Next](https://multilingual.com/the-evolution-of-machine-translation-a-brief-history-and-whats-coming-next/) | N/A | 20241203 | N/A |
+| [Privacy Disasters: FaceHuggers Are Eating Your Skeets](https://insights.priva.cat/p/privacy-disasters-facehuggers-are) | 20241202 | 20241203 | N/A |
