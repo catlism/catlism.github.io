@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 03/12/2024
+Last update: 04/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -505,3 +505,10 @@ Last update: 03/12/2024
 | [How ChatGPT Search (Mis)represents Publisher Content](https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php) | N/A | 20241203 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241130013932/https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php) |
 | [The Evolution of Machine Translation: A Brief History and What’s Coming Next](https://multilingual.com/the-evolution-of-machine-translation-a-brief-history-and-whats-coming-next/) | N/A | 20241203 | N/A |
 | [Privacy Disasters: FaceHuggers Are Eating Your Skeets](https://insights.priva.cat/p/privacy-disasters-facehuggers-are) | 20241202 | 20241203 | N/A |
+| [What is Software Anyways? Where Does it Exist?](https://jimmyhmiller.github.io/advent-of-papers/2024/dec-2-abstract-artifact) | 20240101 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203055307/https://jimmyhmiller.github.io/advent-of-papers/2024/dec-2-abstract-artifact) |
+| [Why an Octopus-like Creature Has Come to Symbolize the State of A.I.](https://www.nytimes.com/2023/05/30/technology/shoggoth-meme-ai.html) | 20230530 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241125184907/https://www.nytimes.com/2023/05/30/technology/shoggoth-meme-ai.html) |
+| [New datasets will train AI models to think like scientists](https://www.cam.ac.uk/research/news/new-datasets-will-train-ai-models-to-think-like-scientists) | 20241202 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241204020038/https://www.cam.ac.uk/research/news/new-datasets-will-train-ai-models-to-think-like-scientists) |
+| [Social media algorithms can change your views in just a single day](https://www.newscientist.com/article/2458226-social-media-algorithms-can-change-your-views-in-just-a-single-day/) | 20241128 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203113759/https://www.newscientist.com/article/2458226-social-media-algorithms-can-change-your-views-in-just-a-single-day/) |
+| [Combining linguistics, archaeology and ancient DNA genetics to understand deep human history](https://theconversation.com/combining-linguistics-archaeology-and-ancient-dna-genetics-to-understand-deep-human-history-93812) | N/A | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240805093811/https://theconversation.com/combining-linguistics-archaeology-and-ancient-dna-genetics-to-understand-deep-human-history-93812) |
+| [Your Bluesky Posts Are Probably In A Bunch of Datasets Now](https://www.404media.co/bluesky-posts-machine-learning-ai-datasets-hugging-face/) | 20241203 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203204302/https://www.404media.co/bluesky-posts-machine-learning-ai-datasets-hugging-face/) |
+| [Opinion: Students’ tech skills should be nurtured, not punished](https://www.deseret.com/opinion/2024/11/30/encourage-not-punish-utah-student-tech-skills/) | 20241130 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241201113316/https://www.deseret.com/opinion/2024/11/30/encourage-not-punish-utah-student-tech-skills/) |
