@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 04/12/2024
+Last update: 05/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -512,3 +512,6 @@ Last update: 04/12/2024
 | [Combining linguistics, archaeology and ancient DNA genetics to understand deep human history](https://theconversation.com/combining-linguistics-archaeology-and-ancient-dna-genetics-to-understand-deep-human-history-93812) | N/A | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20240805093811/https://theconversation.com/combining-linguistics-archaeology-and-ancient-dna-genetics-to-understand-deep-human-history-93812) |
 | [Your Bluesky Posts Are Probably In A Bunch of Datasets Now](https://www.404media.co/bluesky-posts-machine-learning-ai-datasets-hugging-face/) | 20241203 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203204302/https://www.404media.co/bluesky-posts-machine-learning-ai-datasets-hugging-face/) |
 | [Opinion: Students’ tech skills should be nurtured, not punished](https://www.deseret.com/opinion/2024/11/30/encourage-not-punish-utah-student-tech-skills/) | 20241130 | 20241204 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241201113316/https://www.deseret.com/opinion/2024/11/30/encourage-not-punish-utah-student-tech-skills/) |
+| [The Beginning of the End of Big Tech](https://www.wired.com/story/the-beginning-of-the-end-of-big-tech/) | 20241126 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202200153/https://www.wired.com/story/the-beginning-of-the-end-of-big-tech/) |
+| [Teaching Critical Reasoning with AI: Humiliation Rituals](https://mikecaulfield.substack.com/p/teaching-critical-reasoning-with) | 20241204 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241205020058/https://mikecaulfield.substack.com/p/teaching-critical-reasoning-with) |
+| [Something’s Rotten with the State of Our Archives.](https://www.readtangle.com/otherposts/somethings-rotten-with-the-state-of-our-archives/) | 20241110 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241116165030/https://www.readtangle.com/otherposts/somethings-rotten-with-the-state-of-our-archives/) |
