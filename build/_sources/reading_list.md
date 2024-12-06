@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 05/12/2024
+Last update: 06/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -515,3 +515,4 @@ Last update: 05/12/2024
 | [The Beginning of the End of Big Tech](https://www.wired.com/story/the-beginning-of-the-end-of-big-tech/) | 20241126 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241202200153/https://www.wired.com/story/the-beginning-of-the-end-of-big-tech/) |
 | [Teaching Critical Reasoning with AI: Humiliation Rituals](https://mikecaulfield.substack.com/p/teaching-critical-reasoning-with) | 20241204 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241205020058/https://mikecaulfield.substack.com/p/teaching-critical-reasoning-with) |
 | [Something’s Rotten with the State of Our Archives.](https://www.readtangle.com/otherposts/somethings-rotten-with-the-state-of-our-archives/) | 20241110 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241116165030/https://www.readtangle.com/otherposts/somethings-rotten-with-the-state-of-our-archives/) |
+| [Social Media is Disproportionately Hurting Girls](https://www.afterbabel.com/p/social-media-conversations-with-daughters) | 20241204 | 20241206 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206010538/https://www.afterbabel.com/p/social-media-conversations-with-daughters) |
