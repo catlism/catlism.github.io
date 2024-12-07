@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 06/12/2024
+Last update: 07/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -516,3 +516,7 @@ Last update: 06/12/2024
 | [Teaching Critical Reasoning with AI: Humiliation Rituals](https://mikecaulfield.substack.com/p/teaching-critical-reasoning-with) | 20241204 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241205020058/https://mikecaulfield.substack.com/p/teaching-critical-reasoning-with) |
 | [Something’s Rotten with the State of Our Archives.](https://www.readtangle.com/otherposts/somethings-rotten-with-the-state-of-our-archives/) | 20241110 | 20241205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241116165030/https://www.readtangle.com/otherposts/somethings-rotten-with-the-state-of-our-archives/) |
 | [Social Media is Disproportionately Hurting Girls](https://www.afterbabel.com/p/social-media-conversations-with-daughters) | 20241204 | 20241206 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206010538/https://www.afterbabel.com/p/social-media-conversations-with-daughters) |
+| [She Joined Facebook to Fight Terror. Now She’s Convinced We Need to Fight Facebook.](https://theintercept.com/2024/12/04/meta-facebook-terrorism-censorship-speech/) | 20241204 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241205151942/https://theintercept.com/2024/12/04/meta-facebook-terrorism-censorship-speech/) |
+| [Ethical Web Scraping: Legal Insights and Best Practices](https://news.ycombinator.com/item?id=42337425) | 20241206 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206080036/https://news.ycombinator.com/item?id=42337425) |
+| [On the foolishness of "natural language programming". (EWD 667)](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) | 20101119 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203055958/https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) |
+| [Your Internet Shouldn't Be My Internet](https://samsharp.ca/your-internet-my-internet/) | 20241129 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206061932/https://samsharp.ca/your-internet-my-internet/) |
