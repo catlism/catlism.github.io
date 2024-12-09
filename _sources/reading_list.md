@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 07/12/2024
+Last update: 09/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -520,3 +520,5 @@ Last update: 07/12/2024
 | [Ethical Web Scraping: Legal Insights and Best Practices](https://news.ycombinator.com/item?id=42337425) | 20241206 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206080036/https://news.ycombinator.com/item?id=42337425) |
 | [On the foolishness of "natural language programming". (EWD 667)](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) | 20101119 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241203055958/https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html) |
 | [Your Internet Shouldn't Be My Internet](https://samsharp.ca/your-internet-my-internet/) | 20241129 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206061932/https://samsharp.ca/your-internet-my-internet/) |
+| [Information is useful if it's re-usable](https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable) | 20241208 | 20241209 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241208082919/https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable) |
+| [Report: Tokyo University Used "Tiananmen Square" Keyword to Block Chinese Admissions - Unseen Japan](https://unseen-japan.com/tokyo-university-chinese-students-tiananmen/) | 20241207 | 20241209 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241208224916/https://unseen-japan.com/tokyo-university-chinese-students-tiananmen/) |
