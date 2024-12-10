@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 09/12/2024
+Last update: 10/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -522,3 +522,6 @@ Last update: 09/12/2024
 | [Your Internet Shouldn't Be My Internet](https://samsharp.ca/your-internet-my-internet/) | 20241129 | 20241207 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241206061932/https://samsharp.ca/your-internet-my-internet/) |
 | [Information is useful if it's re-usable](https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable) | 20241208 | 20241209 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241208082919/https://professionalhuman.substack.com/p/information-is-useful-if-its-re-usable) |
 | [Report: Tokyo University Used "Tiananmen Square" Keyword to Block Chinese Admissions - Unseen Japan](https://unseen-japan.com/tokyo-university-chinese-students-tiananmen/) | 20241207 | 20241209 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241208224916/https://unseen-japan.com/tokyo-university-chinese-students-tiananmen/) |
+| [Feeling Outraged? Think Twice Before Hitting “Share.”](https://insight.kellogg.northwestern.edu/article/feeling-outraged-think-twice-before-hitting-share) | 20241201 | 20241210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241209050006/https://insight.kellogg.northwestern.edu/article/feeling-outraged-think-twice-before-hitting-share) |
+| [Researchers Use AI To Turn Sound Recordings Into Accurate Street Images](https://news.utexas.edu/2024/11/27/researchers-use-ai-to-turn-sound-recordings-into-accurate-street-images/) | 20241127 | 20241210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241208231103/https://news.utexas.edu/2024/11/27/researchers-use-ai-to-turn-sound-recordings-into-accurate-street-images/) |
+| [How humans write programs](https://www.tedinski.com/2018/01/16/how-humans-write-programs.html) | 20180116 | 20241210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241209040620/https://www.tedinski.com/2018/01/16/how-humans-write-programs.html) |
