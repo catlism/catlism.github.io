@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 10/12/2024
+Last update: 11/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -525,3 +525,7 @@ Last update: 10/12/2024
 | [Feeling Outraged? Think Twice Before Hitting “Share.”](https://insight.kellogg.northwestern.edu/article/feeling-outraged-think-twice-before-hitting-share) | 20241201 | 20241210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241209050006/https://insight.kellogg.northwestern.edu/article/feeling-outraged-think-twice-before-hitting-share) |
 | [Researchers Use AI To Turn Sound Recordings Into Accurate Street Images](https://news.utexas.edu/2024/11/27/researchers-use-ai-to-turn-sound-recordings-into-accurate-street-images/) | 20241127 | 20241210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241208231103/https://news.utexas.edu/2024/11/27/researchers-use-ai-to-turn-sound-recordings-into-accurate-street-images/) |
 | [How humans write programs](https://www.tedinski.com/2018/01/16/how-humans-write-programs.html) | 20180116 | 20241210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241209040620/https://www.tedinski.com/2018/01/16/how-humans-write-programs.html) |
+| [How WhatsApp ate the world](https://restofworld.org/2024/how-whatsapp-for-business-changed-the-world/) | 20241209 | 20241211 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210063019/https://restofworld.org/2024/how-whatsapp-for-business-changed-the-world/) |
+| [Sorry, Social Media Is Never Getting Any Better](https://www.discoursemagazine.com/p/sorry-social-media-is-never-getting) | 20241209 | 20241211 | N/A |
+| [15 Times to use AI, and 5 Not to](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to) | 20241209 | 20241211 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210084833/https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to) |
+| [The Hottest New Coding Language is ... English](https://10xbetterai.beehiiv.com/p/the-hottest-new-coding-language-is-english) | 20241210 | 20241211 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210080204/https://10xbetterai.beehiiv.com/p/the-hottest-new-coding-language-is-english) |
