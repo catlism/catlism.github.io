@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 11/12/2024
+Last update: 12/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -529,3 +529,7 @@ Last update: 11/12/2024
 | [Sorry, Social Media Is Never Getting Any Better](https://www.discoursemagazine.com/p/sorry-social-media-is-never-getting) | 20241209 | 20241211 | N/A |
 | [15 Times to use AI, and 5 Not to](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to) | 20241209 | 20241211 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210084833/https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to) |
 | [The Hottest New Coding Language is ... English](https://10xbetterai.beehiiv.com/p/the-hottest-new-coding-language-is-english) | 20241210 | 20241211 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210080204/https://10xbetterai.beehiiv.com/p/the-hottest-new-coding-language-is-english) |
+| [Open source projects drown in bad bug reports penned by AI](https://www.theregister.com/2024/12/10/ai_slop_bug_reports) | 20241210 | 20241212 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210120225/https://www.theregister.com/2024/12/10/ai_slop_bug_reports/) |
+| [Researchers reduce bias in AI models while preserving or improving accuracy](https://news.mit.edu/2024/researchers-reduce-bias-ai-models-while-preserving-improving-accuracy-1211) | 20241211 | 20241212 | N/A |
+| [The Need to Make Content Moderation Transparent / TechPolicy.Press](https://www.techpolicy.press/the-need-to-make-content-moderation-transparent/) | 20241211 | 20241212 | N/A |
+| [Stop using generative AI as a search engine](https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire) | 20241205 | 20241212 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210003659/https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire) |
