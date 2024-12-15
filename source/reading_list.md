@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 14/12/2024
+Last update: 15/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -535,3 +535,6 @@ Last update: 14/12/2024
 | [Stop using generative AI as a search engine](https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire) | 20241205 | 20241212 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241210003659/https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire) |
 | [The Paradox of the Internet](https://aparc.fsi.stanford.edu/publication/paradox-internet) | 20240411 | 20241214 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241126194602/https://aparc.fsi.stanford.edu/publication/paradox-internet) |
 | [Integration of Music and Art in a Science and Engineering-Based University](https://cacm.acm.org/blogcacm/integration-of-music-and-art-in-a-science-and-engineering-based-university/) | 20241210 | 20241214 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241214020017/https://cacm.acm.org/blogcacm/integration-of-music-and-art-in-a-science-and-engineering-based-university/) |
+| [Do I Really Own the Digital Media I Bought?](https://www.digitalrightsbytes.org/topics/wait-i-don-t-own-the-digital-downloads-i-buy) | 20180917 | 20241215 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241214061755/https://www.digitalrightsbytes.org/topics/wait-i-don-t-own-the-digital-downloads-i-buy) |
+| [Cascading collapse of online social networks - Scientific Reports](https://www.nature.com/articles/s41598-017-17135-1?error=cookies_not_supported&code=5558fad9-e5fa-4012-b322-571b6d946c4a) | 20171201 | 20241215 | N/A |
+| [How Silicon Valley is disrupting democracy](https://www.technologyreview.com/2024/12/13/1108459/book-review-silicon-valley-democracy-techlash-rob-lalka-venture-alchemists-marietje-schaake-tech-coup/) | 20241213 | 20241215 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241213144006/https://www.technologyreview.com/2024/12/13/1108459/book-review-silicon-valley-democracy-techlash-rob-lalka-venture-alchemists-marietje-schaake-tech-coup/) |
