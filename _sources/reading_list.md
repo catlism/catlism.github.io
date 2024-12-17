@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 16/12/2024
+Last update: 17/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -539,3 +539,4 @@ Last update: 16/12/2024
 | [Cascading collapse of online social networks - Scientific Reports](https://www.nature.com/articles/s41598-017-17135-1?error=cookies_not_supported&code=5558fad9-e5fa-4012-b322-571b6d946c4a) | 20171201 | 20241215 | N/A |
 | [How Silicon Valley is disrupting democracy](https://www.technologyreview.com/2024/12/13/1108459/book-review-silicon-valley-democracy-techlash-rob-lalka-venture-alchemists-marietje-schaake-tech-coup/) | 20241213 | 20241215 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241213144006/https://www.technologyreview.com/2024/12/13/1108459/book-review-silicon-valley-democracy-techlash-rob-lalka-venture-alchemists-marietje-schaake-tech-coup/) |
 | [Computing inside an AI / Will Whitney](https://willwhitney.com/computing-inside-ai.html) | 20241212 | 20241216 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241215045040/https://willwhitney.com/computing-inside-ai.html) |
+| [We’ve Been Here Before](https://terriblesoftware.org/2024/12/14/weve-been-here-before/) | 20241214 | 20241217 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241215155513/https://terriblesoftware.org/2024/12/14/weve-been-here-before/) |
