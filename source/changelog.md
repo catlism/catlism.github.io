@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.1.0
+
+- added [**Reading list**](./reading_list.md)
+- updated [[`s5.13`]](./data_collection/social_media_platforms/youtube/yt-dlp_ytcd.md#s5-13) to correctly extract autocaption details
+
 ## Version 1.0.0
 
 - initial release, containing the materials included in the book

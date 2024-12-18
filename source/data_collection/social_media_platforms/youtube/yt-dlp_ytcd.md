@@ -71,7 +71,7 @@ youtube-comment-downloader --url "URL" --output FILE.jsonl
 ### Extract collected Youtube data (everything except comments) to XML format[^sn3]
 ```{rli} https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py
 :name: s5-13
-:caption: Script `[s5.13]` {octicon}`git-pull-request;1em;sd-text-warning [{octicon}`download;1em;sd-text-primary`](https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py)
+:caption: Script `[s5.13]` {octicon}`git-pull-request;1em;sd-text-warning` [{octicon}`download;1em;sd-text-primary`](https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py)
 :linenos:
 :lines: 20-
 ```
