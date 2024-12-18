@@ -34,7 +34,7 @@ master_doc = "index"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-#pygment_style = ["github-dark"]
+# pygment_style = ["github-dark"]
 extensions = [
     "sphinxcontrib.bibtex",
     "myst_parser",
@@ -45,7 +45,7 @@ extensions = [
     "sphinxext.remoteliteralinclude",
     "sphinx_favicon",
     "sphinxcontrib.lastupdate",
-    #"sphinx_tippy",
+    # "sphinx_tippy",
 ]
 
 favicons = [
@@ -57,7 +57,7 @@ favicons = [
 # Set option to enable use of Figures syntax in markdown https://myst-parser.readthedocs.io/en/v0.16.0/syntax/optional.html?highlight=figures#markdown-figures
 myst_enable_extensions = ["colon_fence", "strikethrough"]
 
-bibtex_bibfiles = ["bibliography.bib"]
+bibtex_bibfiles = ["../../catlism_bib/bibliography.bib"]
 bibtex_reference_style = "author_year"
 bibtex_default_style = "alpha"
 
@@ -79,7 +79,11 @@ html_theme = "sphinx_book_theme"
 
 # Set custom CSS and JS files
 
-html_css_files = ["custom.css","https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"]
+html_css_files = [
+    "custom.css",
+    "https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+]
 html_js_files = [
     "https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js",
     "main.js",
@@ -99,7 +103,7 @@ html_theme_options = {
     "repository_url": "https://github.com/catlism/catlism.github.io/",
     "repository_branch": "main",
     "use_sidenotes": True,
-    #"use_source_button": True,
+    # "use_source_button": True,
     "show_toc_level": 2,
     "show_nav_level": 1,
     # "home_page_in_toc": True,
@@ -127,13 +131,11 @@ html_sidebars = {
 }
 
 # Make the website default to dark theme
-html_context = {
-    "default_mode": "dark"
-}
+html_context = {"default_mode": "dark"}
 
 sphinxcontrib_asciinema_defaults = {
-    'theme': 'monokai',
-    'preload': 1,
-    'font-size': '25px',
-#    'path': 'path/to/castdir'
+    "theme": "monokai",
+    "preload": 1,
+    "font-size": "25px",
+    #    'path': 'path/to/castdir'
 }
