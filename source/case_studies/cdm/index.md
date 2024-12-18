@@ -1,9 +1,9 @@
 # Analysing crypto-drug market fora
 
-> The case study [utilised] in this section is based on the research conducted at Swansea University Department of Applied Linguistics under the supervision of Prof. Nuria Lorenzo-Dus and in collaboration with the Global Drug Policy Observer[^sn2] (GDPO) as part of the project ‘Trust in Crypto-Drug Markets’ funded by EPSRC–CHERISH-DE (Principal Investigator: Prof. Nuria Lorenzo-Dus). Outputs from the research are published in {cite:p}`horton-eddison_hard_2017`, {cite:p}`di_cristofaro_corpus_2017`, and {cite:p}`lorenzo-dus_i_2018`, which served as basis for the [contents described].[^sn1]
+> The case study [utilised] in this section is based on the research conducted at Swansea University Department of Applied Linguistics under the supervision of Prof. Nuria Lorenzo-Dus and in collaboration with the Global Drug Policy Observer[^sn2] (GDPO) as part of the project ‘Trust in Crypto-Drug Markets’ funded by EPSRC–CHERISH-DE (Principal Investigator: Prof. Nuria Lorenzo-Dus). Outputs from the research are published in {cite:p}`horton-eddisonHardInterventionsInnovation2017`, {cite:p}`dicristofaroCorpusLinguisticsSilk2017`, and {cite:p}`lorenzo-dusKnowThisWhole2018`, which served as basis for the [contents described].[^sn1]
 
 :::{card} Sample selection of HTML files from Silk Road 1 and 2[^sn3] 
-A sample selection of HTML files from Silk Road 1 and 2, sourced from [the Darknet Market Archives](https://gwern.net/dnm-archive) {cite:p}`branwen_dark_2015`, may be downloaded by clicking the button below. The file shown in the book is named `index.php?topic=101030.0`.
+A sample selection of HTML files from Silk Road 1 and 2, sourced from [the Darknet Market Archives](https://gwern.net/dnm-archive) {cite:p}`branwenDarkNetMarket2015`, may be downloaded by clicking the button below. The file shown in the book is named `index.php?topic=101030.0`.
 
 ```{button-link} sr1_2_sample-files.zip
 :color: info

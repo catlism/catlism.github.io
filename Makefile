@@ -24,3 +24,9 @@ livehtml:
 	mkdir -p "$(BUILDDIR)"
 	touch "$(BUILDDIR)/.nojekyll"
 	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+html:
+	rm -R "$(BUILDDIR)"
+	mkdir -p "$(BUILDDIR)"
+	touch "$(BUILDDIR)/.nojekyll"
+	$(SPHINXBUILD) -b html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
