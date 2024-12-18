@@ -1,14 +1,14 @@
 # Youtube
 
 ```{warning}
-As of March 2023 the tool [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/) (release `2021.12.17`) suggested in the book has a number of issues and cannot therefore be used to correctly download data from Youtube.  
+As of March 2023 the tool [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/) (release `2021.12.17`) suggested in the book has a number of issues and cannot therefore be used to correctly download data from Youtube.
 The commands below make use of [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), an alternative tool (forked from `youtube-dl` with fixed issues and additional options) whose basic usage is identical to `youtube-dl`. **Any command included in the book and using `youtube-dl` can be replicated with `yt-dlp` instead** - as done in the contents below.
 ```
-Data collection from Youtube (and [more than 1,200 platforms - the same ones supported by `youtube-dl`](http://ytdl-org.github.io/youtube-dl/supportedsites.html)) can be obtained using [`yt-dlp`](https://github.com/yt-dlp/yt-dlp).  
-Options and arguments for the tool can be found in the [official documentation](https://github.com/yt-dlp/yt-dlp/blob/master/README.md).  
-  
+Data collection from Youtube (and [more than 1,200 platforms - the same ones supported by `youtube-dl`](http://ytdl-org.github.io/youtube-dl/supportedsites.html)) can be obtained using [`yt-dlp`](https://github.com/yt-dlp/yt-dlp).
+Options and arguments for the tool can be found in the [official documentation](https://github.com/yt-dlp/yt-dlp/blob/master/README.md).
+
 ```{note}
-While `yt-dlp` supports the extraction of comments (`youtube-dl` does not have such option), this page currently follows the contents of the book, where comments are downloaded using [`youtube-comment-downloader`](https://github.com/egbertbouman/youtube-comment-downloader).  
+While `yt-dlp` supports the extraction of comments (`youtube-dl` does not have such option), this page currently follows the contents of the book, where comments are downloaded using [`youtube-comment-downloader`](https://github.com/egbertbouman/youtube-comment-downloader).
 **Future versions of the compendium will include options for downloading comments using `yt-dlp`**.
 ```
 
@@ -71,7 +71,7 @@ youtube-comment-downloader --url "URL" --output FILE.jsonl
 ### Extract collected Youtube data (everything except comments) to XML format[^sn3]
 ```{rli} https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py
 :name: s5-13
-:caption: Script `[s5.13]` [{octicon}`download;1em;sd-text-primary`](https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py)
+:caption: Script `[s5.13]` {octicon}`git-pull-request;1em;sd-text-warning [{octicon}`download;1em;sd-text-primary`](https://github.com/catlism/catlism_scripts/raw/main/s5.13_youtube-dl_subs-to-XML.py)
 :linenos:
 :lines: 20-
 ```
@@ -165,7 +165,7 @@ being lost in the fog of… memory.</p>
         <p t="16110" d="4340">It may be pertinent to ask:
 can we trust the news media?</p>
     </body>
-</timedtext> 
+</timedtext>
 ```
 ### SRV format with auto-captioning[^sn9]
 ```{code-block} xml
