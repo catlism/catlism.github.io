@@ -237,7 +237,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../reading_list.html"><em>Digital technicalities</em>: a reading list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../reading_list.html">Reading list</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../acknowledgments.html">Acknowledgments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
@@ -412,8 +412,8 @@ document.write(`
                   
   <section id="beautifulsoup">
 <h1>BeautifulSoup<a class="headerlink" href="#beautifulsoup" title="Permalink to this heading">#</a></h1>
-<p>Data collection can be achieved through the creation of <em>ad-hoc</em> scripts employing <code class="docutils literal notranslate"><span class="pre">BeautifulSoup</span></code>, a Python library that coordinates several modules and further libraries for “pulling data out of HTML and XML files” <span id="id1">[<a class="reference internal" href="../../references.html#id325" title="Leonard Richardson. Beautiful Soup Documentation — Beautiful Soup 4.12.0 documentation. 2023. URL: https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html#.">Richardson, 2023</a>]</span>.<br />
-Scripts included here (and in the book) represent a simplified version of the ones included in <span id="id2">[<a class="reference internal" href="../../references.html#id48" title="Marina Bondi and Matteo Di Cristofaro. MoReThesisCorpus: Documenting Academic Language as Used in the Theses Submitted to the University of Modena and Reggio Emilia. Iperstoria, pages 9–30, June 2023. URL: https://iperstoria.it/article/view/1265, doi:10.13136/2281-4582/2023.i21.1265.">Bondi and Di Cristofaro, 2023</a>]</span>.</p>
+<p>Data collection can be achieved through the creation of <em>ad-hoc</em> scripts employing <code class="docutils literal notranslate"><span class="pre">BeautifulSoup</span></code>, a Python library that coordinates several modules and further libraries for “pulling data out of HTML and XML files” <span id="id1">[]</span>.<br />
+Scripts included here (and in the book) represent a simplified version of the ones included in <span id="id2">[]</span>.</p>
 <section id="extracting-the-data">
 <h2>Extracting the data<a class="headerlink" href="#extracting-the-data" title="Permalink to this heading">#</a></h2>
 <section id="extract-links-from-html-pages">
@@ -520,7 +520,7 @@ Scripts included here (and in the book) represent a simplified version of the on
 <span class="linenos">52</span>        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;downloaded/&quot;</span> <span class="o">+</span> <span class="n">urn</span> <span class="o">+</span> <span class="s2">&quot;.html&quot;</span><span class="p">,</span> <span class="s2">&quot;a&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file_output</span><span class="p">:</span>
 <span class="linenos">53</span>            <span class="c1"># Write the source code of the page into the output file</span>
 <span class="linenos">54</span>            <span class="n">file_output</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">soup</span><span class="p">))</span>
-<span class="linenos">55</span>        <span class="c1"># Wait 4 secons before restarting the loop</span>
+<span class="linenos">55</span>        <span class="c1"># Wait 4 seconds before restarting the loop</span>
 <span class="linenos">56</span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
 </pre></div>
 </div>

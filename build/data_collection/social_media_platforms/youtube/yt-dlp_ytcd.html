@@ -237,7 +237,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../case_studies/og/index.html">The communicative modus operandi of online child sexual groomers</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../reading_list.html"><em>Digital technicalities</em>: a reading list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reading_list.html">Reading list</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../faq.html"><span class="fa fa-circle-question"></span> FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../acknowledgments.html">Acknowledgments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a></li>
@@ -581,7 +581,7 @@ Options and arguments for the tool can be found in the <a class="reference exter
 <span class="linenos"> 79</span>        <span class="c1"># Parse its XML contents using BeautifulSoup</span>
 <span class="linenos"> 80</span>        <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">features</span><span class="o">=</span><span class="s2">&quot;xml&quot;</span><span class="p">)</span>
 <span class="linenos"> 81</span>        <span class="c1"># If the attribute &#39;ac&#39; (= autocaption) with value &#39;255&#39; is found in the &lt;s&gt; element tag then the subtitles are the result of autocaptioning; hence assign the value &#39;true&#39; to the variable &#39;is_ac&#39;. Otherwise assign the value &#39;false&#39; to &#39;is_ac&#39;</span>
-<span class="linenos"> 82</span>        <span class="k">if</span> <span class="n">soup</span><span class="o">.</span><span class="n">body</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;s&quot;</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;ac&quot;</span><span class="p">:</span> <span class="s2">&quot;255&quot;</span><span class="p">}):</span>
+<span class="linenos"> 82</span>        <span class="k">if</span> <span class="n">soup</span><span class="o">.</span><span class="n">body</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;s&quot;</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;ac&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">}):</span>
 <span class="linenos"> 83</span>            <span class="n">is_ac</span> <span class="o">=</span> <span class="s2">&quot;true&quot;</span>
 <span class="linenos"> 84</span>        <span class="k">else</span><span class="p">:</span>
 <span class="linenos"> 85</span>            <span class="n">is_ac</span> <span class="o">=</span> <span class="s2">&quot;false&quot;</span>
