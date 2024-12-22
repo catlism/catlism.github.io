@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 19/12/2024
+Last update: 22/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -545,3 +545,4 @@ Last update: 19/12/2024
 | [AI and Internet Hygiene](https://www.late-review.com/p/ai-and-internet-hygiene) | 20241001 | 20241219 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241218064603/https://www.late-review.com/p/ai-and-internet-hygiene) |
 | [Spain introduces bill to combat online fake news](https://www.theguardian.com/world/2024/dec/17/spain-introduces-bill-to-combat-online-fake-news) | 20241217 | 20241219 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241219100158/https://www.theguardian.com/world/2024/dec/17/spain-introduces-bill-to-combat-online-fake-news) |
 | [EU opens investigation into TikTok over election interference](https://www.reuters.com/business/eu-opens-investigation-into-tiktok-over-election-interference-2024-12-17/) | N/A | 20241219 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241218120501/https://www.reuters.com/business/eu-opens-investigation-into-tiktok-over-election-interference-2024-12-17/) |
+| [Anti-hype LLM reading list](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e) | 20230820 | 20241222 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241221065903/https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e) |
