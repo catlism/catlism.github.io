@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 26/12/2024
+Last update: 28/12/2024
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -548,3 +548,5 @@ Last update: 26/12/2024
 | [Anti-hype LLM reading list](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e) | 20230820 | 20241222 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241221065903/https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e) |
 | [Encoding Differentials: Why Charset Matters](https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/) | 20240715 | 20241223 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241217192434/https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/) |
 | [‎Gemini - So you may be breaking copyright law.](https://gemini.google.com/share/330988379ffb?ucbcb=1) | 20240529 | 20241226 | N/A |
+| [How AI deepfakes polluted elections in 2024](https://www.npr.org/2024/12/21/nx-s1-5220301/deepfakes-memes-artificial-intelligence-elections) | 20241221 | 20241228 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241226233909/https://www.npr.org/2024/12/21/nx-s1-5220301/deepfakes-memes-artificial-intelligence-elections) |
+| [Linguistics - A test to measure AI intelligence](https://advaithsridhar.blog/posts/linguistics-test-for-agi.html) | 20241227 | 20241228 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241227072010/https://advaithsridhar.blog/posts/linguistics-test-for-agi.html) |
