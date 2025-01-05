@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 02/01/2025
+Last update: 05/01/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -554,3 +554,4 @@ Last update: 02/01/2025
 | [The old-new epistemology of digital journalism: how algorithms and filter bubbles are (re)creating modern metanarratives - Humanities and Social Sciences Communications](https://www.nature.com/articles/s41599-023-01905-6?error=cookies_not_supported&code=e1f8e485-3330-443c-ae4c-80b1eaf1027e) | 20230710 | 20241229 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241229020316/https://www.nature.com/articles/s41599-023-01905-6) |
 | [More Than Half of All Google Search Takedowns Now Come from Link-Busters * TorrentFreak](https://torrentfreak.com/more-than-half-of-all-google-search-takedowns-now-come-from-link-busters-241230/) | 20241230 | 20250102 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241231120541/https://torrentfreak.com/more-than-half-of-all-google-search-takedowns-now-come-from-link-busters-241230/) |
 | [Why Khanmigo (and Other Learning Chatbots) Will Fail - BetterSchooling](https://betterschooling.in/collection/why-khanmigo-and-other-learning-chatbots-will-fail) | 20241213 | 20250102 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250101132855/https://betterschooling.in/collection/why-khanmigo-and-other-learning-chatbots-will-fail) |
+| [Kids can't use computers... and this is why it should worry you](http://www.coding2learn.org/blog/2013/07/29/kids-cant-use-computers/) | 20130729 | 20250105 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250104005758/http://www.coding2learn.org/blog/2013/07/29/kids-cant-use-computers/) |
