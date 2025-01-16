@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 08/01/2025
+Last update: 16/01/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -556,3 +556,5 @@ Last update: 08/01/2025
 | [Why Khanmigo (and Other Learning Chatbots) Will Fail - BetterSchooling](https://betterschooling.in/collection/why-khanmigo-and-other-learning-chatbots-will-fail) | 20241213 | 20250102 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250101132855/https://betterschooling.in/collection/why-khanmigo-and-other-learning-chatbots-will-fail) |
 | [Kids can't use computers... and this is why it should worry you](http://www.coding2learn.org/blog/2013/07/29/kids-cant-use-computers/) | 20130729 | 20250105 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250104005758/http://www.coding2learn.org/blog/2013/07/29/kids-cant-use-computers/) |
 | [Lockdown. The coming war on general-purpose computing](https://boingboing.net/2012/01/10/lockdown.html) | N/A | 20250108 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241227105031/https://boingboing.net/2012/01/10/lockdown.html) |
+| [Don't use cosine similarity carelessly](https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/) | 20250114 | 20250116 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250116014835/https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/) |
+| [OpenAI's AI reasoning model 'thinks' in Chinese sometimes and no one really knows why / TechCrunch](https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/) | 20250114 | 20250116 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250115081328/https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/) |
