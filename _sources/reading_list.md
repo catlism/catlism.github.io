@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 02/02/2025
+Last update: 05/02/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -559,3 +559,4 @@ Last update: 02/02/2025
 | [Don't use cosine similarity carelessly](https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/) | 20250114 | 20250116 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250116014835/https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/) |
 | [OpenAI's AI reasoning model 'thinks' in Chinese sometimes and no one really knows why / TechCrunch](https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/) | 20250114 | 20250116 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250115081328/https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why/) |
 | [OpenAI used this subreddit to test AI persuasion / TechCrunch](https://techcrunch.com/2025/01/31/openai-used-this-subreddit-to-test-ai-persuasion/) | 20250131 | 20250202 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250201225710/https://techcrunch.com/2025/01/31/openai-used-this-subreddit-to-test-ai-persuasion/) |
+| [Putting DeepSeek to the test: how its performance compares against other AI tools](https://theconversation.com/putting-deepseek-to-the-test-how-its-performance-compares-against-other-ai-tools-248368) | N/A | 20250205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250205061136/https://theconversation.com/putting-deepseek-to-the-test-how-its-performance-compares-against-other-ai-tools-248368) |
