@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 10/02/2025
+Last update: 12/02/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -562,3 +562,4 @@ Last update: 10/02/2025
 | [Putting DeepSeek to the test: how its performance compares against other AI tools](https://theconversation.com/putting-deepseek-to-the-test-how-its-performance-compares-against-other-ai-tools-248368) | N/A | 20250205 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250205061136/https://theconversation.com/putting-deepseek-to-the-test-how-its-performance-compares-against-other-ai-tools-248368) |
 | [Why AI Is A Philosophical Rupture / NOEMA](https://www.noemamag.com/why-ai-is-a-philosophical-rupture/) | 20250204 | 20250210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250208090636/https://www.noemamag.com/why-ai-is-a-philosophical-rupture/) |
 | [Your AI can’t see gorillas – Chiraag Gohel](https://chiraaggohel.com/posts/llms-eda/) | 20250205 | 20250210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250208210216/https://chiraaggohel.com/posts/llms-eda/) |
+| [Microsoft Study Finds AI Makes Human Cognition “Atrophied and Unprepared”](https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/) | 20250210 | 20250212 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250211222942/https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/) |
