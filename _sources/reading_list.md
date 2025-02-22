@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 14/02/2025
+Last update: 22/02/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -564,3 +564,4 @@ Last update: 14/02/2025
 | [Your AI can’t see gorillas – Chiraag Gohel](https://chiraaggohel.com/posts/llms-eda/) | 20250205 | 20250210 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250208210216/https://chiraaggohel.com/posts/llms-eda/) |
 | [Microsoft Study Finds AI Makes Human Cognition “Atrophied and Unprepared”](https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/) | 20250210 | 20250212 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250211222942/https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/) |
 | [New hack uses prompt injection to corrupt Gemini’s long-term memory](https://arstechnica.com/security/2025/02/new-hack-uses-prompt-injection-to-corrupt-geminis-long-term-memory/) | 20250211 | 20250214 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250212184204/https://arstechnica.com/security/2025/02/new-hack-uses-prompt-injection-to-corrupt-geminis-long-term-memory/) |
+| [Turkey’s translators are training the AI tools that will replace them](https://restofworld.org/2025/turkeys-translators-training-ai-replacements/) | 20250220 | 20250222 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250222020347/https://restofworld.org/2025/turkeys-translators-training-ai-replacements/) |
