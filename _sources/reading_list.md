@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 25/02/2025
+Last update: 13/03/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -566,3 +566,6 @@ Last update: 25/02/2025
 | [New hack uses prompt injection to corrupt Gemini’s long-term memory](https://arstechnica.com/security/2025/02/new-hack-uses-prompt-injection-to-corrupt-geminis-long-term-memory/) | 20250211 | 20250214 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250212184204/https://arstechnica.com/security/2025/02/new-hack-uses-prompt-injection-to-corrupt-geminis-long-term-memory/) |
 | [Turkey’s translators are training the AI tools that will replace them](https://restofworld.org/2025/turkeys-translators-training-ai-replacements/) | 20250220 | 20250222 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250222020347/https://restofworld.org/2025/turkeys-translators-training-ai-replacements/) |
 | ['Indiana Jones' jailbreak approach highlights the vulnerabilities of existing LLMs](https://techxplore.com/news/2025-02-indiana-jones-jailbreak-approach-highlights.html) | 20250220 | 20250225 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250224001938/https://techxplore.com/news/2025-02-indiana-jones-jailbreak-approach-highlights.html) |
+| [The difference between tokens and words](https://www.johndcook.com/blog/2025/03/07/tokens-and-words/) | 20250307 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250309131239/https://www.johndcook.com/blog/2025/03/07/tokens-and-words/) |
+| [ChatGPT tokens and Unicode](https://www.johndcook.com/blog/2025/03/08/chatgpt-tokens-and-unicode/) | 20250308 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250309131401/https://www.johndcook.com/blog/2025/03/08/chatgpt-tokens-and-unicode/) |
+| [Why extracting data from PDFs is still a nightmare for data experts](https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/) | 20250311 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250312115949/https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/) |
