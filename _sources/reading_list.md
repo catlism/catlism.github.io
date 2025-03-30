@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 13/03/2025
+Last update: 30/03/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -569,3 +569,5 @@ Last update: 13/03/2025
 | [The difference between tokens and words](https://www.johndcook.com/blog/2025/03/07/tokens-and-words/) | 20250307 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250309131239/https://www.johndcook.com/blog/2025/03/07/tokens-and-words/) |
 | [ChatGPT tokens and Unicode](https://www.johndcook.com/blog/2025/03/08/chatgpt-tokens-and-unicode/) | 20250308 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250309131401/https://www.johndcook.com/blog/2025/03/08/chatgpt-tokens-and-unicode/) |
 | [Why extracting data from PDFs is still a nightmare for data experts](https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/) | 20250311 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250312115949/https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/) |
+| [Anthropic can now track the bizarre inner workings of a large language model](https://www.technologyreview.com/2025/03/27/1113916/anthropic-can-now-track-the-bizarre-inner-workings-of-a-large-language-model/) | 20250327 | 20250330 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250328193709/https://www.technologyreview.com/2025/03/27/1113916/anthropic-can-now-track-the-bizarre-inner-workings-of-a-large-language-model/) |
+| [Why do LLMs make stuff up? New research peers under the hood.](https://arstechnica.com/ai/2025/03/why-do-llms-make-stuff-up-new-research-peers-under-the-hood/) | 20250328 | 20250330 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250329195718/https://arstechnica.com/ai/2025/03/why-do-llms-make-stuff-up-new-research-peers-under-the-hood/) |
