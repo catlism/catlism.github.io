@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 30/03/2025
+Last update: 01/09/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -571,3 +571,5 @@ Last update: 30/03/2025
 | [Why extracting data from PDFs is still a nightmare for data experts](https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/) | 20250311 | 20250313 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250312115949/https://arstechnica.com/ai/2025/03/why-extracting-data-from-pdfs-is-still-a-nightmare-for-data-experts/) |
 | [Anthropic can now track the bizarre inner workings of a large language model](https://www.technologyreview.com/2025/03/27/1113916/anthropic-can-now-track-the-bizarre-inner-workings-of-a-large-language-model/) | 20250327 | 20250330 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250328193709/https://www.technologyreview.com/2025/03/27/1113916/anthropic-can-now-track-the-bizarre-inner-workings-of-a-large-language-model/) |
 | [Why do LLMs make stuff up? New research peers under the hood.](https://arstechnica.com/ai/2025/03/why-do-llms-make-stuff-up-new-research-peers-under-the-hood/) | 20250328 | 20250330 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250329195718/https://arstechnica.com/ai/2025/03/why-do-llms-make-stuff-up-new-research-peers-under-the-hood/) |
+| [Build your own tools (even if you reinvent the wheel)](https://aschmelyun.com/blog/build-your-own-tools/) | 20250511 | 20250901 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250703004030/https://aschmelyun.com/blog/build-your-own-tools/) |
+| [AI crawlers destroying websites in hunger for content](https://www.theregister.com/2025/08/29/ai_web_crawlers_are_destroying/) | 20250829 | 20250901 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250901121028/https://www.theregister.com/2025/08/29/ai_web_crawlers_are_destroying/) |
