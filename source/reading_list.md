@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 03/09/2025
+Last update: 04/09/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -585,3 +585,4 @@ Last update: 03/09/2025
 | [New AI attack shows how images hide secret commands, letting hackers siphon private data directly from unsuspecting chatbot users](https://www.techradar.com/pro/security/ai-chatbot-users-beware-hackers-are-now-hiding-malware-in-the-images-served-up-by-llms) | 20250831 | 20250901 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250901143225/https://www.techradar.com/pro/security/ai-chatbot-users-beware-hackers-are-now-hiding-malware-in-the-images-served-up-by-llms) |
 | [Lossy encyclopedia](https://simonwillison.net/2025/Aug/29/lossy-encyclopedia/) | 20250827 | 20250903 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250902095057/https://simonwillison.net/2025/Aug/29/lossy-encyclopedia/) |
 | [What are embeddings?](https://vickiboykis.com/what_are_embeddings/) | None | 20250903 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250808163541/https://vickiboykis.com/what_are_embeddings/) |
+| [The Last Days Of Social Media / NOEMA](https://www.noemamag.com/the-last-days-of-social-media/) | 20250902 | 20250904 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250904010008/https://www.noemamag.com/the-last-days-of-social-media/) |
