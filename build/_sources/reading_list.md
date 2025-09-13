@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 04/09/2025
+Last update: 13/09/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -586,3 +586,4 @@ Last update: 04/09/2025
 | [Lossy encyclopedia](https://simonwillison.net/2025/Aug/29/lossy-encyclopedia/) | 20250827 | 20250903 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250902095057/https://simonwillison.net/2025/Aug/29/lossy-encyclopedia/) |
 | [What are embeddings?](https://vickiboykis.com/what_are_embeddings/) | None | 20250903 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250808163541/https://vickiboykis.com/what_are_embeddings/) |
 | [The Last Days Of Social Media / NOEMA](https://www.noemamag.com/the-last-days-of-social-media/) | 20250902 | 20250904 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250904010008/https://www.noemamag.com/the-last-days-of-social-media/) |
+| [We traded blogs for black boxes, now we're paying for it](https://tekhne.dev/internet-resist/) | 20250909 | 20250913 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250912015424/https://tekhne.dev/internet-resist/) |
