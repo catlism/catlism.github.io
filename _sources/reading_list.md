@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 07/10/2025
+Last update: 26/10/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -588,3 +588,4 @@ Last update: 07/10/2025
 | [The Last Days Of Social Media / NOEMA](https://www.noemamag.com/the-last-days-of-social-media/) | 20250902 | 20250904 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250904010008/https://www.noemamag.com/the-last-days-of-social-media/) |
 | [We traded blogs for black boxes, now we're paying for it](https://tekhne.dev/internet-resist/) | 20250909 | 20250913 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20250912015424/https://tekhne.dev/internet-resist/) |
 | [Why do LLMs freak out over the seahorse emoji?](https://vgel.me/posts/seahorse/) | 20251004 | 20251007 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251007000524/https://vgel.me/posts/seahorse/) |
+| [The Essence of Prompt Engineering is the Art of Asking Questions](https://ramsayleung.github.io/en/post/2025/the-essence-of-prompt-engineering-is-the-art-of-asking-questions/) | 20251025 | 20251026 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251026020510/https://ramsayleung.github.io/en/post/2025/the-essence-of-prompt-engineering-is-the-art-of-asking-questions/) |
