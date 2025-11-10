@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 04/11/2025
+Last update: 10/11/2025
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -592,3 +592,4 @@ Last update: 04/11/2025
 | [How AI and Wikipedia have sent vulnerable languages into a doom spiral](https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/) | 20250925 | 20251027 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251027002348/https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/) |
 | [Largest study of its kind shows AI assistants misrepresent news content 45% of the time – regardless of language or territory](https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content) | 20251022 | 20251027 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251025152653/https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content) |
 | [A small number of samples can poison LLMs of any size](https://www.anthropic.com/research/small-samples-poison) | 20251009 | 20251104 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251031012050/https://www.anthropic.com/research/small-samples-poison) |
+| [OII / Study identifies weaknesses in how AI systems are evaluated ](https://www.oii.ox.ac.uk/news-events/study-identifies-weaknesses-in-how-ai-systems-are-evaluated/) | 20160706 | 20251110 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251109052220/https://www.oii.ox.ac.uk/news-events/study-identifies-weaknesses-in-how-ai-systems-are-evaluated/) |
