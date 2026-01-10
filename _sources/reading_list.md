@@ -16,7 +16,7 @@ Some materials may be behind a paywall (and the archived copy may consequently b
 
 The list may be downloaded in `.tsv` format [from here](https://catlism.github.io/_static/reading_list.tsv).
 
-Last update: 12/12/2025
+Last update: 10/01/2026
 | Link | Published | Added | Archived |
 |------|-----------|-------|----------|
 | [Misinformation: A Flawed Concept](https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) | 20241028 | 20241118 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20241111105422/https://quillette.com/2024/10/28/misinformation-a-flawed-concept/) |
@@ -594,3 +594,4 @@ Last update: 12/12/2025
 | [A small number of samples can poison LLMs of any size](https://www.anthropic.com/research/small-samples-poison) | 20251009 | 20251104 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251031012050/https://www.anthropic.com/research/small-samples-poison) |
 | [OII / Study identifies weaknesses in how AI systems are evaluated ](https://www.oii.ox.ac.uk/news-events/study-identifies-weaknesses-in-how-ai-systems-are-evaluated/) | 20160706 | 20251110 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251109052220/https://www.oii.ox.ac.uk/news-events/study-identifies-weaknesses-in-how-ai-systems-are-evaluated/) |
 | [Evidence That Humans Now Speak in a Chatbot-Influenced Dialect Is Getting Stronger](https://gizmodo.com/chatbot-dialect-2000696509) | 20251207 | 20251212 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20251208211359/https://gizmodo.com/chatbot-dialect-2000696509) |
+| [Prompts are (not) the new source code - Quesma Blog](https://quesma.com/blog/prompts-source-code/) | 20260109 | 20260110 | [{octicon}`archive;2em;sd-text-primary`](https://web.archive.org/web/20260110020151/https://quesma.com/blog/prompts-source-code/) |
