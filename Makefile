@@ -3,10 +3,11 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = source
-BUILDDIR      = build
+SPHINXOPTS      ?=
+SPHINXBUILD     ?= uv run sphinx-build
+SPHINXAUTOBUILD ?= uv run sphinx-autobuild
+SOURCEDIR       = source
+BUILDDIR        = build
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -23,6 +24,9 @@ livehtml:
 	rm -R "$(BUILDDIR)"
 	mkdir -p "$(BUILDDIR)"
 	touch "$(BUILDDIR)/.nojekyll"
+<<<<<<< HEAD
+	$(SPHINXAUTOBUILD) "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+=======
 	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 html:
@@ -30,3 +34,4 @@ html:
 	mkdir -p "$(BUILDDIR)"
 	touch "$(BUILDDIR)/.nojekyll"
 	$(SPHINXBUILD) -b html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+>>>>>>> 77d06f81c252e5bd9d5f433fb98cb80d3f2528de

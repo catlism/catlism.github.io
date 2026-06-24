@@ -1,3 +1,7 @@
 venv_sphinx
+<<<<<<< HEAD
+.venv
+=======
 .ropeproject
 .vscode
+>>>>>>> 77d06f81c252e5bd9d5f433fb98cb80d3f2528de

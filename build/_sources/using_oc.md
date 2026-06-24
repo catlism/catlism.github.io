@@ -1,20 +1,14 @@
 # Using the online compendium
 
+```{important}
+Descriptions and further details for scripts and code originally available in the book are left out of this compendium. Scripts and code exclusive to this online compendium are fully described and detailed in each relevant page/section.  
+A number of answers to common questions are included in the [{fa}`circle-question` FAQs](faq.md) section.
+```
+
 Contents in the site are organised thematically, employing a structure somewhat different from the one adopted in the book that will - through updates and new contents - make this website a standalone resource for the ***broad view of corpus approaches*** the volume proposes.  
 All scripts, commands, and examples are labelled according to the format employed in the book - with the syntax `[sX.YZ]`, `[cX.YZ]`, and `[eX.YZ]` respectively. `X` indicates the number of the book chapter where the content appears, while `YZ` is a progressive number; contents only included in this online compendium are marked with `X` equal to `0` - e.g. [`[c0.01]`](./setup_env/conda.md#c0-01)
   
-Readers reaching the site from the volume *Corpus Approaches to Language in Social Media* should consult the section [](./from_the_book/index.md) that contains the following subsections:
-- [](./from_the_book/contents_list.md) - where the contents included in the book are presented and accessible with **direct references to the relevant ID/page(s) of the book**; 
-- [](./from_the_book/content_updates.md) - where updates to topics discussed in the book are posted;
-- [](./from_the_book/preservation_links.md) - where preservation copies of links referenced in the book as saved to the Wayback Machine services are provided:
-- [](./from_the_book/errata.md) -  where corrections to errors in the book are included;  
-
-Whenever a script, command, or consideration is relative to one or more sections of the book it is labelled using the conventions adopted in the book (e.g. `[s5.01]`), and the page(s) it refers to is included (often in a sidenote[^sn1]) using the label `CATLISM` followed by the page number(s), such as:
-```xml
-CATLISM, 39-41
-```
-  
-A set of figures originally available in the book are included in this compendium in high resolution and in colour format.
+Readers reaching the site from the volume *Corpus Approaches to Language in Social Media* should consult the section [](./from_the_book/index.md).
 
 ## `asciinema` interactive videos
 A number of commands included in the book are documented through [`asciinema`](https://asciinema.org/), an open source project that allows users to record and share terminal sessions through an **interactive replay of the CLI**, where **displayed contents can be selected and copied directly from the video**. Two details should be noted:
@@ -38,5 +32,4 @@ Table below describes the meaning of the symbols used throughout the compendium.
 | {octicon}`video;2em;` | Indicates an [**interactive `asciinema` video**](#asciinema-interactive-videos) |
 | {fab}`linux` / {fab}`windows;2em;sd-text-primary` / {fab}`apple;2em` | Indicates a content only available/applicable to Linux ({fab}`linux;2em`), Windows ({fab}`windows;2em`) or macOS ({fab}`apple;2em;`). When **no symbol appears then the content is multiplatform**.  |
 
-[^sn1]: such as this one
 [^sn2]: `CATLISM, 100`
