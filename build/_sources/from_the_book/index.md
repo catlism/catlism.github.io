@@ -1,6 +1,6 @@
 # From the book
 
-This section is dedicated to offering details to readers reaching this compendium from the printed book. @@@
+This section acts as a bridge between the book and the compendium,  @@@@ is dedicated to offering details to readers reaching this compendium from the printed book. @@@
 - [](./contents_list.md) - where the contents included in the book are presented and accessible with **direct references to the relevant ID/page(s) of the book**; 
 - [](./content_updates.md) - where updates to topics discussed in the book are posted;
 - [](./preservation_links.md) - where preservation copies of links referenced in the book as saved to the Wayback Machine services are provided:

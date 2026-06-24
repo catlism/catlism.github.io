@@ -25,7 +25,6 @@ For this reason, the website should be read not only as a companion to `CATLISM`
 
 As such, this **online compendium contains**:
 
-:::{dropdown}
 {fas}`check;sd-text-success` the scripts included in the volume[^sn6] — downloadable and formatted using colour-coded syntax highlighting — aimed at [collecting](data_collection/index.md) and [processing](data_processing/index.md) data from webpages, blogs, fora, Facebook, Instagram, Twitter, YouTube;
 
 {fas}`check;sd-text-success` interactive videos documenting the use of the commands and tools employed throughout the volume;
@@ -42,11 +41,11 @@ As such, this **online compendium contains**:
 
 {fas}`check;sd-text-success` links to preservation copies of online materials referenced in the volume, where available, as archived through The Wayback Machine.
 
-:::
+Where possible and unless stated differently (e.g. in the case of quotations), all the textual contents are published under [Creative Commons CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), while all the scripts are licenced under the open source [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) licence - see [](faq.md) for more details on how to (re)use the materials.
 
-```{eval-rst}
-.. epigraph::
-    Where possible and unless stated differently (e.g. in the case of quotations), all the textual contents are published under [Creative Commons CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), while all the scripts are licenced under the open source [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) licence - see [](faq.md) for more details on how to (re)use the materials.
+```{important}
+Descriptions and further details for scripts and code originally available in the book are left out of this compendium. Scripts and code exclusive to this online compendium are fully described and detailed in each relevant page/section.  
+A number of answers to common questions are included in the [{fa}`circle-question` FAQs](faq.md) section.
 ```
 
 ## How to use this online compendium
@@ -58,6 +57,7 @@ Consult the [](./using_oc.md) section for more details on how to use this websit
 ```{toctree}
 on_scripts.md
 using_oc.md
+supplementary_materials/index.md
 from_the_book/index.md
 setup_env/index.md
 eval_metadata/index.md
