@@ -1,9 +1,9 @@
 # Metadata evaluation
 
 As results (traces) of "the types of interactions the platform allows users to perform"[^sn2], metadata data points play a central role in the *broad view of corpus approaches* the book and this compendium propose.  
-Consequently this section includes **interactive versions of the metadata evaluation tables** included in the book. The evaluation system in based on {cite:t}`giglietto_open_2012`, expanding the original framework to include further nuances and options. The aim is to provide "a simple categorisation meant to help [researchers] quickly decide whether a piece of information may be relevant"[^sn2] to their efforts by taking into account:
+Consequently this section includes **interactive versions of the metadata evaluation tables** included in the book. The evaluation system in based on {cite:t}`gigliettoOpenLaboratoryLimits2012`, expanding the original framework to include further nuances and options. The aim is to provide "a simple categorisation meant to help [researchers] quickly decide whether a piece of information may be relevant"[^sn2] to their efforts by taking into account:
 
-- what each data point ***represents*** inside the '*raw*' data (while bearing in mind that data is always 'cooked' and never 'raw', cf. {cite:t}`bowker_data_2013`);
+- what each data point ***represents*** inside the '*raw*' data (while bearing in mind that data is always 'cooked' and never 'raw', cf. {cite:t}`bowkerDataFlakesAfterword2013`);
 - the ***analytical purpose*** each data point may have for the social sciences 
 
 The evaluation system is described further below, and each table contains the column `Int. Data` where "the labels AID, SID, PID, and CID are used to refer to one or more of the four types of interactions data [...]. Data points containing a JSON object, an array of JSON objects, or a list of strings are assigned a label in square brackets (e.g. [SID]) to evaluate the array or object itself and not its contents – which may belong to different types of interaction data."[^sn3] 

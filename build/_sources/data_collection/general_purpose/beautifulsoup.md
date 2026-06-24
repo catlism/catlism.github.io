@@ -1,7 +1,7 @@
 # BeautifulSoup
 
-Data collection can be achieved through the creation of *ad-hoc* scripts employing `BeautifulSoup`, a Python library that coordinates several modules and further libraries for "pulling data out of HTML and XML files" {cite}`richardson_beautiful_2023`.  
-Scripts included here (and in the book) represent a simplified version of the ones included in {cite}`bondi_morethesiscorpus_2023`.
+Data collection can be achieved through the creation of *ad-hoc* scripts employing `BeautifulSoup`, a Python library that coordinates several modules and further libraries for "pulling data out of HTML and XML files" {cite}`richardsonBeautifulSoupDocumentation2023`.  
+Scripts included here (and in the book) represent a simplified version of the ones included in {cite}`bondiMoReThesisCorpusDocumentingAcademic2023`.
 
 ## Extracting the data
 ### Extract links from HTML pages[^sn1]

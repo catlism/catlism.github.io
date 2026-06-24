@@ -4,7 +4,7 @@ Transformation of various elements (e.g. URLs, email addresses) from their origi
 
 > while more efficient and safer options exist (i.e. the use of the `lxml` module to modify an existing XML file to avoid the deletion of elements that may result in a malformed structure), the advantage of this strategy is that it can be applied to any type of file (`.txt`, `.csv`, `.xml`, `.json`, `etc.`) and adapted to transform [any element] into any required syntax[^sn5] 
 
-Each regular expression is complemented with a direct link to its respective interactive version of [RegExr](https://regexr.com/) ({cite:p}`skinner_regexr_2022`), the tool suggested in the book for the inspection and creation of regular expressions.
+Each regular expression is complemented with a direct link to its respective interactive version of [RegExr](https://regexr.com/) ({cite:p}`skinnerRegExr2022`), the tool suggested in the book for the inspection and creation of regular expressions.
 
 ## Regular expression to capture usernames (e.g. `@matteodic`)[^sn1]
 ```{code-block} bash

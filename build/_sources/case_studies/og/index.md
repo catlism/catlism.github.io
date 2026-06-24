@@ -1,12 +1,12 @@
 # The communicative modus operandi of online child sexual groomers
 
-> The case study [utilised] in this section is based on the research conducted at Swansea University Department of Applied Linguistics under the supervision of Prof. Nuria Lorenzo-Dus as part of the project ‘Online Grooming Discourse’ funded by EPSRC–CHERISH-DE and NSPCC (Lead Investigator: Prof. Nuria Lorenzo-Dus). In 2021 the project evolved into Project Dragon-S[^sn2] (Developing Resistance Against Grooming Online – Spot and Shield). Outputs from the research are published in {cite:p}`lorenzo-dus_so_2019` and {cite:p}`lorenzo-dus_communicative_2020`, which served as basis for the contents [described].[^sn1]
+> The case study [utilised] in this section is based on the research conducted at Swansea University Department of Applied Linguistics under the supervision of Prof. Nuria Lorenzo-Dus as part of the project ‘Online Grooming Discourse’ funded by EPSRC–CHERISH-DE and NSPCC (Lead Investigator: Prof. Nuria Lorenzo-Dus). In 2021 the project evolved into Project Dragon-S[^sn2] (Developing Resistance Against Grooming Online – Spot and Shield). Outputs from the research are published in {cite:p}`lorenzo-dusYourMomCute2019` and {cite:p}`lorenzo-dusCommunicativeModusOperandi2020`, which served as basis for the contents [described].[^sn1]
 
 ## Collecting the data from [Perverted Justice](http://perverted-justice.com/)[^sn4]
 
 ```{rli} https://github.com/catlism/catlism_scripts/raw/main/s6.05_chatlog-scraper_with-comments.py
 :name: s6-05
-:caption: Script `[s6.05]` [{octicon}`download;1em;sd-text-primary`](https://github.com/catlism/catlism_scripts/raw/main/s6.05_chatlog-scraper_with-comments.py) (adapted from {cite:p}`morgan_jaypmorganchatlog-scrapper_2022`)
+:caption: Script `[s6.05]` [{octicon}`download;1em;sd-text-primary`](https://github.com/catlism/catlism_scripts/raw/main/s6.05_chatlog-scraper_with-comments.py) (adapted from {cite:p}`morganJaypmorganChatlogscrapperArchivedoi2022`)
 :linenos:
 :lines: 20-
 ```

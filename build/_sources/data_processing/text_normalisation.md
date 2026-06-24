@@ -4,7 +4,7 @@
 In addition to the procedures documented below, normalisation of texts may include segmenting pieces of text where two or more words are grouped together; in such cases the procedure documented for the treatment of [hashtags](hashtags.md) may be employed.
 ```
 
-Normalisation of text files (`.txt` as well as `.xml`) can be achieved through [VARD](https://ucrel.lancs.ac.uk/vard/about/) {cite:p}`baron_vard_2008`, an interactive tool (written in Java) to conduct semi-automated normalisation. Originally designed for Early Modern English spelling variation, it can be adapted to (virtually) any type of variations through ready-made vocabularies (e.g. the online-language specific [Twitter setup](https://ucrel.lancs.ac.uk/vard/download/)) or by creating a custom dictionary trained on a batch of the files to be normalised.  
+Normalisation of text files (`.txt` as well as `.xml`) can be achieved through [VARD](https://ucrel.lancs.ac.uk/vard/about/) {cite:p}`baronVARDToolDealing2008`, an interactive tool (written in Java) to conduct semi-automated normalisation. Originally designed for Early Modern English spelling variation, it can be adapted to (virtually) any type of variations through ready-made vocabularies (e.g. the online-language specific [Twitter setup](https://ucrel.lancs.ac.uk/vard/download/)) or by creating a custom dictionary trained on a batch of the files to be normalised.  
 Further options and a user guide can be found in the tool [official documentation](https://ucrel.lancs.ac.uk/vard/userguide/).
 
 ## Using the tool

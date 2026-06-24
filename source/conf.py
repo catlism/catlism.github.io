@@ -16,9 +16,10 @@
 
 
 # -- Project information -----------------------------------------------------
+import time
 
 project = "catlism_oc"
-copyright = "2023, Matteo Di Cristofaro"
+copyright = f'2023-{time.strftime("%Y")}, Matteo Di Cristofaro'
 author = "Matteo Di Cristofaro"
 
 # The full version, including alpha/beta/rc tags
